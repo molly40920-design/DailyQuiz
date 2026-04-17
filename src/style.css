@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .page-view {
+    @apply absolute w-full top-0 left-0;
+  }
+  .page-view.active {
+    @apply relative z-10 opacity-100 block;
+  }
+  .page-view.hidden {
+    display: none !important;
+    @apply opacity-0 z-0;
+  }
+  
+  .nav-tab {
+    @apply px-5 py-2 rounded-full text-sm font-medium text-ghibli-text-light transition-colors hover:text-ghibli-text;
+  }
+  .nav-tab.active {
+    @apply bg-ghibli-card text-ghibli-text shadow-sm border border-black/5;
+  }
+
+  .quiz-option {
+    @apply w-full text-left p-5 rounded-2xl bg-ghibli-card border-2 border-transparent shadow-sm hover:border-ghibli-primary/30 hover:shadow-soft-hover hover:-translate-y-0.5 transition-all text-ghibli-text text-lg min-h-[80px] flex items-center font-medium;
+  }
+  
+  .quiz-option.selected {
+    @apply bg-ghibli-primary/10 border-ghibli-primary shadow-soft scale-[0.98];
+  }
+
+  .quiz-list-item {
+    @apply flex items-center px-5 py-4 rounded-2xl bg-ghibli-card/60 hover:bg-ghibli-card border border-transparent hover:border-black/5 hover:shadow-soft transition-all duration-200 cursor-pointer;
+  }
+}
+
+/* Custom Scrollbar for a more premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F1EA;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4BEB5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #AFA89C;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+}

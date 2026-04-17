@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Quiz | 每日一測</title>
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body class="bg-ghibli-bg text-ghibli-text font-sans antialiased min-h-screen overflow-x-hidden">
+    
+    <div id="app" class="relative w-full h-full">
+      
+      <!-- Hub View -->
+      <section id="view-hub" class="page-view active min-h-screen p-6 md:p-12 max-w-6xl mx-auto opacity-0 transition-opacity duration-500">
+        <header class="mb-12 text-center mt-10">
+          <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-ghibli-text mb-4">Daily Quiz</h1>
+          <p class="text-ghibli-text-light text-lg">探索你的潛意識，遇見未知的故事</p>
+          
+          <nav class="mt-8 flex justify-center gap-2 sm:gap-4 flex-wrap">
+            <button class="nav-tab active">全部</button>
+            <button class="nav-tab">戀愛</button>
+            <button class="nav-tab">人格</button>
+          </nav>
+        </header>
+
+        <main>
+          <div id="quiz-grid" class="flex flex-col gap-3 max-w-2xl mx-auto">
+            <!-- List items injected by JS -->
+          </div>
+        </main>
+      </section>
+
+      <!-- Quiz Engine View -->
+      <section id="view-quiz" class="page-view hidden min-h-screen flex-col p-6 md:p-12 max-w-3xl mx-auto opacity-0 transition-opacity duration-500">
+        <header class="w-full mb-8 pt-8">
+          <div class="flex items-center justify-between mb-4">
+            <button id="btn-back-hub" class="text-ghibli-text-light hover:text-ghibli-text transition-colors flex items-center gap-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+               返回首頁
+            </button>
+            <a href="#" class="text-lg font-bold tracking-tight text-ghibli-text hover:text-ghibli-secondary transition-colors btn-home">Daily Quiz</a>
+            <div class="text-sm font-medium text-ghibli-text-light bg-ghibli-card px-3 py-1 rounded-full shadow-sm border border-black/5">
+              <span id="quiz-progress-text">1 / 5</span>
+            </div>
+          </div>
+        </header>
+        
+        <div class="w-full bg-[#E5E2DC] rounded-full h-1.5 mb-10 overflow-hidden">
+          <div id="quiz-progress-bar" class="bg-ghibli-secondary h-1.5 rounded-full transition-all duration-500 w-1/5"></div>
+        </div>
+
+        <main class="flex-1 flex flex-col justify-center mb-10">
+          <h2 id="question-text" class="text-2xl md:text-3xl font-medium leading-relaxed mb-10 text-center">
+            <!-- Question injected by JS -->
+          </h2>
+          
+          <div id="options-container" class="flex flex-col gap-4">
+            <!-- Options injected by JS -->
+          </div>
+        </main>
+      </section>
+
+      <!-- Result View -->
+      <section id="view-result" class="page-view hidden min-h-screen py-16 px-6 max-w-3xl mx-auto opacity-0 transition-opacity duration-500">
+        <header class="mb-8 flex items-center justify-between">
+          <button id="btn-result-home" class="text-ghibli-text-light hover:text-ghibli-text transition-colors flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+            回首頁
+          </button>
+          <a href="#" class="text-lg font-bold tracking-tight text-ghibli-text hover:text-ghibli-secondary transition-colors btn-home">Daily Quiz</a>
+          <div class="w-[72px]"></div>
+        </header>
+        <div class="bg-ghibli-card rounded-3xl p-8 md:p-12 shadow-soft text-center mb-10 relative overflow-hidden border border-black/5">
+          <div class="absolute top-0 left-0 w-full h-2 bg-ghibli-primary"></div>
+          <span class="inline-block px-4 py-1.5 bg-[#E5E2DC] rounded-full text-sm text-ghibli-text-light mb-6">測驗結果</span>
+          <h2 id="result-title" class="text-3xl md:text-4xl font-bold mb-6 text-ghibli-secondary">
+             <!-- Result Title -->
+          </h2>
+          <p id="result-description" class="text-lg text-ghibli-text leading-relaxed text-left md:text-center">
+             <!-- Result Description -->
+          </p>
+        </div>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+          <button id="btn-retake" class="px-8 py-3 bg-transparent border-2 border-ghibli-primary text-ghibli-primary font-medium rounded-full hover:bg-ghibli-primary hover:text-white transition-colors">
+            再測一次
+          </button>
+          <button id="btn-share" class="px-8 py-3 bg-ghibli-primary text-white font-medium rounded-full shadow-soft hover:shadow-soft-hover hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share-2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>
+            分享測驗
+          </button>
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-xl font-medium mb-6 text-ghibli-text">推薦探索</h3>
+          <div id="explore-grid" class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+             <!-- Explore items injected by JS -->
+          </div>
+        </div>
+      </section>
+      
+      <!-- Toast Notification -->
+      <div id="toast" class="fixed bottom-8 left-1/2 -translate-x-1/2 bg-ghibli-text text-white px-6 py-3 rounded-full shadow-lg opacity-0 pointer-events-none transition-opacity duration-300 z-50">
+        已複製連結到剪貼簿！
+      </div>
+
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
