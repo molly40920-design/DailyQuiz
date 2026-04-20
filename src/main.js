@@ -6,15 +6,23 @@ let currentQuiz = null;
 let currentQuestionIndex = 0;
 let totalScore = 0;
 let isTransitioning = false;
+let currentRadarChart = null;
 
 // --- DOM Elements ---
 const views = {
   hub: document.getElementById('view-hub'),
+  intro: document.getElementById('view-intro'),
   quiz: document.getElementById('view-quiz'),
   result: document.getElementById('view-result'),
 };
 
 const dom = {
+  btnIntroBack: document.getElementById('btn-intro-back'),
+  introTitle: document.getElementById('intro-title'),
+  introDescription: document.getElementById('intro-description'),
+  introTags: document.getElementById('intro-tags'),
+  btnStartQuiz: document.getElementById('btn-start-quiz'),
+
   quizGrid: document.getElementById('quiz-grid'),
   exploreGrid: document.getElementById('explore-grid'),
   btnBackHub: document.getElementById('btn-back-hub'),
@@ -28,10 +36,29 @@ const dom = {
   
   resultTitle: document.getElementById('result-title'),
   resultDescription: document.getElementById('result-description'),
+  radarChartContainer: document.getElementById('radar-chart-container'),
+  radarChart: document.getElementById('radar-chart'),
+  resultCommentContainer: document.getElementById('result-comment-container'),
+  resultComment: document.getElementById('result-comment'),
   btnRetake: document.getElementById('btn-retake'),
   btnShare: document.getElementById('btn-share'),
   toast: document.getElementById('toast'),
+  navTabs: document.querySelectorAll('.nav-tab'),
+  adOverlay: document.getElementById('ad-overlay'),
+  adOverlayContent: document.getElementById('ad-overlay-content'),
+  btnCloseAd: document.getElementById('btn-close-ad'),
 };
+
+// --- Tracking Utility ---
+function trackPageView(pagePath, pageTitle) {
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', 'page_view', {
+      page_path: pagePath,
+      page_title: pageTitle,
+      send_to: 'G-VPY9J8FWSR'
+    });
+  }
+}
 
 // --- Initialization ---
 async function init() {
@@ -55,7 +82,7 @@ function handleRoute(hash) {
     const quizId = hash.replace('#quiz=', '');
     const quiz = quizzesData.find(q => q.id === quizId);
     if (quiz) {
-      startQuiz(quiz);
+      showIntro(quiz);
     } else {
       switchView('hub');
     }
@@ -97,9 +124,15 @@ function switchView(viewName) {
 }
 
 // --- Render Hub ---
-function renderHub() {
+function renderHub(filterTag = '全部') {
+  trackPageView('/', 'DailyQuiz-測驗大廳');
   dom.quizGrid.innerHTML = '';
-  quizzesData.forEach((quiz, index) => {
+  
+  const filteredQ = filterTag === '全部' 
+    ? quizzesData 
+    : quizzesData.filter(q => q.tags && q.tags.includes(filterTag));
+    
+  filteredQ.forEach((quiz, index) => {
     const row = document.createElement('div');
     row.className = 'quiz-list-item';
     row.innerHTML = `
@@ -130,9 +163,31 @@ function resetQuizState() {
   isTransitioning = false;
 }
 
-function startQuiz(quiz) {
+function showIntro(quiz) {
   resetQuizState();
   currentQuiz = quiz;
+  
+  trackPageView(`/quiz/${quiz.id}`, `DailyQuiz-${quiz.title}`);
+  
+  dom.introTitle.textContent = quiz.title;
+  dom.introDescription.textContent = quiz.description;
+  
+  dom.introTags.innerHTML = quiz.tags.map(t => 
+    `<span class="px-3 py-1 bg-[#E5E2DC] text-[#7A756D] rounded-full text-sm">${t}</span>`
+  ).join('');
+
+  switchView('intro');
+}
+
+function startQuiz() {
+  if (!currentQuiz) return;
+  // reset state other than currentQuiz
+  currentQuestionIndex = 0;
+  totalScore = 0;
+  isTransitioning = false;
+  
+  trackPageView(`/quiz/${currentQuiz.id}/play`, `DailyQuiz-${currentQuiz.title}`);
+
   switchView('quiz');
   renderQuestion();
 }
@@ -202,14 +257,118 @@ function calculateResult() {
   if (resultObj) {
     dom.resultTitle.textContent = resultObj.title;
     dom.resultDescription.textContent = resultObj.description;
+    
+    if (resultObj.comment) {
+      dom.resultComment.textContent = resultObj.comment;
+      dom.resultCommentContainer.classList.remove('hidden');
+    } else {
+      dom.resultCommentContainer.classList.add('hidden');
+    }
+
+    if (resultObj.radarData) {
+      dom.radarChartContainer.classList.remove('hidden');
+      renderRadarChart(resultObj.radarData);
+    } else {
+      dom.radarChartContainer.classList.add('hidden');
+      if (currentRadarChart) {
+        currentRadarChart.destroy();
+        currentRadarChart = null;
+      }
+    }
   } else {
     dom.resultTitle.textContent = "神秘的未知結果";
     dom.resultDescription.textContent = "你的分數超出了我們的計算，你是個獨特的存在。";
+    dom.resultCommentContainer.classList.add('hidden');
+    dom.radarChartContainer.classList.add('hidden');
   }
 
+  trackPageView(`/quiz/${currentQuiz.id}/result`, `DailyQuiz-${currentQuiz.title}`);
   window.history.replaceState({ view: 'result' }, null, `#result=${currentQuiz.id}-${totalScore}`);
   renderExplore();
   switchView('result');
+  
+  // Trigger overlay pop up ad after delay
+  setTimeout(() => {
+    if (views.result.classList.contains('active')) {
+      showAdPopup();
+    }
+  }, 3000);
+}
+
+// --- Ad Presentation Logic ---
+function showAdPopup() {
+  const now = Date.now();
+  const lastAdTime = sessionStorage.getItem('lastAdTime');
+  const COOLDOWN_MS = 10000; // 10 seconds cooldown
+  
+  if (lastAdTime && now - parseInt(lastAdTime) < COOLDOWN_MS) {
+    console.log('Ad popup blocked by cooldown.');
+    return;
+  }
+  
+  sessionStorage.setItem('lastAdTime', now.toString());
+  
+  if (dom.adOverlay) {
+    dom.adOverlay.classList.remove('opacity-0', 'pointer-events-none');
+    dom.adOverlayContent.classList.remove('scale-95');
+  }
+}
+
+function closeAdPopup() {
+  if (dom.adOverlay) {
+    dom.adOverlay.classList.add('opacity-0', 'pointer-events-none');
+    dom.adOverlayContent.classList.add('scale-95');
+  }
+}
+
+function renderRadarChart(radarData) {
+  if (currentRadarChart) {
+    currentRadarChart.destroy();
+  }
+  
+  const ctx = dom.radarChart.getContext('2d');
+  
+  currentRadarChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+      labels: radarData.labels,
+      datasets: [{
+        label: '屬性強度',
+        data: radarData.values,
+        backgroundColor: 'rgba(152, 168, 158, 0.3)',
+        borderColor: 'rgba(122, 138, 128, 0.8)',
+        pointBackgroundColor: 'rgba(122, 138, 128, 1)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgba(122, 138, 128, 1)',
+        borderWidth: 2,
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        r: {
+          angleLines: { color: 'rgba(0, 0, 0, 0.05)' },
+          grid: { color: 'rgba(0, 0, 0, 0.05)' },
+          pointLabels: {
+            font: { family: "'Inter', 'Noto Sans TC', sans-serif", size: 13, weight: '500' },
+            color: '#7A756D'
+          },
+          ticks: { display: false, min: 0, max: 100 }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: 'rgba(122, 138, 128, 0.9)',
+          padding: 10,
+          cornerRadius: 8,
+          titleFont: { size: 14, family: "'Inter', 'Noto Sans TC', sans-serif" },
+          bodyFont: { size: 13, family: "'Inter', 'Noto Sans TC', sans-serif" },
+        }
+      }
+    }
+  });
 }
 
 function renderExplore() {
@@ -244,6 +403,32 @@ function goHome() {
 }
 
 function setupEventListeners() {
+  if (dom.navTabs) {
+    dom.navTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        dom.navTabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        renderHub(tab.textContent.trim());
+      });
+    });
+  }
+
+  if (dom.btnCloseAd) {
+    dom.btnCloseAd.addEventListener('click', closeAdPopup);
+    dom.adOverlay.addEventListener('click', (e) => {
+      if (e.target === dom.adOverlay) closeAdPopup();
+    });
+  }
+
+  if (dom.btnIntroBack) {
+    dom.btnIntroBack.addEventListener('click', () => {
+      window.location.hash = ''; // go back to hub
+    });
+  }
+  if (dom.btnStartQuiz) {
+    dom.btnStartQuiz.addEventListener('click', startQuiz);
+  }
+
   dom.btnBackHub.addEventListener('click', goHome);
   dom.btnResultHome.addEventListener('click', goHome);
   dom.btnHomeLinks.forEach(link => {
@@ -254,16 +439,20 @@ function setupEventListeners() {
   });
   
   dom.btnRetake.addEventListener('click', () => {
-    if (currentQuiz) {
-      window.history.replaceState({ view: 'quiz' }, null, `#quiz=${currentQuiz.id}`);
-      startQuiz(currentQuiz);
-    } else {
-      window.location.hash = '';
-    }
+    showAdPopup();
+    setTimeout(() => {
+      if (currentQuiz) {
+        window.history.replaceState({ view: 'quiz' }, null, `#quiz=${currentQuiz.id}`);
+        startQuiz();
+      } else {
+        window.location.hash = '';
+      }
+    }, 100);
   });
 
   dom.btnShare.addEventListener('click', async () => {
     if (isTransitioning) return;
+    showAdPopup();
     
     const urlStr = window.location.href.split('#')[0]; // share base hub url, or specific if desired. Realistically, usually share base url.
     const shareData = {
