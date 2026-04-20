@@ -125,7 +125,7 @@ function switchView(viewName) {
 
 // --- Render Hub ---
 function renderHub(filterTag = '全部') {
-  trackPageView('/', 'DailyQuiz-測驗大廳');
+  trackPageView('/', 'Daily Quiz | 每日一測');
   dom.quizGrid.innerHTML = '';
   
   const filteredQ = filterTag === '全部' 
