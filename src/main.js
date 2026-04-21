@@ -250,6 +250,7 @@ function handleOptionClick(score, btnElement) {
 
 // --- Result & Sharing ---
 function calculateResult() {
+  isTransitioning = false; // unlock interaction for result page buttons
   const resultObj = currentQuiz.results.find(
     r => totalScore >= r.min && totalScore <= r.max
   );
