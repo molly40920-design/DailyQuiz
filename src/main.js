@@ -1,4 +1,5 @@
 import './style.css';
+import { t, getCurrentLang, getQuizFilename, initI18n, setLanguage, applyTranslations, translateTag } from './i18n.js';
 
 // --- State Management ---
 let quizzesData = [];
@@ -47,6 +48,7 @@ const dom = {
   adOverlay: document.getElementById('ad-overlay'),
   adOverlayContent: document.getElementById('ad-overlay-content'),
   btnCloseAd: document.getElementById('btn-close-ad'),
+  langSelector: document.getElementById('lang-selector'),
 };
 
 // --- Tracking Utility ---
@@ -60,19 +62,37 @@ function trackPageView(pagePath, pageTitle) {
   }
 }
 
-// --- Initialization ---
-async function init() {
+// --- Load Quiz Data ---
+async function loadQuizData() {
+  const filename = getQuizFilename();
   try {
+    const res = await fetch(`${import.meta.env.BASE_URL}${filename}`);
+    if (!res.ok) throw new Error(`Failed to load ${filename}`);
+    quizzesData = await res.json();
+  } catch (err) {
+    console.warn(`Failed to load ${filename}, falling back to quizzes.json`);
+    // Fallback to Chinese version
     const res = await fetch(`${import.meta.env.BASE_URL}quizzes.json`);
     if (!res.ok) throw new Error('Failed to load quizzes');
     quizzesData = await res.json();
+  }
+}
+
+// --- Initialization ---
+async function init() {
+  try {
+    // Initialize i18n first
+    initI18n();
+    
+    // Load quiz data based on detected language
+    await loadQuizData();
     
     renderHub();
     setupEventListeners();
     handleRoute(window.location.hash);
   } catch (err) {
     console.error(err);
-    alert('載入題庫失敗，請重新整理網頁。');
+    alert(t('error_load'));
   }
 }
 
@@ -143,7 +163,7 @@ function renderHub(filterTag = '全部') {
           <p class="text-ghibli-text-light text-sm truncate">${quiz.description}</p>
         </div>
         <div class="hidden sm:flex gap-1.5 flex-shrink-0">
-          ${quiz.tags.slice(0, 2).map(t => `<span class="px-2 py-0.5 bg-[#E5E2DC] text-[#7A756D] rounded-full text-xs whitespace-nowrap">${t}</span>`).join('')}
+          ${quiz.tags.slice(0, 2).map(tg => `<span class="px-2 py-0.5 bg-[#E5E2DC] text-[#7A756D] rounded-full text-xs whitespace-nowrap">${tg}</span>`).join('')}
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#C4BEB5] flex-shrink-0"><path d="m9 18 6-6-6-6"/></svg>
       </div>
@@ -172,8 +192,8 @@ function showIntro(quiz) {
   dom.introTitle.textContent = quiz.title;
   dom.introDescription.textContent = quiz.description;
   
-  dom.introTags.innerHTML = quiz.tags.map(t => 
-    `<span class="px-3 py-1 bg-[#E5E2DC] text-[#7A756D] rounded-full text-sm">${t}</span>`
+  dom.introTags.innerHTML = quiz.tags.map(tg => 
+    `<span class="px-3 py-1 bg-[#E5E2DC] text-[#7A756D] rounded-full text-sm">${tg}</span>`
   ).join('');
 
   switchView('intro');
@@ -277,8 +297,8 @@ function calculateResult() {
       }
     }
   } else {
-    dom.resultTitle.textContent = "神秘的未知結果";
-    dom.resultDescription.textContent = "你的分數超出了我們的計算，你是個獨特的存在。";
+    dom.resultTitle.textContent = t('fallback_title');
+    dom.resultDescription.textContent = t('fallback_desc');
     dom.resultCommentContainer.classList.add('hidden');
     dom.radarChartContainer.classList.add('hidden');
   }
@@ -334,7 +354,7 @@ function renderRadarChart(radarData) {
     data: {
       labels: radarData.labels,
       datasets: [{
-        label: '屬性強度',
+        label: t('radar_label'),
         data: radarData.values,
         backgroundColor: 'rgba(152, 168, 158, 0.3)',
         borderColor: 'rgba(122, 138, 128, 0.8)',
@@ -352,7 +372,7 @@ function renderRadarChart(radarData) {
           angleLines: { color: 'rgba(0, 0, 0, 0.05)' },
           grid: { color: 'rgba(0, 0, 0, 0.05)' },
           pointLabels: {
-            font: { family: "'Inter', 'Noto Sans TC', sans-serif", size: 13, weight: '500' },
+            font: { family: "'Inter', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif", size: 13, weight: '500' },
             color: '#7A756D'
           },
           ticks: { display: false, min: 0, max: 100 }
@@ -364,8 +384,8 @@ function renderRadarChart(radarData) {
           backgroundColor: 'rgba(122, 138, 128, 0.9)',
           padding: 10,
           cornerRadius: 8,
-          titleFont: { size: 14, family: "'Inter', 'Noto Sans TC', sans-serif" },
-          bodyFont: { size: 13, family: "'Inter', 'Noto Sans TC', sans-serif" },
+          titleFont: { size: 14, family: "'Inter', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif" },
+          bodyFont: { size: 13, family: "'Inter', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif" },
         }
       }
     }
@@ -404,12 +424,31 @@ function goHome() {
 }
 
 function setupEventListeners() {
+  // Language selector
+  if (dom.langSelector) {
+    dom.langSelector.addEventListener('change', async (e) => {
+      const newLang = e.target.value;
+      const changed = setLanguage(newLang);
+      if (changed) {
+        // Reload quiz data in the new language
+        await loadQuizData();
+        // Re-render current view
+        resetQuizState();
+        renderHub();
+        switchView('hub');
+        window.location.hash = '';
+      }
+    });
+  }
+
+  // Nav tabs - use data-filter attribute for filter logic
   if (dom.navTabs) {
     dom.navTabs.forEach(tab => {
       tab.addEventListener('click', () => {
         dom.navTabs.forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
-        renderHub(tab.textContent.trim());
+        const filterTag = tab.getAttribute('data-filter') || '全部';
+        renderHub(filterTag);
       });
     });
   }
@@ -455,10 +494,10 @@ function setupEventListeners() {
     if (isTransitioning) return;
     showAdPopup();
     
-    const urlStr = window.location.href.split('#')[0]; // share base hub url, or specific if desired. Realistically, usually share base url.
+    const urlStr = window.location.href.split('#')[0];
     const shareData = {
-      title: `Daily Quiz - ${currentQuiz?.title || '心理測驗'}`,
-      text: `神準！我在心理測驗獲得了「${dom.resultTitle.textContent}」，快來測測看！`,
+      title: t('share_title', { quiz: currentQuiz?.title || 'Quiz' }),
+      text: t('share_text', { result: dom.resultTitle.textContent }),
       url: urlStr,
     };
 

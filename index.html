@@ -19,7 +19,7 @@
     <!-- Preconnect for fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="./src/style.css">
   </head>
@@ -27,16 +27,26 @@
     
     <div id="app" class="relative w-full h-full">
       
+      <!-- Language Selector (floating) -->
+      <div class="fixed top-4 right-4 z-50">
+        <select id="lang-selector" class="bg-ghibli-card text-ghibli-text text-sm font-medium px-3 py-2 rounded-full border border-black/10 shadow-soft cursor-pointer outline-none hover:shadow-soft-hover transition-all appearance-none" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%237A756D%22 stroke-width=%222%22><path d=%22m6 9 6 6 6-6%22/></svg>'); background-repeat: no-repeat; background-position: right 10px center; padding-right: 28px;">
+          <option value="zh-TW">繁體中文</option>
+          <option value="en">English</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+        </select>
+      </div>
+
       <!-- Hub View -->
       <section id="view-hub" class="page-view active min-h-screen p-6 md:p-12 max-w-6xl mx-auto opacity-0 transition-opacity duration-500">
         <header class="mb-12 text-center mt-10">
-          <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-ghibli-text mb-4">Daily Quiz</h1>
-          <p class="text-ghibli-text-light text-lg">探索你的潛意識，遇見未知的故事</p>
+          <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-ghibli-text mb-4" data-i18n="site_title">Daily Quiz</h1>
+          <p class="text-ghibli-text-light text-lg" data-i18n="site_subtitle">探索你的潛意識，遇見未知的故事</p>
           
           <nav class="mt-8 flex justify-center gap-2 sm:gap-4 flex-wrap">
-            <button class="nav-tab active">全部</button>
-            <button class="nav-tab">戀愛</button>
-            <button class="nav-tab">人格</button>
+            <button class="nav-tab active" data-filter="全部" data-i18n="tab_all">全部</button>
+            <button class="nav-tab" data-filter="戀愛" data-i18n="tab_love">戀愛</button>
+            <button class="nav-tab" data-filter="人格" data-i18n="tab_personality">人格</button>
           </nav>
         </header>
 
@@ -52,7 +62,7 @@
         <header class="mb-8 flex items-center justify-between">
           <button id="btn-intro-back" class="text-ghibli-text-light hover:text-ghibli-text transition-colors flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
-            返回
+            <span data-i18n="btn_back">返回</span>
           </button>
           <a href="#" class="text-lg font-bold tracking-tight text-ghibli-text hover:text-ghibli-secondary transition-colors btn-home">Daily Quiz</a>
           <div class="w-[72px]"></div>
@@ -70,7 +80,7 @@
              <!-- Description injected by JS -->
           </p>
           
-          <button id="btn-start-quiz" class="px-10 py-4 bg-ghibli-primary text-white text-lg font-medium rounded-full shadow-soft hover:shadow-soft-hover hover:-translate-y-0.5 transition-all">
+          <button id="btn-start-quiz" class="px-10 py-4 bg-ghibli-primary text-white text-lg font-medium rounded-full shadow-soft hover:shadow-soft-hover hover:-translate-y-0.5 transition-all" data-i18n="btn_start">
             開始測驗
           </button>
         </div>
@@ -82,7 +92,7 @@
           <div class="flex items-center justify-between mb-4">
             <button id="btn-back-hub" class="text-ghibli-text-light hover:text-ghibli-text transition-colors flex items-center gap-2">
                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
-               返回首頁
+               <span data-i18n="btn_back_home">返回首頁</span>
             </button>
             <a href="#" class="text-lg font-bold tracking-tight text-ghibli-text hover:text-ghibli-secondary transition-colors btn-home">Daily Quiz</a>
             <div class="text-sm font-medium text-ghibli-text-light bg-ghibli-card px-3 py-1 rounded-full shadow-sm border border-black/5">
@@ -111,14 +121,14 @@
         <header class="mb-8 flex items-center justify-between">
           <button id="btn-result-home" class="text-ghibli-text-light hover:text-ghibli-text transition-colors flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
-            回首頁
+            <span data-i18n="btn_home">回首頁</span>
           </button>
           <a href="#" class="text-lg font-bold tracking-tight text-ghibli-text hover:text-ghibli-secondary transition-colors btn-home">Daily Quiz</a>
           <div class="w-[72px]"></div>
         </header>
         <div class="bg-ghibli-card rounded-3xl p-8 md:p-12 shadow-soft text-center mb-10 relative overflow-hidden border border-black/5">
           <div class="absolute top-0 left-0 w-full h-2 bg-ghibli-primary"></div>
-          <span class="inline-block px-4 py-1.5 bg-[#E5E2DC] rounded-full text-sm text-ghibli-text-light mb-6">測驗結果</span>
+          <span class="inline-block px-4 py-1.5 bg-[#E5E2DC] rounded-full text-sm text-ghibli-text-light mb-6" data-i18n="result_label">測驗結果</span>
           <h2 id="result-title" class="text-3xl md:text-4xl font-bold mb-6 text-ghibli-secondary">
              <!-- Result Title -->
           </h2>
@@ -132,7 +142,7 @@
           
           <div id="result-comment-container" class="text-md text-ghibli-text leading-relaxed bg-[#F4F1EA] p-6 rounded-2xl text-left hidden border border-black/5">
              <div class="font-bold text-ghibli-secondary mb-2 flex items-center gap-2">
-               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10h10"/><path d="M7 14h10"/><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4V6Z"/></svg> 專屬解析
+               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10h10"/><path d="M7 14h10"/><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4V6Z"/></svg> <span data-i18n="result_analysis">專屬解析</span>
              </div>
              <p id="result-comment" class="text-ghibli-text-light"></p>
           </div>
@@ -141,23 +151,23 @@
         <!-- Inline Ad Banner -->
         <div class="w-full max-w-2xl mx-auto mb-10 rounded-2xl overflow-hidden border border-black/5 bg-white shadow-soft hover:shadow-soft-hover transition-all duration-300">
           <a href="https://www.gametower.com.tw/Action/partygo/mixytalk0416/index.html?utm_source=dailyquiz&utm_medium=display&utm_campaign=mega_traffic_2026&utm_content=1st_banner" target="_blank" rel="noopener noreferrer" class="block w-full" id="inline-ad-link">
-            <span class="block w-full text-center text-xs text-[#7A756D] bg-[#E5E2DC]/40 py-1.5 tracking-widest font-medium">✨ 特別活動推薦</span>
+            <span class="block w-full text-center text-xs text-[#7A756D] bg-[#E5E2DC]/40 py-1.5 tracking-widest font-medium" data-i18n="ad_label">✨ 特別活動推薦</span>
             <img src="./banner.png" alt="Advertisement" class="w-full h-auto object-cover"/>
           </a>
         </div>
         
         <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-          <button id="btn-retake" class="px-8 py-3 bg-transparent border-2 border-ghibli-primary text-ghibli-primary font-medium rounded-full hover:bg-ghibli-primary hover:text-white transition-colors">
+          <button id="btn-retake" class="px-8 py-3 bg-transparent border-2 border-ghibli-primary text-ghibli-primary font-medium rounded-full hover:bg-ghibli-primary hover:text-white transition-colors" data-i18n="btn_retake">
             再測一次
           </button>
           <button id="btn-share" class="px-8 py-3 bg-ghibli-primary text-white font-medium rounded-full shadow-soft hover:shadow-soft-hover hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share-2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>
-            分享測驗
+            <span data-i18n="btn_share">分享測驗</span>
           </button>
         </div>
 
         <div class="mb-8">
-          <h3 class="text-xl font-medium mb-6 text-ghibli-text">推薦探索</h3>
+          <h3 class="text-xl font-medium mb-6 text-ghibli-text" data-i18n="explore_title">推薦探索</h3>
           <div id="explore-grid" class="grid grid-cols-1 sm:grid-cols-3 gap-6">
              <!-- Explore items injected by JS -->
           </div>
@@ -165,7 +175,7 @@
       </section>
       
       <!-- Toast Notification -->
-      <div id="toast" class="fixed bottom-8 left-1/2 -translate-x-1/2 bg-ghibli-text text-white px-6 py-3 rounded-full shadow-lg opacity-0 pointer-events-none transition-opacity duration-300 z-[60]">
+      <div id="toast" class="fixed bottom-8 left-1/2 -translate-x-1/2 bg-ghibli-text text-white px-6 py-3 rounded-full shadow-lg opacity-0 pointer-events-none transition-opacity duration-300 z-[60]" data-i18n="toast_copied">
         已複製連結到剪貼簿！
       </div>
 
@@ -176,7 +186,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
           </button>
           <a id="overlay-ad-link" href="https://www.gametower.com.tw/Action/partygo/mixytalk0416/index.html?utm_source=dailyquiz&utm_medium=display&utm_campaign=mega_traffic_2026&utm_content=1st_banner" target="_blank" rel="noopener noreferrer" class="block w-full">
-            <span class="block w-full text-center text-[10px] text-white/80 bg-black/80 py-1 tracking-widest font-medium absolute bottom-0 left-0">為您推薦</span>
+            <span class="block w-full text-center text-[10px] text-white/80 bg-black/80 py-1 tracking-widest font-medium absolute bottom-0 left-0" data-i18n="ad_overlay_label">為您推薦</span>
             <img src="./banner.png" alt="Advertisement" class="w-full h-auto object-cover block"/>
           </a>
         </div>
