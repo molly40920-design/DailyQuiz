@@ -87,6 +87,12 @@ async function init() {
     // Load quiz data based on detected language
     await loadQuizData();
     
+    // Lazy load ad images to prevent social media preview scraping
+    const inlineAdImg = document.getElementById('inline-ad-img');
+    if (inlineAdImg && inlineAdImg.dataset.src) inlineAdImg.src = inlineAdImg.dataset.src;
+    const overlayAdImg = document.getElementById('overlay-ad-img');
+    if (overlayAdImg && overlayAdImg.dataset.src) overlayAdImg.src = overlayAdImg.dataset.src;
+    
     renderHub();
     setupEventListeners();
     handleRoute(window.location.hash);

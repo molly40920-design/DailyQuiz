@@ -21,15 +21,11 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Daily Quiz | 每日一測" />
     <meta property="og:description" content="探索你的潛意識，遇見未知的故事" />
-    <meta property="og:image" content="https://mo-dailyquiz.pages.dev/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Daily Quiz | 每日一測" />
     <meta name="twitter:description" content="探索你的潛意識，遇見未知的故事" />
-    <meta name="twitter:image" content="https://mo-dailyquiz.pages.dev/og-image.png" />
     <!-- Preconnect for fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -166,7 +162,7 @@
         <div class="w-full max-w-2xl mx-auto mb-10 rounded-2xl overflow-hidden border border-black/5 bg-white shadow-soft hover:shadow-soft-hover transition-all duration-300">
           <a href="https://www.gametower.com.tw/Action/partygo/mixytalk0416/index.html?utm_source=dailyquiz&utm_medium=display&utm_campaign=mega_traffic_2026&utm_content=1st_banner" target="_blank" rel="noopener noreferrer" class="block w-full" id="inline-ad-link">
             <span class="block w-full text-center text-xs text-[#7A756D] bg-[#E5E2DC]/40 py-1.5 tracking-widest font-medium" data-i18n="ad_label">✨ 特別活動推薦</span>
-            <img src="./banner.png" alt="Advertisement" class="w-full h-auto object-cover"/>
+            <img data-src="./banner.png" id="inline-ad-img" alt="Advertisement" class="w-full h-auto object-cover"/>
           </a>
         </div>
         
@@ -201,7 +197,7 @@
           </button>
           <a id="overlay-ad-link" href="https://www.gametower.com.tw/Action/partygo/mixytalk0416/index.html?utm_source=dailyquiz&utm_medium=display&utm_campaign=mega_traffic_2026&utm_content=1st_banner" target="_blank" rel="noopener noreferrer" class="block w-full">
             <span class="block w-full text-center text-[10px] text-white/80 bg-black/80 py-1 tracking-widest font-medium absolute bottom-0 left-0" data-i18n="ad_overlay_label">為您推薦</span>
-            <img src="./banner.png" alt="Advertisement" class="w-full h-auto object-cover block"/>
+            <img data-src="./banner.png" id="overlay-ad-img" alt="Advertisement" class="w-full h-auto object-cover block"/>
           </a>
         </div>
       </div>
