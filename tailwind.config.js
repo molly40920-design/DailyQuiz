@@ -6,12 +6,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'ghibli-bg': '#F4F1EA',
-        'ghibli-primary': '#8FA08B', // muted sage
-        'ghibli-secondary': '#C48A7E', // warm terracotta
-        'ghibli-text': '#4A463F',
-        'ghibli-text-light': '#7A756D',
-        'ghibli-card': '#FAFAF8',
+        'ghibli-bg': '#FFF5F8',
+        'ghibli-primary': '#FF8E9E', // cute pink
+        'ghibli-secondary': '#FFB6C1', // light pink
+        'ghibli-text': '#5C4B51', // warm brown
+        'ghibli-text-light': '#8C7B81', // lighter brown
+        'ghibli-card': '#FFFFFF',
       },
       fontFamily: {
         sans: ['Inter', 'Noto Sans TC', 'sans-serif'],

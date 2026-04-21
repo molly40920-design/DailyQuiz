@@ -362,12 +362,12 @@ function renderRadarChart(radarData) {
       datasets: [{
         label: t('radar_label'),
         data: radarData.values,
-        backgroundColor: 'rgba(152, 168, 158, 0.3)',
-        borderColor: 'rgba(122, 138, 128, 0.8)',
-        pointBackgroundColor: 'rgba(122, 138, 128, 1)',
+        backgroundColor: 'rgba(255, 142, 158, 0.3)',
+        borderColor: 'rgba(240, 120, 140, 0.8)',
+        pointBackgroundColor: 'rgba(240, 120, 140, 1)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgba(122, 138, 128, 1)',
+        pointHoverBorderColor: 'rgba(240, 120, 140, 1)',
         borderWidth: 2,
       }]
     },
