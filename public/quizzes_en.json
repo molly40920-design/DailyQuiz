@@ -3105,5 +3105,321 @@
         }
       }
     ]
+  },
+  {
+    "id": "love-brain-quiz",
+    "title": "Love Brain Index Test",
+    "description": "Does your IQ drop to zero when you fall in love? Or do you remain totally rational? Take these 10 situational questions to find out your 'Love Brain' index.",
+    "category": "romance",
+    "tags": [
+      "Love",
+      "Psychology"
+    ],
+    "questions": [
+      {
+        "text": "Your partner said something hurtful today. Your first reaction?",
+        "options": [
+          {
+            "text": "Assume they were just angry and make excuses for them",
+            "score": 4
+          },
+          {
+            "text": "Feel sad initially, but a little coaxing makes you forgive",
+            "score": 3
+          },
+          {
+            "text": "Directly point out the problem and demand an apology",
+            "score": 2
+          },
+          {
+            "text": "Calmly analyze their intention and secretly deduct points",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "In the early dating stage, they suddenly act cold. What do you do?",
+        "options": [
+          {
+            "text": "Feel anxious and constantly reflect on whether you did wrong",
+            "score": 4
+          },
+          {
+            "text": "Test the waters, but give up if they stay cold",
+            "score": 3
+          },
+          {
+            "text": "Play it cool and refocus on your own life",
+            "score": 2
+          },
+          {
+            "text": "Decide they are emotionally unstable and cut them off",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "All your friends warn you, 'This person is not right for you.' You would...",
+        "options": [
+          {
+            "text": "Nod on the outside, but continue loving them blindly",
+            "score": 4
+          },
+          {
+            "text": "Listen, but believe your love can change them",
+            "score": 3
+          },
+          {
+            "text": "Start evaluating the relationship and raise your guard",
+            "score": 2
+          },
+          {
+            "text": "Hit the brakes immediately if friends have valid points",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If love has a max score of 100, what score do you give them at start?",
+        "options": [
+          {
+            "text": "100 instantly! Once in love, they are perfect",
+            "score": 4
+          },
+          {
+            "text": "80. First impressions were great so they start high",
+            "score": 3
+          },
+          {
+            "text": "A passing 50. Let them slowly earn points",
+            "score": 2
+          },
+          {
+            "text": "0. Everyone starts as strangers; that's only fair",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Your partner commits a cardinal sin but cries for forgiveness.",
+        "options": [
+          {
+            "text": "Feel uncontrollably sorry and forgive immediately",
+            "score": 4
+          },
+          {
+            "text": "Be furious, but ultimately give them one more chance",
+            "score": 3
+          },
+          {
+            "text": "Forgive, but set strict probation and clear boundaries",
+            "score": 2
+          },
+          {
+            "text": "Rules are rules. Crossing the line means permanent exit",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "You have weekend plans with friends, but your partner wants to see you.",
+        "options": [
+          {
+            "text": "Cancel on friends; my partner comes first",
+            "score": 4
+          },
+          {
+            "text": "Try to compromise by asking if partner can join",
+            "score": 3
+          },
+          {
+            "text": "Reassure them, but stick to original plans",
+            "score": 2
+          },
+          {
+            "text": "Tell them to find something to do; don't mess with my schedule",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "In a stable relationship, do you change your style for them?",
+        "options": [
+          {
+            "text": "Absolutely, I'll change into whatever they like",
+            "score": 4
+          },
+          {
+            "text": "I'll cater to their taste occasionally",
+            "score": 3
+          },
+          {
+            "text": "Consider good suggestions but keep my own style",
+            "score": 2
+          },
+          {
+            "text": "Never. They have to accept the real me",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Your partner puts a new password on their phone and acts secretive.",
+        "options": [
+          {
+            "text": "Feel uneasy, but convince yourself to 'give privacy'",
+            "score": 4
+          },
+          {
+            "text": "Overthink endlessly, but afraid to ask and ruin things",
+            "score": 3
+          },
+          {
+            "text": "Ask directly and demand a reasonable explanation",
+            "score": 2
+          },
+          {
+            "text": "Pretend not to notice, start gathering evidence to leave",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Looking back, what is usually your main reason for breaking up?",
+        "options": [
+          {
+            "text": "Enduring countless disappointments until my heart breaks",
+            "score": 4
+          },
+          {
+            "text": "Realizing they will never change, and leaving sadly",
+            "score": 3
+          },
+          {
+            "text": "Noticing mismatched future goals; preferring short-term pain",
+            "score": 2
+          },
+          {
+            "text": "Crossed my bottom line or lost feelings. Decisive",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "To you, what is the ideal state of love?",
+        "options": [
+          {
+            "text": "Sticking together daily to share everything",
+            "score": 4
+          },
+          {
+            "text": "Mutual reliance; they are my strongest safe haven",
+            "score": 3
+          },
+          {
+            "text": "Independent but supportive; we shine individually",
+            "score": 2
+          },
+          {
+            "text": "Just icing on the cake; I can live well without romance",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "Love Brain 0%: The Cold Rationalist",
+        "description": "Your brain is bulletproof! You are a pragmatist in love. Sweet words do nothing to you; you value actions over promises. Even when dating, you always put your own feelings and career absolutely first.",
+        "comment": "Exclusive Analysis: Being wide awake protects you from getting hurt, but letting your guard down sometimes isn't a bad experience.",
+        "radarData": {
+          "labels": [
+            "Impulse",
+            "Filter",
+            "Protection",
+            "Sacrifice",
+            "Friction"
+          ],
+          "values": [
+            20,
+            10,
+            95,
+            15,
+            10
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "Love Brain 30%: The Flexible Warrior",
+        "description": "You balance reason and emotion perfectly. You enjoy the romance, but your boundaries are firm. If they show red flags, you immediately retract and prepare to exit gracefully.",
+        "comment": "Exclusive Analysis: This principled style is very healthy! Keep it up, and you'll find happiness without losing yourself.",
+        "radarData": {
+          "labels": [
+            "Impulse",
+            "Filter",
+            "Protection",
+            "Sacrifice",
+            "Friction"
+          ],
+          "values": [
+            45,
+            30,
+            80,
+            40,
+            30
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "Love Brain 75%: The Romantic with a Pink Filter",
+        "description": "You definitely have a love brain! Once you like someone, you view them through an ultra-thick beauty filter. When issues arise, you easily soften and make excuses for them.",
+        "comment": "Exclusive Analysis: Your gentleness is a great asset, but if the filter cracks, be brave enough to admit it instead of lying to yourself.",
+        "radarData": {
+          "labels": [
+            "Impulse",
+            "Filter",
+            "Protection",
+            "Sacrifice",
+            "Friction"
+          ],
+          "values": [
+            80,
+            75,
+            40,
+            75,
+            65
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "Love Brain 999%: Hopeless Pure Love Devotee",
+        "description": "Severe terminal love brain! When in love, your IQ zeroes out, and the world is just them. You endlessly compromise and sacrifice. If they are happy, you swallow any grievance.",
+        "comment": "Exclusive Analysis: Pure love is invincible! But a relationship should make both of you shine, not dim your light to illuminate them. Love yourself more!",
+        "radarData": {
+          "labels": [
+            "Impulse",
+            "Filter",
+            "Protection",
+            "Sacrifice",
+            "Friction"
+          ],
+          "values": [
+            95,
+            99,
+            10,
+            95,
+            90
+          ]
+        }
+      }
+    ]
   }
 ]

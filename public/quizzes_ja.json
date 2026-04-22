@@ -2,76 +2,317 @@
   {
     "id": "q1",
     "title": "あなたのソウルメイトはどんな姿？",
-    "description": "簡単な質問を通じて、潜在意識の奥深くに潜り、最もマッチする魂のかけらを探しましょう。",
+    "description": "簡単な質問を通じて、あなたの潜在意識の奥深くに潜り、最もマッチする魂のかけらを探しましょう。",
     "category": "romance",
-    "tags": ["ソウルメイト", "潜在意識"],
+    "tags": [
+      "ソウルメイト",
+      "潜在意識"
+    ],
     "questions": [
-      { "text": "不思議な森に入ったら、最初に何に気づきますか？", "options": [
-        { "text": "木の葉の間から差し込む優しい日差し", "score": 1 },
-        { "text": "足元の柔らかい苔に覆われた地面", "score": 2 },
-        { "text": "遠くから聞こえる不思議な鳥の鳴き声", "score": 3 },
-        { "text": "空気に漂う花と草の香り", "score": 4 }
-      ]},
-      { "text": "森の奥に木の小屋があります。ドアを開けた人はどんな印象？", "options": [
-        { "text": "温かくて、笑顔で迎えてくれる", "score": 1 },
-        { "text": "静かで、深い思慮に満ちた目をしている", "score": 2 },
-        { "text": "明るくて、エネルギーに溢れている", "score": 3 },
-        { "text": "神秘的で、知的な雰囲気", "score": 4 }
-      ]},
-      { "text": "その人があなたに飲み物を渡します。何でしょう？", "options": [
-        { "text": "温かくて甘いホットココア", "score": 1 },
-        { "text": "ほんのり甘い熱いお茶", "score": 2 },
-        { "text": "カラフルなフルーツジュース", "score": 3 },
-        { "text": "エレガントなグラスに入ったスパークリングウォーター", "score": 4 }
-      ]},
-      { "text": "小屋の壁に絵が飾られています。どんな風景？", "options": [
-        { "text": "暖炉のそばで寄り添う二人の影", "score": 1 },
-        { "text": "静かで穏やかな湖", "score": 2 },
-        { "text": "草原でピクニックを楽しむ仲間たち", "score": 3 },
-        { "text": "広大で深い星空", "score": 4 }
-      ]},
-      { "text": "小屋で宝箱を見つけました。中に何がある？", "options": [
-        { "text": "温かくて柔らかいマフラー", "score": 1 },
-        { "text": "色あせた手書きの日記", "score": 2 },
-        { "text": "未知の土地への地図", "score": 3 },
-        { "text": "淡い光を放つ水晶玉", "score": 4 }
-      ]},
-      { "text": "帰り際、その人がプレゼントをくれます。何だと思う？", "options": [
-        { "text": "ドライフラワー", "score": 1 },
-        { "text": "手作りのしおり", "score": 2 },
-        { "text": "小さなコンパス", "score": 3 },
-        { "text": "ミニチュアの鏡", "score": 4 }
-      ]},
-      { "text": "帰り道、分かれ道に出くわしました。どう選ぶ？", "options": [
-        { "text": "最も安全で確実な道", "score": 1 },
-        { "text": "最も静かで人の少ない道", "score": 2 },
-        { "text": "最も面白そうに見える道", "score": 3 },
-        { "text": "目を閉じて直感に従う", "score": 4 }
-      ]},
-      { "text": "帰り道に雨が降り始めました。どうする？", "options": [
-        { "text": "誰かの軒下で雨宿り", "score": 1 },
-        { "text": "持ってきた傘を開く", "score": 2 },
-        { "text": "直感で走って帰る", "score": 3 },
-        { "text": "雨粒が肌に当たる感覚を楽しむ", "score": 4 }
-      ]},
-      { "text": "雨が止んだ後、空に何が現れる？", "options": [
-        { "text": "地平線にかかる虹", "score": 1 },
-        { "text": "雲を突き抜ける眩いの夕日", "score": 2 },
-        { "text": "優雅に舞う数匹の蝶", "score": 3 },
-        { "text": "空の端に輝く一番星", "score": 4 }
-      ]},
-      { "text": "家に帰ったら、最初に何をしたい？", "options": [
-        { "text": "一番親しい人に電話して今日の冒険を共有", "score": 1 },
-        { "text": "静かにお風呂に入って考えを整理", "score": 2 },
-        { "text": "写真を見返して次の冒険を計画", "score": 3 },
-        { "text": "今日の気持ちを日記に書く", "score": 4 }
-      ]}
+      {
+        "text": "If you walked into a mysterious forest, what would you notice first?",
+        "options": [
+          {
+            "text": "Gentle sunlight filtering through the leaves",
+            "score": 1
+          },
+          {
+            "text": "Soft, moss-covered ground beneath your feet",
+            "score": 2
+          },
+          {
+            "text": "The call of an unknown bird in the distance",
+            "score": 3
+          },
+          {
+            "text": "The scent of flowers and grass drifting in the air",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Deep in the forest, there's a wooden cabin. The person who opens the door gives you what kind of feeling?",
+        "options": [
+          {
+            "text": "Warm with a welcoming smile",
+            "score": 1
+          },
+          {
+            "text": "Quiet with deep, thoughtful eyes",
+            "score": 2
+          },
+          {
+            "text": "Cheerful and full of energy",
+            "score": 3
+          },
+          {
+            "text": "Mysterious and wise",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "The person hands you a drink. What is it?",
+        "options": [
+          {
+            "text": "A steaming cup of sweet hot cocoa",
+            "score": 1
+          },
+          {
+            "text": "A light, subtly sweet hot tea",
+            "score": 2
+          },
+          {
+            "text": "A colorful fruit juice",
+            "score": 3
+          },
+          {
+            "text": "Sparkling water in an elegant glass",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "A painting hangs on the cabin wall. What scene does it depict?",
+        "options": [
+          {
+            "text": "Two silhouettes cuddling by a fireplace",
+            "score": 1
+          },
+          {
+            "text": "A calm, still lake",
+            "score": 2
+          },
+          {
+            "text": "A group of people laughing at a meadow picnic",
+            "score": 3
+          },
+          {
+            "text": "A vast, deep starry sky",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You find a treasure box in the cabin. What's inside?",
+        "options": [
+          {
+            "text": "A warm, soft scarf",
+            "score": 1
+          },
+          {
+            "text": "A yellowed handwritten diary",
+            "score": 2
+          },
+          {
+            "text": "A map leading to an unknown land",
+            "score": 3
+          },
+          {
+            "text": "A crystal ball emitting a faint glow",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "As you leave, the person gives you a gift. What do you think it is?",
+        "options": [
+          {
+            "text": "A dried flower",
+            "score": 1
+          },
+          {
+            "text": "A handmade bookmark",
+            "score": 2
+          },
+          {
+            "text": "A small compass",
+            "score": 3
+          },
+          {
+            "text": "A miniature mirror",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "On your way back, you encounter a fork in the road. How do you choose?",
+        "options": [
+          {
+            "text": "Take the safest and most reliable path",
+            "score": 1
+          },
+          {
+            "text": "Take the quietest, least traveled path",
+            "score": 2
+          },
+          {
+            "text": "Take the most interesting-looking path",
+            "score": 3
+          },
+          {
+            "text": "Close your eyes and follow your intuition",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "It starts raining on the way back. What do you do?",
+        "options": [
+          {
+            "text": "Take shelter under someone's eaves",
+            "score": 1
+          },
+          {
+            "text": "Open the umbrella you brought along",
+            "score": 2
+          },
+          {
+            "text": "Follow your instinct and run home quickly",
+            "score": 3
+          },
+          {
+            "text": "Enjoy the feeling of raindrops on your skin",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "After the rain stops, what appears in the sky?",
+        "options": [
+          {
+            "text": "A rainbow stretching across the horizon",
+            "score": 1
+          },
+          {
+            "text": "A brilliant sunset breaking through the clouds",
+            "score": 2
+          },
+          {
+            "text": "A few butterflies dancing gracefully",
+            "score": 3
+          },
+          {
+            "text": "The first star shining at the edge of the sky",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "After returning home, what's the first thing you want to do?",
+        "options": [
+          {
+            "text": "Call your closest person to share today's adventure",
+            "score": 1
+          },
+          {
+            "text": "Quietly take a hot bath and organize your thoughts",
+            "score": 2
+          },
+          {
+            "text": "Look through photos and plan the next adventure",
+            "score": 3
+          },
+          {
+            "text": "Write today's feelings in a diary",
+            "score": 4
+          }
+        ]
+      }
     ],
     "results": [
-      { "min": 10, "max": 17, "title": "朝の光の守護者", "description": "あなたは内心、安定していて優しい関係を求めています。理想のパートナーは、あなたが弱い時にしっかりと支えてくれる、朝の光のように温かい存在。派手な言葉は必要ありません — ただ優しい眼差しと、いつでも開いている腕があればいい。", "comment": "ヒント：今のペースは素晴らしいですが、時々弱い面を見せることで、関係をもっと深めることができますよ。", "radarData": { "labels": ["優しい寄り添い", "精神的つながり", "楽しい時間", "知的魅力", "感情の安定"], "values": [81, 72, 37, 46, 91] } },
-      { "min": 18, "max": 25, "title": "深海のリスナー", "description": "あなたには、魂の深い会話ができるパートナーが必要です。多くを語らなくても、あなたの視線一つで気持ちを読み取り、最も深い理解と受容を与えてくれる人。二人の間では、沈黙もまた心地よいコミュニケーションです。", "comment": "ヒント：あなたの寛容さは関係の最高の潤滑剤ですが、自分の気持ちを優先することも同じくらい大切ですよ。", "radarData": { "labels": ["優しい寄り添い", "精神的つながり", "楽しい時間", "知的魅力", "感情の安定"], "values": [61, 91, 47, 65, 77] } },
-      { "min": 26, "max": 33, "title": "そよ風のパートナー", "description": "あなたは自由と新鮮さを求めています。ソウルメイトは、活力に満ち、未知の世界を一緒に探検し、共に成長し、人生の喜びを分かち合える人。数えきれない思い出を一緒に作り、お互いの最高の旅の相棒になるでしょう。", "comment": "ヒント：情熱的な愛は伝染力があります。興奮した後は少しペースを落として、パートナーの微かな声に耳を傾けてみてください。", "radarData": { "labels": ["優しい寄り添い", "精神的つながり", "楽しい時間", "知的魅力", "感情の安定"], "values": [74, 35, 90, 59, 71] } },
-      { "min": 34, "max": 40, "title": "星明かりのインスパイアラー", "description": "あなたは知性と深さに惹かれます。理想のパートナーは、ユニークな視点を持ち、より広い視野で世界を見るきっかけを常にくれる人。会話はいつも火花に満ち、魂がぶつかって最も美しい光を生み出します。", "comment": "ヒント：究極の愛を追求しながら、お互いに息をする余地を与えてみてください。距離が時に信じられないほどの美しさを生むことがあります。", "radarData": { "labels": ["優しい寄り添い", "精神的つながり", "楽しい時間", "知的魅力", "感情の安定"], "values": [85, 62, 28, 92, 84] } }
+      {
+        "min": 10,
+        "max": 17,
+        "title": "The Morning Light Guardian",
+        "description": "You inwardly crave a stable and gentle relationship. Your ideal partner is someone who provides firm support when you're vulnerable, someone as warm as morning light. They don't need fancy words — just a tender gaze and arms that are always open for you.",
+        "comment": "Tips: Your current pace is great, but occasionally showing your vulnerable side can deepen your relationship.",
+        "radarData": {
+          "labels": [
+            "Gentle Companionship",
+            "Spiritual Connection",
+            "Fun Together",
+            "Intellectual Attraction",
+            "Emotional Stability"
+          ],
+          "values": [
+            81,
+            72,
+            37,
+            46,
+            91
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "The Deep Sea Listener",
+        "description": "You need a partner who can have soul-deep conversations with you. They may not talk much, but they can read your every glance and give you the deepest understanding and acceptance. Between you, silence can also be a comfortable form of communication.",
+        "comment": "Tips: Your tolerance is the greatest lubricant in a relationship, but remember that putting your own feelings first is equally important.",
+        "radarData": {
+          "labels": [
+            "Gentle Companionship",
+            "Spiritual Connection",
+            "Fun Together",
+            "Intellectual Attraction",
+            "Emotional Stability"
+          ],
+          "values": [
+            61,
+            91,
+            47,
+            65,
+            77
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "The Breeze Companion",
+        "description": "You yearn for freedom and novelty. Your soulmate will be someone full of vitality who can explore the unknown with you, grow together, and share life's joys. You'll create countless memories together, becoming each other's best travel companion.",
+        "comment": "Tips: Your passionate love can be contagious — try to slow down after the excitement to listen to your partner's subtle voice.",
+        "radarData": {
+          "labels": [
+            "Gentle Companionship",
+            "Spiritual Connection",
+            "Fun Together",
+            "Intellectual Attraction",
+            "Emotional Stability"
+          ],
+          "values": [
+            74,
+            35,
+            90,
+            59,
+            71
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "The Starlight Inspirer",
+        "description": "You're drawn to wisdom and depth. Your ideal partner is someone with unique perspectives who constantly inspires you to see the world through a wider lens. Your conversations are always full of sparks, and your souls collide to create the most beautiful light.",
+        "comment": "Tips: While pursuing the ultimate love, try to give each other some breathing room — distance can sometimes create incredible beauty.",
+        "radarData": {
+          "labels": [
+            "Gentle Companionship",
+            "Spiritual Connection",
+            "Fun Together",
+            "Intellectual Attraction",
+            "Emotional Stability"
+          ],
+          "values": [
+            85,
+            62,
+            28,
+            92,
+            84
+          ]
+        }
+      }
     ]
   },
   {
@@ -79,74 +320,315 @@
     "title": "恋愛中のあなたはどんな動物？",
     "description": "シチュエーション問答を通じて、あなたの恋愛性格に隠された動物属性を見つけましょう。",
     "category": "romance",
-    "tags": ["恋愛", "動物タイプ"],
+    "tags": [
+      "恋愛",
+      "動物タイプ"
+    ],
     "questions": [
-      { "text": "週末の午後、何をしたい？", "options": [
-        { "text": "パートナーとソファで映画鑑賞", "score": 1 },
-        { "text": "一人でカフェで読書", "score": 2 },
-        { "text": "友達の集まりに参加", "score": 3 },
-        { "text": "ハイキングやキャンプに出かける", "score": 4 }
-      ]},
-      { "text": "パートナーが突然プレゼントをくれた。最初の反応は？", "options": [
-        { "text": "嬉しくてハグする", "score": 1 },
-        { "text": "冷静にお礼を言いつつ、内心では大喜び", "score": 2 },
-        { "text": "興奮して写真を撮ってSNSに投稿", "score": 3 },
-        { "text": "お返しに何を買うか考え始める", "score": 4 }
-      ]},
-      { "text": "パートナーと喧嘩した時、あなたは通常…", "options": [
-        { "text": "平和を保つために先に謝る", "score": 1 },
-        { "text": "冷戦して、相手が来るのを待つ", "score": 2 },
-        { "text": "不満を大声で伝える", "score": 3 },
-        { "text": "理性的に分析し、誰が正しいか見極める", "score": 4 }
-      ]},
-      { "text": "大切なものを壊されたら？", "options": [
-        { "text": "悲しいけど「大丈夫」と言う", "score": 1 },
-        { "text": "黙って機嫌が悪くなる", "score": 2 },
-        { "text": "不注意を直接指摘する", "score": 3 },
-        { "text": "新しいものを買ってもらう", "score": 4 }
-      ]},
-      { "text": "恋愛で最も大切なことは？", "options": [
-        { "text": "お互いの寄り添いと頼り合い", "score": 1 },
-        { "text": "個々の独立性を保つこと", "score": 2 },
-        { "text": "一緒に楽しい思い出を作ること", "score": 3 },
-        { "text": "共通の目標と価値観", "score": 4 }
-      ]},
-      { "text": "パートナーが残業で帰りが遅い。あなたは？", "options": [
-        { "text": "起きて待って、夜食を用意する", "score": 1 },
-        { "text": "先に寝る、それぞれのリズムがある", "score": 2 },
-        { "text": "メッセージで早く帰ってと催促", "score": 3 },
-        { "text": "何かあったのではと心配し始める", "score": 4 }
-      ]},
-      { "text": "どんなデートが好き？", "options": [
-        { "text": "公園を手をつないで散歩しながらお喋り", "score": 1 },
-        { "text": "お互い本を読みながら、時々目を交わす", "score": 2 },
-        { "text": "遊園地や脱出ゲームに行く", "score": 3 },
-        { "text": "一緒に将来の旅行を計画する", "score": 4 }
-      ]},
-      { "text": "恋愛で「甘える」ことについてどう思う？", "options": [
-        { "text": "自然なこと！毎日甘えたい", "score": 1 },
-        { "text": "たまにはいいけど、普段は気恥ずかしい", "score": 2 },
-        { "text": "冗談で愛情表現する方が好き", "score": 3 },
-        { "text": "言葉より行動で示す方が好き", "score": 4 }
-      ]},
-      { "text": "パートナーの友達があなた抜きで誘った。どう感じる？", "options": [
-        { "text": "少し残念、一緒に行きたかった", "score": 1 },
-        { "text": "やった、自分の時間ができた", "score": 2 },
-        { "text": "気にしない、自分も友達と遊ぶ", "score": 3 },
-        { "text": "理解するけど、何をしてるか気になる", "score": 4 }
-      ]},
-      { "text": "「少し距離を置きたい」と言われたら？", "options": [
-        { "text": "何か悪いことしたのかと心配になる", "score": 1 },
-        { "text": "完全に理解する、普通のことだと思う", "score": 2 },
-        { "text": "大丈夫と言うけど、内心は不安", "score": 3 },
-        { "text": "尊重し、その時間を自己成長に使う", "score": 4 }
-      ]}
+      {
+        "text": "On a weekend afternoon, what would you most like to do?",
+        "options": [
+          {
+            "text": "Cuddle on the couch watching movies with your partner",
+            "score": 1
+          },
+          {
+            "text": "Go to a café alone to read",
+            "score": 2
+          },
+          {
+            "text": "Join a friend gathering for some fun",
+            "score": 3
+          },
+          {
+            "text": "Go hiking or camping outdoors",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your partner suddenly gives you a small gift. Your first reaction?",
+        "options": [
+          {
+            "text": "Happily hug them",
+            "score": 1
+          },
+          {
+            "text": "Calmly say thanks while secretly rejoicing inside",
+            "score": 2
+          },
+          {
+            "text": "Excitedly take a photo and post it on social media",
+            "score": 3
+          },
+          {
+            "text": "Start thinking about what to buy in return",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When you have an argument with your partner, you usually…",
+        "options": [
+          {
+            "text": "Apologize first to keep the peace",
+            "score": 1
+          },
+          {
+            "text": "Give the silent treatment, wait for them to come to you",
+            "score": 2
+          },
+          {
+            "text": "Voice your dissatisfaction loudly",
+            "score": 3
+          },
+          {
+            "text": "Analyze rationally, focus on who's right and who's wrong",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "They accidentally break something you cherish. You would…",
+        "options": [
+          {
+            "text": "Feel sad but still say it's okay",
+            "score": 1
+          },
+          {
+            "text": "Sulk silently",
+            "score": 2
+          },
+          {
+            "text": "Directly complain about their carelessness",
+            "score": 3
+          },
+          {
+            "text": "Ask them to buy a new one to compensate",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "What do you think is most important in a relationship?",
+        "options": [
+          {
+            "text": "Mutual companionship and reliance",
+            "score": 1
+          },
+          {
+            "text": "Maintaining individual independence",
+            "score": 2
+          },
+          {
+            "text": "Creating happy memories together",
+            "score": 3
+          },
+          {
+            "text": "Shared goals and values",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your partner works late and comes home very late. You would…",
+        "options": [
+          {
+            "text": "Wait up and prepare a late-night snack for them",
+            "score": 1
+          },
+          {
+            "text": "Go to bed first, everyone has their own rhythm",
+            "score": 2
+          },
+          {
+            "text": "Text them to come home soon",
+            "score": 3
+          },
+          {
+            "text": "Start worrying if something happened",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "What kind of date do you prefer?",
+        "options": [
+          {
+            "text": "Walking hand in hand in the park, chatting",
+            "score": 1
+          },
+          {
+            "text": "Each reading a book, occasionally exchanging glances",
+            "score": 2
+          },
+          {
+            "text": "Going to an amusement park or escape room",
+            "score": 3
+          },
+          {
+            "text": "Planning a future trip together",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "How do you feel about 'acting cute' in a relationship?",
+        "options": [
+          {
+            "text": "Super natural! Want to be cute every day",
+            "score": 1
+          },
+          {
+            "text": "Occasionally fine, but usually feels awkward",
+            "score": 2
+          },
+          {
+            "text": "Usually express affection in a funny way instead",
+            "score": 3
+          },
+          {
+            "text": "Prefer showing love through actions rather than words",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your partner's friends invite them out without including you. How do you feel?",
+        "options": [
+          {
+            "text": "A bit disappointed, wish to be invited along",
+            "score": 1
+          },
+          {
+            "text": "Great, finally some time to myself",
+            "score": 2
+          },
+          {
+            "text": "Don't mind, make plans with your own friends too",
+            "score": 3
+          },
+          {
+            "text": "Understand, but secretly curious about what they're doing",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "If they say 'I need some space', your reaction is?",
+        "options": [
+          {
+            "text": "Worry if you did something wrong",
+            "score": 1
+          },
+          {
+            "text": "Completely understand, think it's perfectly normal",
+            "score": 2
+          },
+          {
+            "text": "Say it's fine, but feel uneasy inside",
+            "score": 3
+          },
+          {
+            "text": "Respect their wish and use the time for self-improvement",
+            "score": 4
+          }
+        ]
+      }
     ],
     "results": [
-      { "min": 10, "max": 17, "title": "甘えん坊の子犬", "description": "恋愛では安心感とスキンシップをたくさん求めます。小さなことでも幸せを感じる、優しくて思いやりのある恋人タイプ。パートナーを第一に考えますが、自分のための時間も忘れずに。", "comment": "ヒント：今のペースは素晴らしいですが、時々弱い面を見せることで、絆をもっと深めることができますよ。", "radarData": { "labels": ["依存度", "ツンデレ度", "情熱度", "独立性", "行動力"], "values": [83, 71, 40, 51, 90] } },
-      { "min": 18, "max": 25, "title": "ツンデレな猫", "description": "表面上は無関心に見えますが、実は注目を求めています。直接的に愛を表現するのは苦手ですが、さりげない方法で優しさを示します。あなたの沈黙の意味を読み取れる人だけが心に入れます。", "comment": "ヒント：あなたの寛容さは関係の最高の潤滑剤ですが、自分の気持ちを優先することも同じくらい大切です。", "radarData": { "labels": ["依存度", "ツンデレ度", "情熱度", "独立性", "行動力"], "values": [59, 92, 46, 70, 84] } },
-      { "min": 26, "max": 33, "title": "元気いっぱいのゴールデンレトリバー", "description": "常にパートナーに喜びをもたらす情熱的なタイプ。恋愛に対してストレートで、感情を隠しません。太陽のように明るく、エネルギーに満ちた恋人で、毎日が笑い声に溢れます。", "comment": "ヒント：情熱的な愛は伝染力がありますが、興奮した後はペースを落として、パートナーの微かな声にも耳を傾けてみてください。", "radarData": { "labels": ["依存度", "ツンデレ度", "情熱度", "独立性", "行動力"], "values": [76, 38, 99, 57, 67] } },
-      { "min": 34, "max": 40, "title": "独立した一匹狼", "description": "個人の空間と自立を非常に大切にし、他人に頼りすぎないタイプ。でも、この人と決めたら、極めて忠実で献身的。言葉より行動で愛を証明する、安定感のある深い恋人です。", "comment": "ヒント：理想の恋愛を追求しながら、お互いに息をする余地を与えてみてください。距離が時に信じられないほどの美しさを生むことがあります。", "radarData": { "labels": ["依存度", "ツンデレ度", "情熱度", "独立性", "行動力"], "values": [90, 57, 34, 97, 80] } }
+      {
+        "min": 10,
+        "max": 17,
+        "title": "The Clingy Puppy",
+        "description": "In love, you crave tons of security and love being close to your partner. Even the smallest gesture can fill you with happiness. You're a tender and caring lover who always puts your partner first, but remember to keep some space for yourself too.",
+        "comment": "Tips: Your current pace is great, but occasionally showing vulnerability can make your bond even deeper.",
+        "radarData": {
+          "labels": [
+            "Dependency",
+            "Tsundere Level",
+            "Passion",
+            "Independence",
+            "Action"
+          ],
+          "values": [
+            83,
+            71,
+            40,
+            51,
+            90
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "The Proud Tsundere Cat",
+        "description": "You seem indifferent on the surface, but deep down you crave attention. You don't like expressing love directly but show tenderness in subtle ways. You need someone who can read the meaning behind your silence to truly enter your heart.",
+        "comment": "Tips: Your tolerance is a great relationship lubricant, but remember that prioritizing your own feelings is equally important.",
+        "radarData": {
+          "labels": [
+            "Dependency",
+            "Tsundere Level",
+            "Passion",
+            "Independence",
+            "Action"
+          ],
+          "values": [
+            59,
+            92,
+            46,
+            70,
+            84
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "The Energetic Golden Retriever",
+        "description": "You're full of passion, always bringing joy to your partner. When it comes to love, you're straightforward and never hide your feelings. You're a sunny, cheerful lover whose energy is infectious — every day with you is filled with laughter.",
+        "comment": "Tips: Your passionate love is contagious — try to slow down and listen to your partner's subtle voice after the excitement.",
+        "radarData": {
+          "labels": [
+            "Dependency",
+            "Tsundere Level",
+            "Passion",
+            "Independence",
+            "Action"
+          ],
+          "values": [
+            76,
+            38,
+            99,
+            57,
+            67
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "The Independent Lone Wolf",
+        "description": "You value personal space and autonomy highly, preferring not to rely too much on others. But once you've found your person, you show extreme devotion and loyalty. You prove your love through actions rather than words — a steady and profound lover.",
+        "comment": "Tips: While pursuing the ideal romance, try to leave some breathing room for each other — distance can sometimes create incredible beauty.",
+        "radarData": {
+          "labels": [
+            "Dependency",
+            "Tsundere Level",
+            "Passion",
+            "Independence",
+            "Action"
+          ],
+          "values": [
+            90,
+            57,
+            34,
+            97,
+            80
+          ]
+        }
+      }
     ]
   },
   {
@@ -154,74 +636,315 @@
     "title": "あなたたちの愛の花言葉は？",
     "description": "一輪の花が一つの気持ちを表す。あなたたちだけの特別な花言葉を見つけましょう。",
     "category": "romance",
-    "tags": ["ロマンス", "シンボルテスト"],
+    "tags": [
+      "ロマンス",
+      "シンボルテスト"
+    ],
     "questions": [
-      { "text": "花屋に入ったら、最初にどんな香りがする？", "options": [
-        { "text": "濃厚で魅惑的なバラの香り", "score": 1 },
-        { "text": "爽やかで繊細なジャスミンの香り", "score": 2 },
-        { "text": "太陽のようなひまわりの香り", "score": 3 },
-        { "text": "上品で涼やかなユリの香り", "score": 4 }
-      ]},
-      { "text": "パートナーに贈る花束のメインカラーは？", "options": [
-        { "text": "情熱的でロマンチックな赤", "score": 1 },
-        { "text": "純粋で清らかな白", "score": 2 },
-        { "text": "明るくて温かい黄色", "score": 3 },
-        { "text": "神秘的で高貴な紫", "score": 4 }
-      ]},
-      { "text": "花束のラッピングは？", "options": [
-        { "text": "華やかで光沢のあるリボン", "score": 1 },
-        { "text": "シンプルで質感のあるクラフト紙", "score": 2 },
-        { "text": "カラフルで鮮やかなチュール", "score": 3 },
-        { "text": "エレガントなフロスト紙", "score": 4 }
-      ]},
-      { "text": "花に添えるカードの内容は？", "options": [
-        { "text": "甘い言葉がいっぱいのカード", "score": 1 },
-        { "text": "シンプルな一言の祝福", "score": 2 },
-        { "text": "かわいいイラスト付きのカード", "score": 3 },
-        { "text": "詩や名言を記したカード", "score": 4 }
-      ]},
-      { "text": "パートナーが花を受け取ったらどんな反応？", "options": [
-        { "text": "感動して涙し、ぎゅっと抱きしめる", "score": 1 },
-        { "text": "優しく微笑んで「ありがとう」", "score": 2 },
-        { "text": "驚いて叫び、すぐ写真を撮る", "score": 3 },
-        { "text": "じっくり見て「きれいだね」と褒める", "score": 4 }
-      ]},
-      { "text": "花が話せたら、何を伝えてほしい？", "options": [
-        { "text": "「永遠にあなたを愛します」", "score": 1 },
-        { "text": "「いつもそばにいてくれてありがとう」", "score": 2 },
-        { "text": "「あなたとの毎日がとても幸せ」", "score": 3 },
-        { "text": "「あなたは出会った中で最も特別な人」", "score": 4 }
-      ]},
-      { "text": "家のどこに花を飾る？", "options": [
-        { "text": "寝室のナイトテーブル", "score": 1 },
-        { "text": "デスクの上、静かに仕事のお供に", "score": 2 },
-        { "text": "リビングの一番目立つ場所", "score": 3 },
-        { "text": "窓辺、日差しが花びらに当たるように", "score": 4 }
-      ]},
-      { "text": "花が枯れたらどうする？", "options": [
-        { "text": "ドライフラワーにして永久保存", "score": 1 },
-        { "text": "写真に収めて記念し、手放す", "score": 2 },
-        { "text": "新しいきれいな花束を買う", "score": 3 },
-        { "text": "花びらを日記に挟んで思い出に", "score": 4 }
-      ]},
-      { "text": "新種の花をデザインできるなら、どんな特徴？", "options": [
-        { "text": "月明かりの下だけで咲くロマンチックな夜花", "score": 1 },
-        { "text": "季節ごとに色が変わる美しい花", "score": 2 },
-        { "text": "歌える花 — 周りの人を幸せに", "score": 3 },
-        { "text": "夜にほんのり光る優しい灯りの花", "score": 4 }
-      ]},
-      { "text": "あなたにとって「完璧な花束」とは？", "options": [
-        { "text": "ロマンチックなバラいっぱい、永遠の愛を表す", "score": 1 },
-        { "text": "清楚な一輪、静かな寄り添いを表す", "score": 2 },
-        { "text": "カラフルなミックス花束、幸せのパーティー", "score": 3 },
-        { "text": "珍しい花、唯一無二の愛を表す", "score": 4 }
-      ]}
+      {
+        "text": "Imagine walking into a flower shop. What scent greets you first?",
+        "options": [
+          {
+            "text": "Rich, alluring rose fragrance",
+            "score": 1
+          },
+          {
+            "text": "Fresh, delicate jasmine scent",
+            "score": 2
+          },
+          {
+            "text": "Sunny sunflower aroma",
+            "score": 3
+          },
+          {
+            "text": "Elegant, cool lily fragrance",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You're choosing a bouquet for your partner. What main color?",
+        "options": [
+          {
+            "text": "Passionate, romantic reds",
+            "score": 1
+          },
+          {
+            "text": "Pure, flawless whites",
+            "score": 2
+          },
+          {
+            "text": "Bright, warm yellows",
+            "score": 3
+          },
+          {
+            "text": "Mysterious, noble purples",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "What wrapping material would you choose for the bouquet?",
+        "options": [
+          {
+            "text": "Glamorous, shiny ribbon",
+            "score": 1
+          },
+          {
+            "text": "Simple, textured kraft paper",
+            "score": 2
+          },
+          {
+            "text": "Colorful, vibrant tulle",
+            "score": 3
+          },
+          {
+            "text": "Elegant, frosted paper",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "What kind of card would you attach when sending flowers?",
+        "options": [
+          {
+            "text": "A card full of sweet words",
+            "score": 1
+          },
+          {
+            "text": "Just a simple blessing",
+            "score": 2
+          },
+          {
+            "text": "A card with cute drawings",
+            "score": 3
+          },
+          {
+            "text": "A card with poetry or famous quotes",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "How do you think your partner would react to receiving flowers?",
+        "options": [
+          {
+            "text": "Moved to tears, hugging you tightly",
+            "score": 1
+          },
+          {
+            "text": "A gentle smile, saying thank you",
+            "score": 2
+          },
+          {
+            "text": "Screaming with surprise, immediately taking photos",
+            "score": 3
+          },
+          {
+            "text": "Carefully examining, praising how beautiful they are",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "If flowers could talk, what would you want them to say for you?",
+        "options": [
+          {
+            "text": "\"I will love you forever\"",
+            "score": 1
+          },
+          {
+            "text": "\"Thank you for always being there\"",
+            "score": 2
+          },
+          {
+            "text": "\"Every day with you is so happy\"",
+            "score": 3
+          },
+          {
+            "text": "\"You're the most special person I've ever met\"",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Where would you place the flowers at home?",
+        "options": [
+          {
+            "text": "Bedroom nightstand, so you see them when you wake up",
+            "score": 1
+          },
+          {
+            "text": "On the desk, quietly accompanying your work",
+            "score": 2
+          },
+          {
+            "text": "The most visible spot in the living room",
+            "score": 3
+          },
+          {
+            "text": "By the window, letting sunlight fall on the petals",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "After the flowers wither, what would you do?",
+        "options": [
+          {
+            "text": "Make them into dried flowers to keep forever",
+            "score": 1
+          },
+          {
+            "text": "Take a photo as a memory, then let them go",
+            "score": 2
+          },
+          {
+            "text": "Buy a new beautiful bouquet",
+            "score": 3
+          },
+          {
+            "text": "Press a petal into your journal as a memento",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "If you could design a new flower species, what trait would it have?",
+        "options": [
+          {
+            "text": "Blooms only under moonlight — a romantic nocturnal flower",
+            "score": 1
+          },
+          {
+            "text": "Changes color with the season — beautiful in every form",
+            "score": 2
+          },
+          {
+            "text": "Can sing — spreading joy to everyone around",
+            "score": 3
+          },
+          {
+            "text": "Glows softly at night — a gentle beacon of light",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "What does a 'perfect bouquet' mean to you?",
+        "options": [
+          {
+            "text": "Full of romantic roses, representing undying love",
+            "score": 1
+          },
+          {
+            "text": "A clean, simple single stem, representing quiet companionship",
+            "score": 2
+          },
+          {
+            "text": "Colorful mixed bouquet, like a party of happiness",
+            "score": 3
+          },
+          {
+            "text": "Rare, hard-to-find species, representing one-of-a-kind love",
+            "score": 4
+          }
+        ]
+      }
     ],
     "results": [
-      { "min": 10, "max": 17, "title": "バラ — 永遠の情熱", "description": "あなたの愛は燃え盛る炎のよう。情熱とロマンスに満ちています。愛のためにすべてを捧げ、誠実で揺るぎない献身こそが最高のロマンスだと信じています。満開の赤いバラのような、直接的で力強い愛です。", "comment": "ヒント：情熱的で献身的な愛は素晴らしいですが、自分を見失わないで。最高の愛は二人を共に成長させるものです。", "radarData": { "labels": ["情熱", "優しさ", "創造性", "深さ", "表現力"], "values": [88, 78, 30, 53, 90] } },
-      { "min": 18, "max": 25, "title": "ジャスミン — 静かな寄り添い", "description": "あなたの愛はジャスミンの香りのよう — 圧倒的ではないけれど、いつもそこにあります。最上の愛は日常生活に浸透するものだと信じ、さりげない行動で気遣いを示します。一貫した存在こそが、あなたの愛の全表現です。", "comment": "ヒント：静かな愛はとても心を打ちますが、時々直接気持ちを表現することを恐れないで。パートナーもあなたの内なる言葉を聞きたがっています。", "radarData": { "labels": ["情熱", "優しさ", "創造性", "深さ", "表現力"], "values": [65, 90, 45, 73, 78] } },
-      { "min": 26, "max": 33, "title": "ひまわり — 喜びの輝き", "description": "あなたの愛は太陽そのもの。パートナーに温もりと喜びをもたらします。楽観的で明るい性格で、恋人を幸せにします。太陽を追うひまわりのように、直接的で温かくてエネルギ溢れる愛です。", "comment": "ヒント：喜びに満ちた愛のエネルギーは素晴らしいですが、二人きりの静かで親密な時間も作ることを忘れないで。", "radarData": { "labels": ["情熱", "優しさ", "創造性", "深さ", "表現力"], "values": [75, 40, 92, 61, 65] } },
-      { "min": 34, "max": 40, "title": "ユリ — 超越的な気品", "description": "あなたの愛は白いユリのよう — 高貴で気品があり、忘れられない存在。物質を超えた愛を求め、深い魂のつながりと精神的共鳴を追求します。控えめでありながら魅惑的な、余韻のある愛です。", "comment": "ヒント：愛の追求は素晴らしいです。ソウルメイトを探しながら、日常の小さな瞬間も愛の一部だということを忘れないで。時に不完全さこそが真の完璧です。", "radarData": { "labels": ["情熱", "優しさ", "創造性", "深さ", "表現力"], "values": [82, 63, 38, 95, 88] } }
+      {
+        "min": 10,
+        "max": 17,
+        "title": "Rose — Undying Passion",
+        "description": "Your love is like a burning flame, full of passion and romance. You're willing to give everything for love and believe that sincere and steady devotion is the greatest expression of romance. Your love is direct and powerful, like a red rose in full bloom.",
+        "comment": "Tips: Your passionate and dedicated love is admirable, but remember not to lose yourself. The best love allows both people to grow.",
+        "radarData": {
+          "labels": [
+            "Passion",
+            "Gentleness",
+            "Creativity",
+            "Depth",
+            "Expressiveness"
+          ],
+          "values": [
+            88,
+            78,
+            30,
+            53,
+            90
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "Jasmine — Silent Companionship",
+        "description": "Your love is like a jasmine fragrance — not overwhelming, but ever-present. You believe the best love permeates daily life, and you show your care through subtle actions. You don't need grand gestures; your consistent presence is the full expression of your love.",
+        "comment": "Tips: Your quiet love is very touching, but don't be afraid to express your feelings directly once in a while — your partner would love to hear your inner words.",
+        "radarData": {
+          "labels": [
+            "Passion",
+            "Gentleness",
+            "Creativity",
+            "Depth",
+            "Expressiveness"
+          ],
+          "values": [
+            65,
+            90,
+            45,
+            73,
+            78
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "Sunflower — Joyful Radiance",
+        "description": "Your love is like sunshine itself, bringing warmth and joy to your partner. With an optimistic and cheerful personality, you make your lover feel happy and uplifted. Your love is direct, warm, and energetic — like a sunflower always facing the sun.",
+        "comment": "Tips: Your joyful love energy is incredible, but remember to also create some quiet, intimate moments for just the two of you.",
+        "radarData": {
+          "labels": [
+            "Passion",
+            "Gentleness",
+            "Creativity",
+            "Depth",
+            "Expressiveness"
+          ],
+          "values": [
+            75,
+            40,
+            92,
+            61,
+            65
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "Lily — Transcendent Elegance",
+        "description": "Your love is like a white lily — noble, elegant, and unforgettable. You seek a love that transcends the material, pursuing deep soul connection and spiritual resonance. Your love has weight and depth — understated yet captivating, like a lingering fragrance.",
+        "comment": "Tips: Your love pursuit is admirable. While seeking soulmates, don't forget that everyday life's little moments are a part of love too — sometimes imperfection is true perfection.",
+        "radarData": {
+          "labels": [
+            "Passion",
+            "Gentleness",
+            "Creativity",
+            "Depth",
+            "Expressiveness"
+          ],
+          "values": [
+            82,
+            63,
+            38,
+            95,
+            88
+          ]
+        }
+      }
     ]
   },
   {
@@ -229,74 +952,316 @@
     "title": "愛着スタイル診断",
     "description": "あなたは恋愛で不安になりやすい？それとも回避しがち？あなたの愛着傾向を診断します。",
     "category": "romance",
-    "tags": ["心理", "安心感"],
+    "tags": [
+      "心理",
+      "安心感",
+      "愛着理論"
+    ],
     "questions": [
-      { "text": "新しいパートナーが3時間メッセージを返さない。最初に思うことは？", "options": [
-        { "text": "きっと忙しいんだろう、気長に待とう", "score": 1 },
-        { "text": "まだ気づいてないのかも、他のことをしよう", "score": 2 },
-        { "text": "無視されてる？もう一通送るべき？", "score": 3 },
-        { "text": "いろんなシナリオが頭を駆け巡り始める", "score": 4 }
-      ]},
-      { "text": "パートナーが一人旅に行きたいと言ったら？", "options": [
-        { "text": "全面的に応援。個人的な成長時間は大切", "score": 1 },
-        { "text": "少し寂しいけど、止めない", "score": 2 },
-        { "text": "自分も一緒に行きたいと控えめに聞く", "score": 3 },
-        { "text": "不安になる。他の人に出会うかもと心配", "score": 4 }
-      ]},
-      { "text": "新しい関係で、自分の内面を積極的に共有する？", "options": [
-        { "text": "タイミングが来たら自然に共有する", "score": 1 },
-        { "text": "もっと深い繋がりができてから", "score": 2 },
-        { "text": "共有したいけど、重荷にならないか心配", "score": 3 },
-        { "text": "難しい。壁を作る方が自然", "score": 4 }
-      ]},
-      { "text": "デートの別れ際、通常どう感じる？", "options": [
-        { "text": "今日は楽しかった、次が楽しみ", "score": 1 },
-        { "text": "自分の空間が戻ってきてほっとする", "score": 2 },
-        { "text": "名残惜しい、もっと一緒にいたかった", "score": 3 },
-        { "text": "不安になり、次はいつ会えるか心配", "score": 4 }
-      ]},
-      { "text": "「あなたは本当に大切な人」と言われたら？", "options": [
-        { "text": "感動して、心から嬉しい", "score": 1 },
-        { "text": "少しプレッシャーを感じる", "score": 2 },
-        { "text": "「自分は十分に大切にされてる？」と考える", "score": 3 },
-        { "text": "overwhelming な幸福と失う恐怖が同時に", "score": 4 }
-      ]},
-      { "text": "理想の関係で、一人の時間はどれくらいほしい？", "options": [
-        { "text": "一緒の時間と一人の時間のバランスが良い", "score": 1 },
-        { "text": "一人の時間が多め。個人スペースが必要", "score": 2 },
-        { "text": "できるだけ一緒に過ごしたい", "score": 3 },
-        { "text": "決められない。離れると遠ざかりそうで怖い", "score": 4 }
-      ]},
-      { "text": "恋愛での衝突をどう処理する？", "options": [
-        { "text": "冷静に話し合い、成長の機会と捉える", "score": 1 },
-        { "text": "まず冷却期間が必要、その後理性的に議論", "score": 2 },
-        { "text": "衝突が関係を壊すのを恐れ、避けようとする", "score": 3 },
-        { "text": "感情が高ぶり、制御が難しくなる", "score": 4 }
-      ]},
-      { "text": "パートナーが他の人を褒めた時の気持ちは？", "options": [
-        { "text": "普通、みんな長所がある", "score": 1 },
-        { "text": "軽いチクリ。でも表には出さない", "score": 2 },
-        { "text": "すぐに自分と比較 — 自分は足りない？", "score": 3 },
-        { "text": "抑えきれない嫉妬", "score": 4 }
-      ]},
-      { "text": "出会ってからどれくらいで関係を確定したい？", "options": [
-        { "text": "お互いを知る時間をかけて、急がない", "score": 1 },
-        { "text": "曖昧な期間を楽しみたい", "score": 2 },
-        { "text": "フィーリングが合えば、早く確定したい", "score": 3 },
-        { "text": "拒絶が怖くて、いつ切り出すか分からない", "score": 4 }
-      ]},
-      { "text": "不安を感じた時、最もしそうなことは？", "options": [
-        { "text": "パートナーに正直に気持ちを伝える", "score": 1 },
-        { "text": "隠す。自分の感情は自分で処理する", "score": 2 },
-        { "text": "パートナーに繰り返し安心を求める", "score": 3 },
-        { "text": "間接的な行動で、相手が気にかけてくれるかテスト", "score": 4 }
-      ]}
+      {
+        "text": "Your new partner hasn't replied to your message for 3 hours. Your first thought?",
+        "options": [
+          {
+            "text": "They must be busy, I'll wait patiently",
+            "score": 1
+          },
+          {
+            "text": "Maybe they haven't noticed — I'll do something else first",
+            "score": 2
+          },
+          {
+            "text": "Are they ignoring me? Should I send another?",
+            "score": 3
+          },
+          {
+            "text": "My mind starts racing with all kinds of scenarios",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your partner wants to go on a solo trip. Your reaction?",
+        "options": [
+          {
+            "text": "Fully support them; personal growth time is important",
+            "score": 1
+          },
+          {
+            "text": "A bit reluctant but won't stop them",
+            "score": 2
+          },
+          {
+            "text": "Ask carefully if they want to include you",
+            "score": 3
+          },
+          {
+            "text": "Feel uneasy; worry they might meet someone else",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "In a new relationship, do you initiate sharing your inner world?",
+        "options": [
+          {
+            "text": "Naturally share when it feels right",
+            "score": 1
+          },
+          {
+            "text": "Wait for a deeper connection before opening up",
+            "score": 2
+          },
+          {
+            "text": "Often want to share but worry about burdening them",
+            "score": 3
+          },
+          {
+            "text": "Find it difficult; building walls comes more naturally",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When saying goodbye after a date, you usually feel…",
+        "options": [
+          {
+            "text": "Happy about today, looking forward to next time",
+            "score": 1
+          },
+          {
+            "text": "Relieved to finally have your own space again",
+            "score": 2
+          },
+          {
+            "text": "Reluctant, wishing you could spend more time together",
+            "score": 3
+          },
+          {
+            "text": "Anxious, already worried about when you'll meet again",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your partner says 'You're really important to me.' Your inner reaction?",
+        "options": [
+          {
+            "text": "Feel touched and sincerely happy",
+            "score": 1
+          },
+          {
+            "text": "Feel a bit pressured, unsure if you can match that",
+            "score": 2
+          },
+          {
+            "text": "Then immediately think: Am I important enough?",
+            "score": 3
+          },
+          {
+            "text": "Overwhelming happiness mixed with fear of losing it",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "In your ideal relationship, how much personal time would you want?",
+        "options": [
+          {
+            "text": "Good balance of together time and alone time",
+            "score": 1
+          },
+          {
+            "text": "More alone time; I need lots of personal space",
+            "score": 2
+          },
+          {
+            "text": "Prefer spending most time together",
+            "score": 3
+          },
+          {
+            "text": "Hard to decide; afraid being apart means growing distant",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "How do you usually handle conflicts in relationships?",
+        "options": [
+          {
+            "text": "Calmly discuss, treating it as a chance for growth",
+            "score": 1
+          },
+          {
+            "text": "Need to cool down first, then discuss rationally",
+            "score": 2
+          },
+          {
+            "text": "Fear conflict will ruin the relationship, try to avoid it",
+            "score": 3
+          },
+          {
+            "text": "Emotions get intense and hard to control",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When your partner praises another person, you feel…",
+        "options": [
+          {
+            "text": "Normal, everyone has their strengths",
+            "score": 1
+          },
+          {
+            "text": "A slight twinge, but you won't show it",
+            "score": 2
+          },
+          {
+            "text": "Instantly compare yourself — am I not good enough?",
+            "score": 3
+          },
+          {
+            "text": "Jealousy that's hard to contain",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "How much time after meeting someone would you ideally confirm a relationship?",
+        "options": [
+          {
+            "text": "Take time to get to know each other; no rush",
+            "score": 1
+          },
+          {
+            "text": "Hope to keep things ambiguous a while; it's fun",
+            "score": 2
+          },
+          {
+            "text": "If you feel right, you'd want to define it quickly",
+            "score": 3
+          },
+          {
+            "text": "Fear rejection, so unsure when to bring it up",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "If you feel insecure, what would you most likely do?",
+        "options": [
+          {
+            "text": "Honestly communicate your feelings with your partner",
+            "score": 1
+          },
+          {
+            "text": "Hide it. You'll handle your own emotions",
+            "score": 2
+          },
+          {
+            "text": "Repeatedly seek reassurance from your partner",
+            "score": 3
+          },
+          {
+            "text": "Test them through indirect actions to see if they care",
+            "score": 4
+          }
+        ]
+      }
     ],
     "results": [
-      { "min": 10, "max": 17, "title": "安定型愛着", "description": "最も健康的な愛着スタイルです！恋愛において、自分の気持ちに正直になれ、自分とパートナーを信頼できます。他者に過度に依存せず、親密さも恐れません。近さと独立のバランスが取れています。", "comment": "ヒント：情緒の安定性はあなたの最大の資産です。オープンで信頼を保ち続けてください。", "radarData": { "labels": ["自己価値", "信頼度", "不安レベル", "回避レベル", "コミュニケーション"], "values": [92, 88, 15, 12, 90] } },
-      { "min": 18, "max": 25, "title": "回避型愛着", "description": "感情的な距離を置くことで自分を守る傾向があります。親密な関係では個人の空間を重視し、時に感情的に距離を置いて見えますが、それは気にしていないという意味ではありません。", "comment": "ヒント：時にはもっと脆弱な面を見せてみてください。心を開くことは弱さではなく、相手を信頼している証です。", "radarData": { "labels": ["自己価値", "信頼度", "不安レベル", "回避レベル", "コミュニケーション"], "values": [75, 60, 30, 85, 55] } },
-      { "min": 26, "max": 33, "title": "不安型愛着", "description": "愛があなたにとって非常に重要ですが、十分に愛されているか常に心配しています。パートナーの一挙一動に敏感で、考えすぎる傾向があります。深い情熱を持った愛ですが、時に不安が伴います。", "comment": "ヒント：あなたの価値はパートナーの反応に左右されません。自信を育てれば、不安も自然と軽くなるでしょう。", "radarData": { "labels": ["自己価値", "信頼度", "不安レベル", "回避レベル", "コミュニケーション"], "values": [45, 40, 88, 25, 65] } },
-      { "min": 34, "max": 40, "title": "恐れ・回避型愛着", "description": "親密さを深く求めながらも、同時に傷つくことを恐れています。近づきたい気持ちと距離を置きたい気持ちの間で揺れ動きます。豊かで複雑な感情の持ち主で、特に辛抱強く理解してくれるパートナーが必要です。", "comment": "ヒント：自分のパターンを認識することが変化への第一歩です。誰かを遠ざけている時、それは恐れからか、本当に距離が欲しいのか、自分に問いかけてみてください。", "radarData": { "labels": ["自己価値", "信頼度", "不安レベル", "回避レベル", "コミュニケーション"], "values": [35, 30, 80, 78, 40] } }
+      {
+        "min": 10,
+        "max": 17,
+        "title": "Secure Attachment",
+        "description": "You have the healthiest attachment style! In relationships, you can be honest with your feelings, trust yourself and your partner. You don't rely excessively on others for security, nor do you fear intimacy. You're comfortable with both closeness and independence.",
+        "comment": "Tips: Your emotional stability is your greatest asset. Keep being open and trusting — this will attract equally healthy relationship partners.",
+        "radarData": {
+          "labels": [
+            "Self-worth",
+            "Trust",
+            "Anxiety Level",
+            "Avoidance Level",
+            "Communication"
+          ],
+          "values": [
+            92,
+            88,
+            15,
+            12,
+            90
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "Avoidant Attachment",
+        "description": "You tend to protect yourself through emotional distance. In intimate relationships, you value your personal space, sometimes appear emotionally detached, but it doesn't mean you don't care — you just show love in more reserved ways.",
+        "comment": "Tips: Try to be more vulnerable sometimes. Opening up doesn't mean weakness — it means trusting the other person enough to let them in.",
+        "radarData": {
+          "labels": [
+            "Self-worth",
+            "Trust",
+            "Anxiety Level",
+            "Avoidance Level",
+            "Communication"
+          ],
+          "values": [
+            75,
+            60,
+            30,
+            85,
+            55
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "Anxious Attachment",
+        "description": "Love is extremely important to you, but you're constantly worried about whether you're loved enough. You're very sensitive to your partner's every move and tend to overthink. Your love is deeply passionate, just sometimes accompanied by anxiety.",
+        "comment": "Tips: Remember, your worth doesn't depend on your partner's response. Try to build more self-confidence, and you'll find your anxiety naturally decreases.",
+        "radarData": {
+          "labels": [
+            "Self-worth",
+            "Trust",
+            "Anxiety Level",
+            "Avoidance Level",
+            "Communication"
+          ],
+          "values": [
+            45,
+            40,
+            88,
+            25,
+            65
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "Fearful-Avoidant Attachment",
+        "description": "You deeply desire intimacy but are simultaneously afraid of getting hurt. This makes you swing between craving closeness and pushing people away. Your emotional landscape is rich and complex — you need a particularly patient partner who understands.",
+        "comment": "Tips: Recognizing your own patterns is the first step to change. Try noticing when you're pushing someone away — is it because you're afraid, or because you truly want distance?",
+        "radarData": {
+          "labels": [
+            "Self-worth",
+            "Trust",
+            "Anxiety Level",
+            "Avoidance Level",
+            "Communication"
+          ],
+          "values": [
+            35,
+            30,
+            80,
+            78,
+            40
+          ]
+        }
+      }
     ]
   },
   {
@@ -304,179 +1269,737 @@
     "title": "前世の縁テスト",
     "description": "あなたたちの出会いは運命？それとも偶然？前世の絆を明らかにしましょう。",
     "category": "romance",
-    "tags": ["前世今生", "宿命"],
+    "tags": [
+      "前世今生",
+      "宿命"
+    ],
     "questions": [
-      { "text": "神秘的な古代の寺院に来ました。最初に目に留まるのは？", "options": [
-        { "text": "温かく光る油灯", "score": 1 },
-        { "text": "色あせた文字で埋め尽くされた古文書", "score": 2 },
-        { "text": "天女を描いた豪華な壁画", "score": 3 },
-        { "text": "中央で浮かぶ不思議な水晶", "score": 4 }
-      ]},
-      { "text": "占い師が、あなたの前世は…と言います。", "options": [
-        { "text": "苦難を乗り越えた仲睦まじい夫婦", "score": 1 },
-        { "text": "学者とその献身的な読書仲間", "score": 2 },
-        { "text": "世界を旅した放浪の芸人コンビ", "score": 3 },
-        { "text": "君主とその信頼される王室顧問", "score": 4 }
-      ]},
-      { "text": "目の前に古い箱が現れました。中身は？", "options": [
-        { "text": "対になったお揃いの翡翠のペンダント", "score": 1 },
-        { "text": "蝋で封された古い手紙", "score": 2 },
-        { "text": "精巧な手描きの扇子", "score": 3 },
-        { "text": "不思議なお守りの半分", "score": 4 }
-      ]},
-      { "text": "前世のシーンが突然見えました。何が見える？", "options": [
-        { "text": "川辺で夕日を見る二人", "score": 1 },
-        { "text": "雨の中、木の下で一人読書する人", "score": 2 },
-        { "text": "賑やかな祭りの市場", "score": 3 },
-        { "text": "崖に立つ二つの影と広大な星空", "score": 4 }
-      ]},
-      { "text": "前世から一つだけ持ってこれるとしたら？", "options": [
-        { "text": "前世の恋人が作ってくれた手作りの贈り物", "score": 1 },
-        { "text": "共有した思い出を記録した日記", "score": 2 },
-        { "text": "多くの祝祭で演奏した楽器", "score": 3 },
-        { "text": "神秘的な守護の力を持つ指輪", "score": 4 }
-      ]},
-      { "text": "前世でどんな約束をしたと思う？", "options": [
-        { "text": "「来世も今のように一緒にいよう」", "score": 1 },
-        { "text": "「一緒になれなくても、また出会えますように」", "score": 2 },
-        { "text": "「どこにいても、必ず見つけ出す」", "score": 3 },
-        { "text": "「たとえ生まれ変わっても、魂が互いを認識するだろう」", "score": 4 }
-      ]},
-      { "text": "前世で二人の最も大切な瞬間は？", "options": [
-        { "text": "困難な時にお互いを抱きしめた", "score": 1 },
-        { "text": "心を繋いだ深い夜の語り合い", "score": 2 },
-        { "text": "一緒に美しい芸術作品を創った", "score": 3 },
-        { "text": "人生を変える決断を一緒にした", "score": 4 }
-      ]},
-      { "text": "占い師曰く、今世の恋愛最大の課題は…", "options": [
-        { "text": "手放すことを学び、強く握りすぎないこと", "score": 1 },
-        { "text": "本当の気持ちを言葉にする勇気を持つこと", "score": 2 },
-        { "text": "自由な精神に合う人を見つけること", "score": 3 },
-        { "text": "過去の傷の後に信頼を築くこと", "score": 4 }
-      ]},
-      { "text": "寺院を去る時、不思議な声があなたに言います…", "options": [
-        { "text": "「探している人はすでにあなたのそばにいる」", "score": 1 },
-        { "text": "「真のつながりに言葉は要らない」", "score": 2 },
-        { "text": "「心に従いなさい、心は道を知っている」", "score": 3 },
-        { "text": "「あなたの運命はすでに星に書かれている」", "score": 4 }
-      ]},
-      { "text": "寺院を出た後、最も強く感じる感情は？", "options": [
-        { "text": "温かな帰属感", "score": 1 },
-        { "text": "平穏と静かな理解", "score": 2 },
-        { "text": "興奮とこれからへの期待", "score": 3 },
-        { "text": "すべてがつながっているという深い感覚", "score": 4 }
-      ]}
+      {
+        "text": "You arrive at a mysterious ancient temple. What catches your eye first?",
+        "options": [
+          {
+            "text": "A glowing warm oil lamp",
+            "score": 1
+          },
+          {
+            "text": "Ancient texts full of faded writing",
+            "score": 2
+          },
+          {
+            "text": "A gorgeous mural depicting celestial beings",
+            "score": 3
+          },
+          {
+            "text": "A mysterious hovering crystal in the center",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "A fortune teller at the temple says your past life was…",
+        "options": [
+          {
+            "text": "A loving couple who looked after each other through hardship",
+            "score": 1
+          },
+          {
+            "text": "A scholar and their devoted reader companion",
+            "score": 2
+          },
+          {
+            "text": "Wandering performers who traveled the world together",
+            "score": 3
+          },
+          {
+            "text": "A monarch and their trusted royal advisor",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "An old chest appears before you. What's inside?",
+        "options": [
+          {
+            "text": "A pair of matching jade pendants",
+            "score": 1
+          },
+          {
+            "text": "An ancient letter sealed with wax",
+            "score": 2
+          },
+          {
+            "text": "An exquisite hand-painted fan",
+            "score": 3
+          },
+          {
+            "text": "A half of a mysterious amulet",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You suddenly see a scene from your past life. What is it?",
+        "options": [
+          {
+            "text": "Two people sitting together watching the sunset by a riverbank",
+            "score": 1
+          },
+          {
+            "text": "Someone reading alone under a tree in the rain",
+            "score": 2
+          },
+          {
+            "text": "A lively festival marketplace full of noise and color",
+            "score": 3
+          },
+          {
+            "text": "A vast starry sky with two silhouettes standing on a cliff",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "If you could bring one item from your past life, what would it be?",
+        "options": [
+          {
+            "text": "A handmade gift from your past-life lover",
+            "score": 1
+          },
+          {
+            "text": "A diary recording shared memories",
+            "score": 2
+          },
+          {
+            "text": "A musical instrument played at many celebrations",
+            "score": 3
+          },
+          {
+            "text": "A ring with mysterious protective powers",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "What kind of promise do you think was made between you in a past life?",
+        "options": [
+          {
+            "text": "\"Let's be together in the next life, just like now\"",
+            "score": 1
+          },
+          {
+            "text": "\"Even if we can't be together, I hope we meet again\"",
+            "score": 2
+          },
+          {
+            "text": "\"No matter where, I'll find you\"",
+            "score": 3
+          },
+          {
+            "text": "\"Even across lifetimes, our souls will recognize each other\"",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "In your past life, what was the most important moment between you two?",
+        "options": [
+          {
+            "text": "Holding each other through a difficult time",
+            "score": 1
+          },
+          {
+            "text": "A night of deep conversation that connected your hearts",
+            "score": 2
+          },
+          {
+            "text": "Creating a beautiful work of art or music together",
+            "score": 3
+          },
+          {
+            "text": "Making a life-changing decision together",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "The fortune teller says your biggest challenge in this life's love will be…",
+        "options": [
+          {
+            "text": "Learning to let go and not hold too tight",
+            "score": 1
+          },
+          {
+            "text": "Daring to speak your true feelings",
+            "score": 2
+          },
+          {
+            "text": "Finding someone who matches your free spirit",
+            "score": 3
+          },
+          {
+            "text": "Building trust after being hurt before",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "As you leave the temple, a mysterious voice says to you…",
+        "options": [
+          {
+            "text": "\"The person you're looking for is already by your side\"",
+            "score": 1
+          },
+          {
+            "text": "\"True connection needs no words\"",
+            "score": 2
+          },
+          {
+            "text": "\"Follow your heart; it knows the way\"",
+            "score": 3
+          },
+          {
+            "text": "\"Your fate is already written in the stars\"",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "After leaving the temple, the emotion you feel most strongly is…",
+        "options": [
+          {
+            "text": "A warm sense of belonging",
+            "score": 1
+          },
+          {
+            "text": "Peace and quiet understanding",
+            "score": 2
+          },
+          {
+            "text": "Excitement and anticipation for what's coming",
+            "score": 3
+          },
+          {
+            "text": "A profound feeling that everything is connected",
+            "score": 4
+          }
+        ]
+      }
     ],
     "results": [
-      { "min": 10, "max": 17, "title": "運命の再会カップル", "description": "あなたたちは前世で深く愛し合い、今世で運命が再び引き合わせました。時を超えた愛 — 説明できない親しみと温もりを感じるでしょう。今世の使命は、未完の恋物語を完成させることです。", "comment": "ヒント：この深いつながりは美しいですが、現世の自分自身も築いていくことを忘れないで。", "radarData": { "labels": ["運命の絆", "魂の共鳴", "因縁の深さ", "直感力", "永劫の縁"], "values": [92, 60, 80, 50, 70] } },
-      { "min": 18, "max": 25, "title": "時を超えるソウルメイト", "description": "前世では親しいけれど恋愛関係ではなかった — 友人か師匠だったかもしれません。今世ではこの繋がりがより深い絆に進化しています。単なる魅力ではなく、理解の上に築かれた特別な関係です。", "comment": "ヒント：このユニークな絆を大切にしてください。一般的な恋愛と比較しないで — あなたたちのつながりはもっと深く稀なレベルにあります。", "radarData": { "labels": ["運命の絆", "魂の共鳴", "因縁の深さ", "直感力", "永劫の縁"], "values": [70, 88, 65, 75, 60] } },
-      { "min": 26, "max": 33, "title": "自由な魂の結合", "description": "前世では二人とも自由な冒険者でした。市場、祭り、遠い地で魂が交差しました。今世では、人生、芸術、冒険への共通の熱意を通じてお互いを見つけるでしょう。カラフルで変化に富んだ愛です。", "comment": "ヒント：一緒に人生を探検しながら、安定した基盤も築くことを忘れないで。最高の冒険には帰る場所があります。", "radarData": { "labels": ["運命の絆", "魂の共鳴", "因縁の深さ", "直感力", "永劫の縁"], "values": [55, 65, 45, 90, 85] } },
-      { "min": 34, "max": 40, "title": "星に定められた運命", "description": "前世のつながりは深く運命的なものでした — おそらく状況に引き裂かれた壮大な愛の物語。今世では宇宙が再び二人を引き合わせようとしています。出会った時、論理では説明できない圧倒的な認識感を感じるでしょう。", "comment": "ヒント：この強烈なつながりは圧倒的かもしれません。焦らずにゆっくりと — 運命を急ぐのではなく、自然に愛を育みましょう。", "radarData": { "labels": ["運命の絆", "魂の共鳴", "因縁の深さ", "直感力", "永劫の縁"], "values": [85, 78, 92, 88, 95] } }
+      {
+        "min": 10,
+        "max": 17,
+        "title": "Destined Reunited Lovers",
+        "description": "You and your person were deeply in love in a past life, and fate has brought you together again in this one. Your love transcends time — you feel an inexplicable sense of familiarity and warmth. Your mission in this life is to complete the unfinished love story.",
+        "comment": "Tips: This deep connection is beautiful, but remember to also build your present-life self. The best relationships are two complete people choosing each other.",
+        "radarData": {
+          "labels": [
+            "Fate Bond",
+            "Soul Resonance",
+            "Karmic Depth",
+            "Intuition",
+            "Across Lifetimes"
+          ],
+          "values": [
+            92,
+            60,
+            80,
+            50,
+            70
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "Soulmate Across Time",
+        "description": "In a past life, you were close but not romantically involved — perhaps friends or mentors. In this life, this connection has evolved into a deeper bond. Your relationship is special because it's built on understanding rather than just attraction.",
+        "comment": "Tips: Cherish this unique bond. Don't compare your relationship to conventional romance — your connection is on a deeper, rarer level.",
+        "radarData": {
+          "labels": [
+            "Fate Bond",
+            "Soul Resonance",
+            "Karmic Depth",
+            "Intuition",
+            "Across Lifetimes"
+          ],
+          "values": [
+            70,
+            88,
+            65,
+            75,
+            60
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "Free Spirits United",
+        "description": "In a past life, you were both free-spirited adventurers. Your souls crossed paths at markets, festivals, and distant lands. In this life, you'll find each other through shared enthusiasm for life, art, and adventure. Your love is colorful and ever-changing.",
+        "comment": "Tips: While exploring life together, remember to build a stable foundation. The best adventures have a home base to return to.",
+        "radarData": {
+          "labels": [
+            "Fate Bond",
+            "Soul Resonance",
+            "Karmic Depth",
+            "Intuition",
+            "Across Lifetimes"
+          ],
+          "values": [
+            55,
+            65,
+            45,
+            90,
+            85
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "Star-Crossed Destiny",
+        "description": "Your past-life connection was profound and fateful — perhaps a grand love story separated by circumstance. In this life, the universe conspires to bring you together again. When you meet, you'll feel an overwhelming sense of recognition that defies logic.",
+        "comment": "Tips: This intense connection can be overwhelming. Take your time — let love unfold naturally rather than trying to rush destiny.",
+        "radarData": {
+          "labels": [
+            "Fate Bond",
+            "Soul Resonance",
+            "Karmic Depth",
+            "Intuition",
+            "Across Lifetimes"
+          ],
+          "values": [
+            85,
+            78,
+            92,
+            88,
+            95
+          ]
+        }
+      }
     ]
   },
   {
     "id": "love-manual-quiz",
     "title": "恋愛取扱説明書",
-    "description": "あなた専用の恋愛取扱説明書です。15の日常シーンを通じて、愛の言語、衝突スタイル、理想のパートナータイプを分析します。",
+    "description": "あなた専用の恋愛取扱説明書です。15の日常シーンを通じて、あなたの愛の言語、衝突スタイル、理想のパートナータイプを分析します。",
     "category": "romance",
-    "tags": ["恋愛", "心理"],
+    "tags": [
+      "恋愛",
+      "心理",
+      "性格"
+    ],
     "questions": [
-      { "text": "週末の朝、パートナーとの理想のシーンは？", "options": [
-        { "text": "一緒に朝食を作りながら今日の予定を話す", "score": 4 },
-        { "text": "ベッドでくっつきながらスマホを見る", "score": 3 },
-        { "text": "それぞれのことをしながら、たまに微笑み合う", "score": 2 },
-        { "text": "別々に出かけて、夜ご飯で再会", "score": 1 }
-      ]},
-      { "text": "パートナーから長い心のこもったメッセージが届いた。あなたの返信は？", "options": [
-        { "text": "すぐ電話する — 文字では伝えきれない", "score": 4 },
-        { "text": "同じくらい長い返信を丁寧に書く", "score": 3 },
-        { "text": "ハートの絵文字を送って「私も」と言う", "score": 2 },
-        { "text": "少し圧倒されて、考えてから短く返信", "score": 1 }
-      ]},
-      { "text": "記念日のお祝いはどうしたい？", "options": [
-        { "text": "二人だけのロマンチックなキャンドルディナー", "score": 4 },
-        { "text": "ずっと行きたかった場所に旅行", "score": 3 },
-        { "text": "家でまったり映画鑑賞", "score": 2 },
-        { "text": "シンプルに認め合うだけ — 派手なことは苦手", "score": 1 }
-      ]},
-      { "text": "仕事で嫌なことがあった。パートナーに何をしてほしい？", "options": [
-        { "text": "ぎゅっとハグして慰めの言葉をくれる", "score": 4 },
-        { "text": "アドバイスせず、辛抱強く聞いてくれる", "score": 3 },
-        { "text": "問題を分析して解決策を一緒に考えてくれる", "score": 2 },
-        { "text": "そっとしておいてくれる — 一人で処理したい", "score": 1 }
-      ]},
-      { "text": "パートナーの機嫌が悪いと気づいたら？", "options": [
-        { "text": "直接何があったか聞いて、助けを申し出る", "score": 4 },
-        { "text": "静かにそばに座り、いることを伝える", "score": 3 },
-        { "text": "好きな食べ物や飲み物を用意する", "score": 2 },
-        { "text": "スペースを与えて、あとで様子を見る", "score": 1 }
-      ]},
-      { "text": "最も大切な愛の言語は？", "options": [
-        { "text": "言葉の肯定 — 毎日「愛してる」と聞きたい", "score": 4 },
-        { "text": "スキンシップ — 手をつなぐ、ハグ", "score": 3 },
-        { "text": "サービス行為 — 何かしてくれる", "score": 2 },
-        { "text": "クオリティタイム — 集中した時間を過ごす", "score": 1 }
-      ]},
-      { "text": "喧嘩の後、通常どちらが先に仲直りする？", "options": [
-        { "text": "いつも自分から — 喧嘩してるのが耐えられない", "score": 4 },
-        { "text": "お互い冷静になって、準備ができた方が声をかける", "score": 3 },
-        { "text": "少し待つけど、最終的には自分から歩み寄る", "score": 2 },
-        { "text": "相手が来るのを待つ", "score": 1 }
-      ]},
-      { "text": "パートナーに本当にがっかりすることは？", "options": [
-        { "text": "感情的に冷たく距離を置かれること", "score": 4 },
-        { "text": "約束を破られたり、嘘をつかれること", "score": 3 },
-        { "text": "個人的な境界線を尊重してくれないこと", "score": 2 },
-        { "text": "束縛が激しくコントロールされること", "score": 1 }
-      ]},
-      { "text": "パーティーでパートナーが魅力的な人と長話。あなたの反応は？", "options": [
-        { "text": "自然に近づいて会話に加わる", "score": 4 },
-        { "text": "完全に信頼して、自分の友達と話を続ける", "score": 3 },
-        { "text": "少し不安、チラチラ見てしまう", "score": 2 },
-        { "text": "後でさりげなく話題にする", "score": 1 }
-      ]},
-      { "text": "カップルはスマホのパスワードを共有すべき？", "options": [
-        { "text": "もちろん！隠すことなんてない", "score": 4 },
-        { "text": "どっちでもいい、カップル次第", "score": 3 },
-        { "text": "しない方がいい — プライバシーは大切", "score": 2 },
-        { "text": "絶対ダメ。信頼に監視は不要", "score": 1 }
-      ]},
-      { "text": "理想のデート頻度は？", "options": [
-        { "text": "できれば毎日 — 足りない", "score": 4 },
-        { "text": "週3〜4回がちょうどいい", "score": 3 },
-        { "text": "週1〜2回 — 質を重視", "score": 2 },
-        { "text": "月に数回で十分", "score": 1 }
-      ]},
-      { "text": "パートナーがリスクのある転職をしたがったら？", "options": [
-        { "text": "全力応援 — 夢は追う価値がある", "score": 4 },
-        { "text": "応援するけど、まず実務的な計画を提案", "score": 3 },
-        { "text": "懸念を伝え、よく考えてほしいと願う", "score": 2 },
-        { "text": "金銭的安定への心配を正直に共有", "score": 1 }
-      ]},
-      { "text": "お互いの家族に会うことの重要性は？", "options": [
-        { "text": "とても重要 — 家族の承認は大切", "score": 4 },
-        { "text": "大事だけど、二人の関係が一番", "score": 3 },
-        { "text": "必須ではない — 二人が幸せならOK", "score": 2 },
-        { "text": "時が来たら考える", "score": 1 }
-      ]},
-      { "text": "理想の関係を一言で表すと？", "options": [
-        { "text": "温もり", "score": 4 },
-        { "text": "成長", "score": 3 },
-        { "text": "自由", "score": 2 },
-        { "text": "バランス", "score": 1 }
-      ]},
-      { "text": "愛を長続きさせる秘訣は？", "options": [
-        { "text": "愛と感謝を表現し続けること", "score": 4 },
-        { "text": "一緒に成長し進化すること", "score": 3 },
-        { "text": "お互いの個性を尊重すること", "score": 2 },
-        { "text": "困難な時も正直にコミュニケーション", "score": 1 }
-      ]}
+      {
+        "text": "On a weekend morning, what's your ideal scenario with your partner?",
+        "options": [
+          {
+            "text": "Making breakfast together, chatting about plans for the day",
+            "score": 4
+          },
+          {
+            "text": "Cuddling in bed, scrolling phones together",
+            "score": 3
+          },
+          {
+            "text": "Each doing their own thing, occasionally exchanging smiles",
+            "score": 2
+          },
+          {
+            "text": "Going out separately, meeting up later for dinner",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Your partner sends you a long, heartfelt message. Your response?",
+        "options": [
+          {
+            "text": "Immediately call them — text can't express what you feel",
+            "score": 4
+          },
+          {
+            "text": "Carefully type an equally long reply",
+            "score": 3
+          },
+          {
+            "text": "Send a heart emoji and say 'me too'",
+            "score": 2
+          },
+          {
+            "text": "Feel a bit overwhelmed, reply briefly after thinking",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "How would you prefer to celebrate an anniversary?",
+        "options": [
+          {
+            "text": "A romantic candlelit dinner for two",
+            "score": 4
+          },
+          {
+            "text": "Travel to a place you've always wanted to visit",
+            "score": 3
+          },
+          {
+            "text": "Cozy movie night at home",
+            "score": 2
+          },
+          {
+            "text": "A simple acknowledgment — fancy celebrations feel forced",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "You're upset about something at work. What do you want from your partner?",
+        "options": [
+          {
+            "text": "A big hug and words of comfort",
+            "score": 4
+          },
+          {
+            "text": "Listen patiently without giving advice",
+            "score": 3
+          },
+          {
+            "text": "Help analyze the problem and find solutions",
+            "score": 2
+          },
+          {
+            "text": "Give me space — I need to process alone first",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "You notice your partner is in a bad mood. What do you do?",
+        "options": [
+          {
+            "text": "Ask directly what happened and offer help",
+            "score": 4
+          },
+          {
+            "text": "Quietly sit beside them, letting them know you're there",
+            "score": 3
+          },
+          {
+            "text": "Prepare their favorite food or drink",
+            "score": 2
+          },
+          {
+            "text": "Give them space and check in later",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Which love language means the most to you?",
+        "options": [
+          {
+            "text": "Words of affirmation — hearing 'I love you' daily",
+            "score": 4
+          },
+          {
+            "text": "Physical touch — holding hands, hugging",
+            "score": 3
+          },
+          {
+            "text": "Acts of service — they do things for you",
+            "score": 2
+          },
+          {
+            "text": "Quality time — undivided attention together",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "After an argument, who usually initiates reconciliation?",
+        "options": [
+          {
+            "text": "I always go first — can't stand being in a fight",
+            "score": 4
+          },
+          {
+            "text": "We both cool down, then whoever's ready first reaches out",
+            "score": 3
+          },
+          {
+            "text": "I wait a bit, but will eventually make the first move",
+            "score": 2
+          },
+          {
+            "text": "I wait for them to come to me",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What would really disappoint you in a partner?",
+        "options": [
+          {
+            "text": "Being emotionally cold and distant",
+            "score": 4
+          },
+          {
+            "text": "Breaking promises or being dishonest",
+            "score": 3
+          },
+          {
+            "text": "Not respecting my personal boundaries",
+            "score": 2
+          },
+          {
+            "text": "Being too clingy and controlling",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "At a party, your partner talks to an attractive stranger for a long time. Your reaction?",
+        "options": [
+          {
+            "text": "Walk over and naturally join the conversation",
+            "score": 4
+          },
+          {
+            "text": "Trust them completely, continue talking to your own friends",
+            "score": 3
+          },
+          {
+            "text": "Feel a bit uneasy, keep glancing over",
+            "score": 2
+          },
+          {
+            "text": "Bring it up tactfully afterwards",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Do you think couples should share phone passwords?",
+        "options": [
+          {
+            "text": "Of course! Nothing to hide from each other",
+            "score": 4
+          },
+          {
+            "text": "It's fine either way, depends on the couple",
+            "score": 3
+          },
+          {
+            "text": "I'd rather not — everyone deserves privacy",
+            "score": 2
+          },
+          {
+            "text": "Definitely no. Trust shouldn't require surveillance",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What's your ideal frequency of dates?",
+        "options": [
+          {
+            "text": "Every day if possible — can't get enough",
+            "score": 4
+          },
+          {
+            "text": "3-4 times a week is perfect",
+            "score": 3
+          },
+          {
+            "text": "Once or twice a week — quality over quantity",
+            "score": 2
+          },
+          {
+            "text": "A few times a month is enough",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If your partner wanted to change careers into something risky, you'd…",
+        "options": [
+          {
+            "text": "Fully support them — dreams are worth chasing",
+            "score": 4
+          },
+          {
+            "text": "Support but suggest practical planning first",
+            "score": 3
+          },
+          {
+            "text": "Express concern and hope they think carefully",
+            "score": 2
+          },
+          {
+            "text": "Honestly share your worries about financial stability",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "How important is meeting each other's families?",
+        "options": [
+          {
+            "text": "Very important — family approval matters a lot",
+            "score": 4
+          },
+          {
+            "text": "Important, but it's our relationship that matters most",
+            "score": 3
+          },
+          {
+            "text": "Not essential — as long as we're happy",
+            "score": 2
+          },
+          {
+            "text": "We can deal with it when the time comes",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If you could describe your ideal relationship in one word, it'd be…",
+        "options": [
+          {
+            "text": "Warmth",
+            "score": 4
+          },
+          {
+            "text": "Growth",
+            "score": 3
+          },
+          {
+            "text": "Freedom",
+            "score": 2
+          },
+          {
+            "text": "Balance",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What do you think is the secret to making love last?",
+        "options": [
+          {
+            "text": "Never stop expressing love and appreciation",
+            "score": 4
+          },
+          {
+            "text": "Growing and evolving together",
+            "score": 3
+          },
+          {
+            "text": "Respecting each other's individuality",
+            "score": 2
+          },
+          {
+            "text": "Honest communication, even when it's hard",
+            "score": 1
+          }
+        ]
+      }
     ],
     "results": [
-      { "min": 15, "max": 28, "title": "独立的思考者", "description": "恋愛において個人の空間と理性的思考を重視します。最高の関係は、二つの完全な人が互いを選ぶことであり、未完成な半分が補完を求めることではないと信じています。", "comment": "ヒント：独立性は素晴らしいですが、たまにはガードを下ろしてパートナーを内に入れることを忘れないで。脆弱さも強さの一形態です。", "radarData": { "labels": ["感情表現", "独立性", "衝突解決", "ロマンス欲求", "信頼度"], "values": [40, 92, 70, 35, 75] } },
-      { "min": 29, "max": 42, "title": "安定感のあるパートナー", "description": "バランスの取れた地に足のついた視点で恋愛に臨みます。依存しすぎず、距離を置きすぎず。スペースを与えながらもつながりを保つ。一貫した信頼できる愛情で永続的な関係を築くタイプです。", "comment": "ヒント：バランスの取れたアプローチは本当の強み。たまにサプライズのロマンチックなジェスチャーを加えると、安定した関係に新鮮なエネルギーを吹き込めます。", "radarData": { "labels": ["感情表現", "独立性", "衝突解決", "ロマンス欲求", "信頼度"], "values": [60, 70, 80, 55, 85] } },
-      { "min": 43, "max": 52, "title": "情熱的な献身者", "description": "愛はあなたの人生の中心。気持ちをオープンに表現し、親密さを求め、関係に心を注ぎます。温かく、思いやりがあり、深く気遣う愛のスタイル。パートナーはいつも自分の大切さを知っています。", "comment": "ヒント：温かさは美しいですが、時にはパートナーがあなたを恋しく思う余地を作ることも、愛の最良の方法です。", "radarData": { "labels": ["感情表現", "独立性", "衝突解決", "ロマンス欲求", "信頼度"], "values": [85, 45, 65, 80, 70] } },
-      { "min": 53, "max": 60, "title": "全力投球のロマンチスト", "description": "全身全霊で愛し、何も隠しません。ロマンス、情熱、感情的なつながりはあなたの酸素。愛は大げさに頻繁に祝うべきものと信じ、それを恐れずに示します。", "comment": "ヒント：あなたの情熱は美しいですが、パートナーを圧倒しないように注意。最高のラブストーリーには、それぞれが輝く章もあります。", "radarData": { "labels": ["感情表現", "独立性", "衝突解決", "ロマンス欲求", "信頼度"], "values": [95, 30, 55, 95, 60] } }
+      {
+        "min": 15,
+        "max": 28,
+        "title": "The Independent Thinker",
+        "description": "You value personal space and rational thinking in love. You believe the best relationships are two complete people choosing each other, not two halves desperately seeking completion. Your love style is measured and thoughtful.",
+        "comment": "Tips: Your independence is admirable, but don't forget to occasionally let your guard down and let your partner in. Vulnerability is also a form of strength.",
+        "radarData": {
+          "labels": [
+            "Emotional Expression",
+            "Independence",
+            "Conflict Resolution",
+            "Romantic Needs",
+            "Trust"
+          ],
+          "values": [
+            40,
+            92,
+            70,
+            35,
+            75
+          ]
+        }
+      },
+      {
+        "min": 29,
+        "max": 42,
+        "title": "The Steady Partner",
+        "description": "You approach love with a balanced and grounded perspective. Neither too clingy nor too distant, you know how to give space while staying connected. You're the type of partner who builds lasting relationships through consistent, reliable affection.",
+        "comment": "Tips: Your balanced approach is a real strength. Try adding more spontaneous romantic gestures occasionally — they can bring fresh energy to a stable relationship.",
+        "radarData": {
+          "labels": [
+            "Emotional Expression",
+            "Independence",
+            "Conflict Resolution",
+            "Romantic Needs",
+            "Trust"
+          ],
+          "values": [
+            60,
+            70,
+            80,
+            55,
+            85
+          ]
+        }
+      },
+      {
+        "min": 43,
+        "max": 52,
+        "title": "The Passionate Devotee",
+        "description": "Love is central to your life. You express feelings openly, crave closeness, and pour your heart into relationships. Your love style is warm, attentive, and deeply caring — your partner always knows how much they mean to you.",
+        "comment": "Tips: Your warmth is beautiful, but remember that sometimes the best way to love is to give your partner room to miss you. A healthy balance keeps the spark alive.",
+        "radarData": {
+          "labels": [
+            "Emotional Expression",
+            "Independence",
+            "Conflict Resolution",
+            "Romantic Needs",
+            "Trust"
+          ],
+          "values": [
+            85,
+            45,
+            65,
+            80,
+            70
+          ]
+        }
+      },
+      {
+        "min": 53,
+        "max": 60,
+        "title": "The All-In Romantic",
+        "description": "You love with your whole heart, holding nothing back. Romance, passion, and emotional connection are your oxygen. You believe love should be celebrated loudly and often — and you're not afraid to show it.",
+        "comment": "Tips: Your intensity is beautiful, but be careful not to overwhelm your partner. The best love stories also include chapters where each person shines on their own.",
+        "radarData": {
+          "labels": [
+            "Emotional Expression",
+            "Independence",
+            "Conflict Resolution",
+            "Romantic Needs",
+            "Trust"
+          ],
+          "values": [
+            95,
+            30,
+            55,
+            95,
+            60
+          ]
+        }
+      }
     ]
   },
   {
@@ -484,74 +2007,317 @@
     "title": "ときめきレーダー：あなたの片思い指数は？",
     "description": "みんなに「惚れっぽい」と言われる？10の日常シーンで、あなたの恋煩い度を測定します。",
     "category": "romance",
-    "tags": ["恋愛", "片思い"],
+    "tags": [
+      "恋愛",
+      "片思い",
+      "心理",
+      "おもしろ"
+    ],
     "questions": [
-      { "text": "知り合ったばかりの人から翌日「おはよう」メッセージが来た。あなたの反応は？", "options": [
-        { "text": "いい人だな、丁寧に返信して終わり", "score": 1 },
-        { "text": "少し笑顔になる「覚えてくれてたんだ」", "score": 2 },
-        { "text": "ドキッとして、完璧な返信を考え始める", "score": 3 },
-        { "text": "もう将来のデートを想像してる", "score": 4 }
-      ]},
-      { "text": "電車で素敵な人と目が合った。あなたの頭の中は？", "options": [
-        { "text": "特に何も、スマホに戻る", "score": 1 },
-        { "text": "一瞬「かわいい」と思う。それだけ", "score": 2 },
-        { "text": "またばったり会えるストーリーを頭の中で展開", "score": 3 },
-        { "text": "同じ駅で降りて「偶然」を装おうか考える", "score": 4 }
-      ]},
-      { "text": "好きな人から曲を送られた。どうする？", "options": [
-        { "text": "一回聴いて「いい曲だね」と返信", "score": 1 },
-        { "text": "歌詞を調べて隠されたメッセージがないか確認", "score": 2 },
-        { "text": "リピートして全行を分析", "score": 3 },
-        { "text": "もう頭の中で「私たちの曲」にしてる", "score": 4 }
-      ]},
-      { "text": "好きな人がうっかりあなたの手に触れた。内心の反応は？", "options": [
-        { "text": "気づくけど冷静を保つ", "score": 1 },
-        { "text": "少しドキッとするけど平静を装う", "score": 2 },
-        { "text": "心拍数上昇、あの瞬間を何時間も反芻", "score": 3 },
-        { "text": "あの一瞬で夜も眠れなくなる", "score": 4 }
-      ]},
-      { "text": "好きな人がオンラインかどれくらいチェックする？", "options": [
-        { "text": "一切しない。そういうタイプじゃない", "score": 1 },
-        { "text": "たまに、アプリを開いた時についでに", "score": 2 },
-        { "text": "一日中最終オンライン状態をチェック", "score": 3 },
-        { "text": "相手のオンラインスケジュールを完璧に把握済み", "score": 4 }
-      ]},
-      { "text": "誰かが好きな人の名前を口にした。あなたの反応は？", "options": [
-        { "text": "耳がピクッとするけど冷静", "score": 1 },
-        { "text": "さりげなく何を言ってるか聞く", "score": 2 },
-        { "text": "即座にレーザー集中で会話を聞く", "score": 3 },
-        { "text": "つい参加「え、その人がどうしたの？！」", "score": 4 }
-      ]},
-      { "text": "好きな人がSNSに写真を投稿した。どうする？", "options": [
-        { "text": "スクロールして通り過ぎる。毎回反応しない", "score": 1 },
-        { "text": "さりっといいね、それだけ", "score": 2 },
-        { "text": "いいねして、拡大して、背景と写ってる人を分析", "score": 3 },
-        { "text": "スクショして分析、コメントするか悩む", "score": 4 }
-      ]},
-      { "text": "好きな人に会う準備。どれくらい時間をかける？", "options": [
-        { "text": "普通の準備。誰に会っても同じ", "score": 1 },
-        { "text": "数分余分にかけて見栄えよく", "score": 2 },
-        { "text": "最低2回は着替えて、鏡を10回確認", "score": 3 },
-        { "text": "自宅でファッションショー、友達に投票を求める", "score": 4 }
-      ]},
-      { "text": "友達が「あの人は他に好きな人がいるかも」と言った。あなたの反応は？", "options": [
-        { "text": "しょうがない、それが人生。次に行く", "score": 1 },
-        { "text": "少しがっかりするけど大丈夫", "score": 2 },
-        { "text": "気分ダウン。今夜はアイスと悲しい音楽が必要", "score": 3 },
-        { "text": "世界崩壊。すぐ調査開始", "score": 4 }
-      ]},
-      { "text": "今の恋心の状態を表すと？", "options": [
-        { "text": "地面にしっかり立っている。完全に安定", "score": 1 },
-        { "text": "ボートに揺られて心地よい風を楽しんでる", "score": 2 },
-        { "text": "ボートが揺れてめまいがしてきた", "score": 3 },
-        { "text": "もう転覆して幸せに溺れてる", "score": 4 }
-      ]}
+      {
+        "text": "Someone you just met sends you a 'Good morning' text the next day. Your reaction?",
+        "options": [
+          {
+            "text": "That's nice, reply politely and move on",
+            "score": 1
+          },
+          {
+            "text": "Smile a little, think 'they remembered me'",
+            "score": 2
+          },
+          {
+            "text": "Heart skips a beat, start crafting the perfect reply",
+            "score": 3
+          },
+          {
+            "text": "Already imagining what your future dates will look like",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You see someone attractive on the subway making eye contact. What happens in your head?",
+        "options": [
+          {
+            "text": "Nothing much, go back to scrolling your phone",
+            "score": 1
+          },
+          {
+            "text": "Quick internal note: 'Oh, cute.' Then move on",
+            "score": 2
+          },
+          {
+            "text": "Start a whole mental storyline about running into them again",
+            "score": 3
+          },
+          {
+            "text": "Consider getting off at the same stop to 'accidentally' bump into them",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Someone you like sends you a song. What do you do?",
+        "options": [
+          {
+            "text": "Listen once, reply 'Nice song'",
+            "score": 1
+          },
+          {
+            "text": "Look up the lyrics to see if there's a hidden message",
+            "score": 2
+          },
+          {
+            "text": "Put it on repeat and analyze every line",
+            "score": 3
+          },
+          {
+            "text": "Already making it 'our song' in your head",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your crush accidentally touches your hand. Your internal reaction?",
+        "options": [
+          {
+            "text": "Notice it, but stay cool",
+            "score": 1
+          },
+          {
+            "text": "Feel a little spark, but play it off",
+            "score": 2
+          },
+          {
+            "text": "Heart rate goes up, replay the moment for hours",
+            "score": 3
+          },
+          {
+            "text": "That one touch keeps you awake at night",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "How often do you check if your crush is online?",
+        "options": [
+          {
+            "text": "Never; that's not my style",
+            "score": 1
+          },
+          {
+            "text": "Once in a while, if I happen to be on the app",
+            "score": 2
+          },
+          {
+            "text": "Check their last-seen status throughout the day",
+            "score": 3
+          },
+          {
+            "text": "You practically have their online schedule memorized",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You overhear someone mention your crush's name. Your reaction?",
+        "options": [
+          {
+            "text": "Ears perk up slightly, but you stay cool",
+            "score": 1
+          },
+          {
+            "text": "Casually tune in to see what they're saying",
+            "score": 2
+          },
+          {
+            "text": "Immediately laser-focus on the conversation",
+            "score": 3
+          },
+          {
+            "text": "Can't help but join in: 'Wait, what about them?!'",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your crush posts a photo on social media. What do you do?",
+        "options": [
+          {
+            "text": "Scroll past; I don't react to every post",
+            "score": 1
+          },
+          {
+            "text": "Like it casually, move on",
+            "score": 2
+          },
+          {
+            "text": "Like it, zoom in, analyze the background and who's in it",
+            "score": 3
+          },
+          {
+            "text": "Screenshot, analyze, then debate whether to comment",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You're about to meet your crush. How much time do you spend getting ready?",
+        "options": [
+          {
+            "text": "Normal routine, same as meeting anyone",
+            "score": 1
+          },
+          {
+            "text": "A few extra minutes to look presentable",
+            "score": 2
+          },
+          {
+            "text": "Change outfits at least twice, check the mirror ten times",
+            "score": 3
+          },
+          {
+            "text": "Full fashion show at home, ask friends to vote on the best look",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your friend says your crush might like someone else. Your reaction?",
+        "options": [
+          {
+            "text": "Oh well, that's life. Move on",
+            "score": 1
+          },
+          {
+            "text": "A little disappointed, but you'll be okay",
+            "score": 2
+          },
+          {
+            "text": "Mood drops, you need ice cream and sad music tonight",
+            "score": 3
+          },
+          {
+            "text": "Entire world collapses. You start an investigation immediately",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "If you could describe your current state of falling for someone, it'd be…",
+        "options": [
+          {
+            "text": "I'm firmly on dry land. Completely stable",
+            "score": 1
+          },
+          {
+            "text": "Gently swaying in a boat, enjoying the breeze",
+            "score": 2
+          },
+          {
+            "text": "The boat is rocking and I'm getting dizzy",
+            "score": 3
+          },
+          {
+            "text": "I've already capsized and I'm drowning happily",
+            "score": 4
+          }
+        ]
+      }
     ],
     "results": [
-      { "min": 10, "max": 17, "title": "【鉄壁】感情防弾タイプ", "description": "あなたの心は要塞のよう — 簡単には何も入れません。極めて理性的で自制力のある感情アプローチ。ロマンチックに揺れるには相当なことが必要です。", "comment": "ヒント：自立は素晴らしいですが、誰かを壁の内側に入れることが人生最大の冒険になり得ることを忘れないで。たまには門を開けてみて。", "radarData": { "labels": ["理性コントロール", "独立性", "感情シールド", "セルフケア", "片思い度"], "values": [95, 90, 90, 85, 10] } },
-      { "min": 18, "max": 24, "title": "【そよ風】軽いときめき注意報", "description": "時折ときめくものの、常に地に足がついています。冷静さを失わずに相手の魅力を感じ取れるタイプ。恋のアンテナは作動していますが、信号に圧倒されることはありません。", "comment": "ヒント：バランスの取れたアプローチは健全です。考えすぎて本当のつながりを逃さないようにして。時にはときめきに従ってもOK。", "radarData": { "labels": ["理性コントロール", "独立性", "感情シールド", "セルフケア", "片思い度"], "values": [80, 75, 70, 70, 35] } },
-      { "min": 25, "max": 32, "title": "【船酔い】中度の恋煩い", "description": "あなたの船は明らかに揺れている！ロマンチックなジェスチャーや小さなサインに非常に敏感です。好きになると、行動にも、気分にも、おそらく検索履歴にも表れます。", "comment": "ヒント：ロマンチックな本質は才能です！ただ、信号を正しく読み取っているか確認して。「おはよう」テキストが「結婚したい」を意味するわけではありません。深呼吸を。", "radarData": { "labels": ["理性コントロール", "独立性", "感情シールド", "セルフケア", "片思い度"], "values": [40, 40, 30, 50, 80] } },
-      { "min": 33, "max": 40, "title": "【沈没船】究極の恋煩い", "description": "ライフガードのアラームが鳴っている！誰かがほんの少し日差しをくれただけで恋に落ちるタイプ。好きな人のことになると理性は全て船外へ — 完全に転覆しています。", "comment": "ヒント：SOS！現実チェックのために友達をスピードダイヤルに入れておいて。飛び込む前にまず自分を愛して — 他の人の海で自分を見失わないで！", "radarData": { "labels": ["理性コントロール", "独立性", "感情シールド", "セルフケア", "片思い度"], "values": [10, 15, 10, 30, 100] } }
+      {
+        "min": 10,
+        "max": 17,
+        "title": "【Ironclad】 Emotionally Bulletproof",
+        "description": "Your heart is like a fortress — nothing gets in easily. You approach feelings with extreme rationality and self-control. It takes a LOT to even make you blink romantically.",
+        "comment": "Tips: Being self-sufficient is great, but don't forget that letting someone past your walls can be one of life's greatest adventures. Consider opening the gate once in a while.",
+        "radarData": {
+          "labels": [
+            "Rational Control",
+            "Independence",
+            "Emotional Shield",
+            "Self-Care",
+            "Crush Intensity"
+          ],
+          "values": [
+            95,
+            90,
+            90,
+            85,
+            10
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 24,
+        "title": "【Gentle Breeze】Light Crush Alert",
+        "description": "You feel the occasional flutter but always have your feet on the ground. You can appreciate someone's charm without losing your composure. Your romantic antennae are working, but you're not overwhelmed by signals.",
+        "comment": "Tips: Your balanced approach is healthy. Just make sure you don't overthink things to the point of missing genuine connections. Sometimes it's okay to follow the flutter.",
+        "radarData": {
+          "labels": [
+            "Rational Control",
+            "Independence",
+            "Emotional Shield",
+            "Self-Care",
+            "Crush Intensity"
+          ],
+          "values": [
+            80,
+            75,
+            70,
+            70,
+            35
+          ]
+        }
+      },
+      {
+        "min": 25,
+        "max": 32,
+        "title": "【Seasick】Moderate Lovesickness",
+        "description": "Your ship is clearly rocking! You're very susceptible to romantic gestures and small signals. When you like someone, it shows — in your behavior, your mood, and probably your search history.",
+        "comment": "Tips: Your romantic nature is a gift! Just make sure you're reading signals correctly. Not every 'Good morning' text means 'I want to marry you.' Take a breath.",
+        "radarData": {
+          "labels": [
+            "Rational Control",
+            "Independence",
+            "Emotional Shield",
+            "Self-Care",
+            "Crush Intensity"
+          ],
+          "values": [
+            40,
+            40,
+            30,
+            50,
+            80
+          ]
+        }
+      },
+      {
+        "min": 33,
+        "max": 40,
+        "title": "【Sinking Ship】Hopelessly Lovesick",
+        "description": "The lifeguard alarm is going off! You practically catch feelings the moment someone gives you the slightest sunshine. When it comes to your crush, all rationality goes overboard — you've completely and utterly capsized.",
+        "comment": "Tips: SOS! Keep your friends on speed-dial for reality checks. Love yourself first before diving in — don't lose yourself in someone else's waters!",
+        "radarData": {
+          "labels": [
+            "Rational Control",
+            "Independence",
+            "Emotional Shield",
+            "Self-Care",
+            "Crush Intensity"
+          ],
+          "values": [
+            10,
+            15,
+            10,
+            30,
+            100
+          ]
+        }
+      }
     ]
   },
   {
@@ -559,105 +2325,444 @@
     "title": "私たちに未来はある？",
     "description": "15の状況質問で、あなたたちの相性、コミュニケーションの化学反応、将来の可能性を深く分析します。",
     "category": "romance",
-    "tags": ["恋愛", "運命"],
+    "tags": [
+      "恋愛",
+      "運命",
+      "マッチング"
+    ],
     "questions": [
-      { "text": "週末に会う約束をしたのに、彼女が急に予定変更と言い出した。最初の反応は？", "options": [
-        { "text": "大丈夫、自分から別の日程を提案", "score": 4 },
-        { "text": "少しがっかりするけど了承", "score": 3 },
-        { "text": "内心モヤモヤするけど言わない", "score": 2 },
-        { "text": "約束を大切にしてくれてないと感じる", "score": 1 }
-      ]},
-      { "text": "二人のチャットは普段どんな感じ？", "options": [
-        { "text": "何を話しても止まらない、夜更かしすることも", "score": 4 },
-        { "text": "決まった話題がいくつかあって、たまに盛り上がる", "score": 3 },
-        { "text": "大体自分から話題を振って、彼女はあまり反応しない", "score": 2 },
-        { "text": "よく既読スルーか返信がすごく遅い", "score": 1 }
-      ]},
-      { "text": "落ち込んだ時、彼女に話したい？", "options": [
-        { "text": "話したい、最初に思い浮かぶ人", "score": 4 },
-        { "text": "迷うけど、結局話すことになる", "score": 3 },
-        { "text": "あまり話さない、重いと思われそう", "score": 2 },
-        { "text": "全く話さない、まだそこまでの関係じゃない", "score": 1 }
-      ]},
-      { "text": "彼女が男友達と遊びに行った。あなたの気持ちは？", "options": [
-        { "text": "安心、彼女を信頼してるから", "score": 4 },
-        { "text": "少し気になるけど表には出さない", "score": 3 },
-        { "text": "嫉妬して詳しく聞いてしまう", "score": 2 },
-        { "text": "すごく不安、いつでも取って代わられそう", "score": 1 }
-      ]},
-      { "text": "彼女があなたを見る眼差しは？", "options": [
-        { "text": "笑顔を含んで、大切にされてると感じる", "score": 4 },
-        { "text": "自然で心地よい、友達みたい", "score": 3 },
-        { "text": "よく分からない、読めない時がある", "score": 2 },
-        { "text": "誰を見ても同じで特別感がない", "score": 1 }
-      ]},
-      { "text": "意見が合わなかった時、どう対処した？", "options": [
-        { "text": "正直に話し合って、喧嘩するほど仲が深まる", "score": 4 },
-        { "text": "たまに摩擦があるけど、冷静になってから仲直り", "score": 3 },
-        { "text": "冷戦して、どちらかが先に口を開くのを待つ", "score": 2 },
-        { "text": "ほぼ喧嘩しない、そこまで親しくないから", "score": 1 }
-      ]},
-      { "text": "一緒に暮らす場面を想像したことある？", "options": [
-        { "text": "何度も！朝食のメニューまで考えた", "score": 4 },
-        { "text": "たまに、きっと幸せだろうなと思う", "score": 3 },
-        { "text": "あまりない、まだ遠い話に感じる", "score": 2 },
-        { "text": "一度もない、現実的じゃない気がする", "score": 1 }
-      ]},
-      { "text": "彼女が今日髪型を変えたら気づく？", "options": [
-        { "text": "絶対最初に気づいて褒める", "score": 4 },
-        { "text": "たぶん気づくけど言わないかも", "score": 3 },
-        { "text": "言われてやっと気づく", "score": 2 },
-        { "text": "たぶん気づかない", "score": 1 }
-      ]},
-      { "text": "彼女のために自分の習慣を変える気はある？", "options": [
-        { "text": "ある、より良い方向への変化なら", "score": 4 },
-        { "text": "試せるけどあまり多くは変えたくない", "score": 3 },
-        { "text": "状況次第、自分を犠牲にしたくない", "score": 2 },
-        { "text": "変えたくない、ありのままを受け入れてほしい", "score": 1 }
-      ]},
-      { "text": "彼女の前で本当の自分でいられる？", "options": [
-        { "text": "完全にいられる、偽る必要なし", "score": 4 },
-        { "text": "大体はいられるけど、たまに頑張っちゃう", "score": 3 },
-        { "text": "よく自分の印象を気にしてリラックスできない", "score": 2 },
-        { "text": "ほぼ演技状態、素の自分が嫌われそうで怖い", "score": 1 }
-      ]},
-      { "text": "彼女が困った時、通常どうする？", "options": [
-        { "text": "すぐ駆けつける、何でも助けたい", "score": 4 },
-        { "text": "メッセージで気遣い、助けが必要か聞く", "score": 3 },
-        { "text": "黙って見守るけど積極的には動かない", "score": 2 },
-        { "text": "彼女の生活圏だからあまり口出ししない", "score": 1 }
-      ]},
-      { "text": "彼女を親友に紹介する気はある？", "options": [
-        { "text": "もう紹介済み、友達みんな彼女を気に入ってる", "score": 4 },
-        { "text": "適切なタイミングを探している", "score": 3 },
-        { "text": "まだ考えてない、時期尚早だと感じる", "score": 2 },
-        { "text": "あまりしたくない、友達に何か言われそう", "score": 1 }
-      ]},
-      { "text": "二人だけのお気に入りの暗号や内輪ネタはある？", "options": [
-        { "text": "たくさんある、目だけで通じ合える", "score": 4 },
-        { "text": "いくつかの専用ネタや冗談がある", "score": 3 },
-        { "text": "少しあるかも、でもうまく言えない", "score": 2 },
-        { "text": "ほぼない、一緒にいる頻度が少ない", "score": 1 }
-      ]},
-      { "text": "今彼女に「好き」と言われたら？", "options": [
-        { "text": "やっと来た！すぐ告白し返す", "score": 4 },
-        { "text": "嬉しいサプライズ、でも消化に時間が必要", "score": 3 },
-        { "text": "自分の気持ちがよく分からない、考えたいと言うかも", "score": 2 },
-        { "text": "困惑する、現実的じゃない気がする", "score": 1 }
-      ]},
-      { "text": "出会ってから今まで、この関係はあなたをどう変えた？", "options": [
-        { "text": "より良い人間に、彼女が向上心をくれる", "score": 4 },
-        { "text": "愛について多くのことを学んだ", "score": 3 },
-        { "text": "嬉しいことも辛いことも複雑な気持ち", "score": 2 },
-        { "text": "あまり変わってない、全てが平坦", "score": 1 }
-      ]}
+      {
+        "text": "You planned to meet on the weekend, but she suddenly says she needs to reschedule. Your first reaction?",
+        "options": [
+          {
+            "text": "No problem — proactively suggest another time",
+            "score": 4
+          },
+          {
+            "text": "A bit disappointed, but you say it's fine",
+            "score": 3
+          },
+          {
+            "text": "Feel uncomfortable inside, but won't say it",
+            "score": 2
+          },
+          {
+            "text": "Feel like she doesn't value your plans",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "When you two chat, how do conversations usually go?",
+        "options": [
+          {
+            "text": "Can't stop talking, often chatting until dawn",
+            "score": 4
+          },
+          {
+            "text": "A few reliable topics, occasionally sparks fly",
+            "score": 3
+          },
+          {
+            "text": "Mostly you initiating, she doesn't respond much",
+            "score": 2
+          },
+          {
+            "text": "Often left on read or takes forever to reply",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "When you're feeling down, would you want to tell her?",
+        "options": [
+          {
+            "text": "Yes, she's the first person I think of",
+            "score": 4
+          },
+          {
+            "text": "I'd hesitate, but would end up telling her",
+            "score": 3
+          },
+          {
+            "text": "Probably not, afraid of being a burden",
+            "score": 2
+          },
+          {
+            "text": "Not at all — we haven't reached that level",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "She goes out with a guy friend. How do you feel?",
+        "options": [
+          {
+            "text": "Totally fine — I trust her",
+            "score": 4
+          },
+          {
+            "text": "Slightly bothered, but won't show it",
+            "score": 3
+          },
+          {
+            "text": "Jealous — can't help asking for details",
+            "score": 2
+          },
+          {
+            "text": "Super anxious, feel like I could be replaced anytime",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "How does she look at you?",
+        "options": [
+          {
+            "text": "With a smile that makes you feel cared for",
+            "score": 4
+          },
+          {
+            "text": "Natural and comfortable, like a friend",
+            "score": 3
+          },
+          {
+            "text": "Hard to read — sometimes you can't tell",
+            "score": 2
+          },
+          {
+            "text": "Seems the same as how she looks at everyone",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Have you two ever argued or disagreed? How was it handled?",
+        "options": [
+          {
+            "text": "Yes, but we communicate honestly and grow closer",
+            "score": 4
+          },
+          {
+            "text": "Occasional friction, but we cool down and make up",
+            "score": 3
+          },
+          {
+            "text": "Silent treatment until someone breaks first",
+            "score": 2
+          },
+          {
+            "text": "Almost never argue — we're not close enough for that",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Have you ever imagined living together?",
+        "options": [
+          {
+            "text": "Countless times — even planned what to have for breakfast",
+            "score": 4
+          },
+          {
+            "text": "Sometimes — I think it'd be nice",
+            "score": 3
+          },
+          {
+            "text": "Rarely — it still feels far away",
+            "score": 2
+          },
+          {
+            "text": "Never — doesn't seem possible",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If she got a new haircut today, would you notice?",
+        "options": [
+          {
+            "text": "I'd be the first to notice and compliment her",
+            "score": 4
+          },
+          {
+            "text": "Probably notice, but might not say anything",
+            "score": 3
+          },
+          {
+            "text": "Only if she pointed it out",
+            "score": 2
+          },
+          {
+            "text": "Probably wouldn't notice at all",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Would you change some of your habits for her?",
+        "options": [
+          {
+            "text": "Yes, as long as it's for the better",
+            "score": 4
+          },
+          {
+            "text": "Can try, but don't want to change too much",
+            "score": 3
+          },
+          {
+            "text": "Depends — don't want to compromise myself",
+            "score": 2
+          },
+          {
+            "text": "No, she should accept the real me",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Can you be your true self around her?",
+        "options": [
+          {
+            "text": "Absolutely — no pretending needed",
+            "score": 4
+          },
+          {
+            "text": "Mostly, but sometimes I try to impress",
+            "score": 3
+          },
+          {
+            "text": "Often self-conscious, can't fully relax",
+            "score": 2
+          },
+          {
+            "text": "Almost always performing, afraid the real me isn't enough",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "When she's in trouble, what do you usually do?",
+        "options": [
+          {
+            "text": "Show up immediately, willing to help with anything",
+            "score": 4
+          },
+          {
+            "text": "Send a message to check if she needs help",
+            "score": 3
+          },
+          {
+            "text": "Watch from afar, but don't actively reach out",
+            "score": 2
+          },
+          {
+            "text": "Feel it's her life, better not to interfere",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Would you introduce her to your close friends?",
+        "options": [
+          {
+            "text": "Already have — they all like her",
+            "score": 4
+          },
+          {
+            "text": "Looking for the right moment to introduce",
+            "score": 3
+          },
+          {
+            "text": "Haven't thought about it — doesn't feel time yet",
+            "score": 2
+          },
+          {
+            "text": "Would rather not — worried friends might judge",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Do you two have any inside jokes or unspoken signals?",
+        "options": [
+          {
+            "text": "Tons — we can read each other's thoughts with a look",
+            "score": 4
+          },
+          {
+            "text": "A few exclusive memes or jokes",
+            "score": 3
+          },
+          {
+            "text": "Maybe a little, but hard to describe",
+            "score": 2
+          },
+          {
+            "text": "Almost none — we don't interact enough",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If she told you 'I like you' right now, you'd…",
+        "options": [
+          {
+            "text": "Feel like I've been waiting for this! Confess right back",
+            "score": 4
+          },
+          {
+            "text": "Be happily surprised, but need a moment to process",
+            "score": 3
+          },
+          {
+            "text": "Unsure of my own feelings — might say 'let me think'",
+            "score": 2
+          },
+          {
+            "text": "Be confused — doesn't seem realistic",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Looking back from when you met until now, how has this relationship changed you?",
+        "options": [
+          {
+            "text": "Into a better person — she makes me want to improve",
+            "score": 4
+          },
+          {
+            "text": "Learned a lot about love",
+            "score": 3
+          },
+          {
+            "text": "Mixed feelings — both joy and struggle",
+            "score": 2
+          },
+          {
+            "text": "Not much change — everything's been pretty flat",
+            "score": 1
+          }
+        ]
+      }
     ],
     "results": [
-      { "min": 15, "max": 26, "title": "流れ星のような縁", "description": "一瞬の火花はあったかもしれませんが、全体的に二人の周波数は合っていません。彼女はあなたに心のときめきを教えてくれた通過人かもしれませんが、長く続くのは難しいでしょう。あなたが足りないのではなく、タイミングと縁が味方しなかっただけ。", "comment": "ヒント：不確かな答えにこだわるより、そのエネルギーを自分磨きに。ぴったりの人が現れた時、すべてが自然で楽になるはずです。", "radarData": { "labels": ["デフォルト指数", "感情投入", "コミュニケーション", "将来ビジョン", "安心感"], "values": [25, 30, 20, 15, 20] } },
-      { "min": 27, "max": 37, "title": "曖昧な月明かり", "description": "微妙な化学反応はあるけれど、「何かありそうで、何もない」段階にとどまっています。あなたの気持ちの方が彼女より少し多く、常に不安定な状態。可能性はあるけれど、もっと勇気と明確な行動が必要です。", "comment": "ヒント：曖昧は長引くと冷めます。本当に大切に思うなら、もっと直接的に気持ちを伝えてみて。結果に関わらず、挑戦しなかった後悔は残りません。", "radarData": { "labels": ["デフォルト指数", "感情投入", "コミュニケーション", "将来ビジョン", "安心感"], "values": [45, 55, 40, 35, 40] } },
-      { "min": 38, "max": 48, "title": "温まる夜明け", "description": "二人の関係は温かく着実に上昇中。一定の化学反応と好感があり、会話もどんどん自然になっています。あともう一歩で、この感情は花開くかもしれません。", "comment": "ヒント：今が最高のタイミング！感覚が冷めるのを待たないで。二人きりの時間をもっと作って、関係を自然に次のステージへ進めましょう。", "radarData": { "labels": ["デフォルト指数", "感情投入", "コミュニケーション", "将来ビジョン", "安心感"], "values": [65, 70, 60, 55, 65] } },
-      { "min": 49, "max": 54, "title": "双方向の暖かい日差し", "description": "おめでとう、二人のつながりは非常に強い！日常の化学反応から感情の投入、信頼まで、すべてが非凡な可能性を示しています。お互いの前で本当の自分でいられること、これが最も尊いことです。", "comment": "ヒント：長期的な関係のすべての条件が揃っています。今こそ気持ちを口にする時 — この完璧な瞬間を逃さないで。彼女もきっとあなたの一歩を待っています。", "radarData": { "labels": ["デフォルト指数", "感情投入", "コミュニケーション", "将来ビジョン", "安心感"], "values": [82, 85, 80, 78, 83] } },
-      { "min": 55, "max": 60, "title": "百年に一度のオーロラ", "description": "百年に一度の相性！信頼、化学反応、コミュニケーション、感情の深さすべてがほぼ満点。彼女の前で完全にガードを下ろせる。彼女もあなたのそばで無条件の安心を感じる。これは恋愛を超え、魂レベルの共鳴です。", "comment": "ヒント：この縁を無駄にしないで！幸せの扉の前に立っている — お互い手を伸ばすだけです。この人を大切に、こんなに確信できる感覚は一生に一度かもしれません。", "radarData": { "labels": ["デフォルト指数", "感情投入", "コミュニケーション", "将来ビジョン", "安心感"], "values": [95, 98, 92, 90, 96] } }
+      {
+        "min": 15,
+        "max": 26,
+        "title": "A Passing Meteor",
+        "description": "There may have been a brief spark, but overall your frequencies aren't on the same wavelength. She may be a passing figure in your life who taught you about attraction, but this relationship is unlikely to go the distance. It's not that you're not good enough — timing and fate just aren't aligned.",
+        "comment": "Tips: Instead of fixating on an uncertain answer, channel that energy into becoming your best self. When the right person comes along, everything will feel easy and natural.",
+        "radarData": {
+          "labels": [
+            "Chemistry",
+            "Emotional Investment",
+            "Communication",
+            "Future Vision",
+            "Security"
+          ],
+          "values": [
+            25,
+            30,
+            20,
+            15,
+            20
+          ]
+        }
+      },
+      {
+        "min": 27,
+        "max": 37,
+        "title": "A Lingering Moonlight",
+        "description": "There's a subtle chemistry between you, but you're stuck in the 'something but nothing' phase. Your feelings seem stronger than hers, leaving you in a constant state of uncertainty. There's potential, but it needs more courage and clear action.",
+        "comment": "Tips: Ambiguity fades with time. If you truly care, try expressing your feelings more directly. Regardless of outcome, at least you won't regret not trying.",
+        "radarData": {
+          "labels": [
+            "Chemistry",
+            "Emotional Investment",
+            "Communication",
+            "Future Vision",
+            "Security"
+          ],
+          "values": [
+            45,
+            55,
+            40,
+            35,
+            40
+          ]
+        }
+      },
+      {
+        "min": 38,
+        "max": 48,
+        "title": "A Warming Dawn",
+        "description": "Your relationship is in a warm, steadily rising phase. You share growing chemistry and mutual interest, with conversations becoming more natural. She's gaining weight in your heart, and she seems to have feelings beyond friendship too. Just one step more and this could bloom.",
+        "comment": "Tips: Now is the perfect time! Don't wait for the feeling to cool. Create more one-on-one moments and let the relationship naturally transition.",
+        "radarData": {
+          "labels": [
+            "Chemistry",
+            "Emotional Investment",
+            "Communication",
+            "Future Vision",
+            "Security"
+          ],
+          "values": [
+            65,
+            70,
+            60,
+            55,
+            65
+          ]
+        }
+      },
+      {
+        "min": 49,
+        "max": 54,
+        "title": "A Mutual Sunshine",
+        "description": "Congratulations — your connection is incredibly strong! From daily chemistry to emotional investment to mutual trust, everything points to extraordinary potential. You don't just attract each other; you can be your authentic selves together. That's the most precious thing.",
+        "comment": "Tips: You have all the ingredients for a lasting relationship. Now just say it out loud — don't let this perfect moment slip away. She's probably waiting for you to take that step.",
+        "radarData": {
+          "labels": [
+            "Chemistry",
+            "Emotional Investment",
+            "Communication",
+            "Future Vision",
+            "Security"
+          ],
+          "values": [
+            82,
+            85,
+            80,
+            78,
+            83
+          ]
+        }
+      },
+      {
+        "min": 55,
+        "max": 60,
+        "title": "A Once-in-a-Lifetime Aurora",
+        "description": "This is a once-in-a-century compatibility! Trust, chemistry, communication, and emotional depth are all at near-perfect levels. With her, you can completely let your guard down; with you, she feels utterly safe. This isn't just romance — it's soul-level resonance.",
+        "comment": "Tips: Don't waste this kind of fate! You're standing at the doorstep of happiness — just reach out to each other. Cherish this person, because a feeling this certain might only come once in a lifetime.",
+        "radarData": {
+          "labels": [
+            "Chemistry",
+            "Emotional Investment",
+            "Communication",
+            "Future Vision",
+            "Security"
+          ],
+          "values": [
+            95,
+            98,
+            92,
+            90,
+            96
+          ]
+        }
+      }
     ]
   },
   {
@@ -665,75 +2770,656 @@
     "title": "恋愛レーダー：お互いの恋愛テンポを測定",
     "description": "10の日常シーンで、恋愛における「本当のテンポ」をこっそり探ります。気になるあの人に送って、同じ周波数かチェック！",
     "category": "romance",
-    "tags": ["恋愛", "曖昧"],
+    "tags": [
+      "恋愛",
+      "曖昧",
+      "価値観",
+      "心理"
+    ],
     "questions": [
-      { "text": "初めて二人で映画を観た後、理想的な次の行動は？", "options": [
-        { "text": "雰囲気の良いレストランで座ってじっくりお喋り", "score": 4 },
-        { "text": "近くを散歩しながらドリンクをテイクアウト", "score": 3 },
-        { "text": "成り行きに任せて、その場の雰囲気で決める", "score": 2 },
-        { "text": "いい時間だし、そのまま解散", "score": 1 }
-      ]},
-      { "text": "「メッセージの返信速度」についての本音は？", "options": [
-        { "text": "できるだけ早く返してほしい。遅いと心がざわつく", "score": 4 },
-        { "text": "見たら返す、即レスじゃなくてもお互い楽でいい", "score": 3 },
-        { "text": "決まった時間にまとめて返信派。メッセージに縛られたくない", "score": 2 },
-        { "text": "完全に気分と忙しさ次第。一日返さないこともある", "score": 1 }
-      ]},
-      { "text": "「曖昧期」はどれくらいが完璧？", "options": [
-        { "text": "1〜2週間。感覚が合えばすぐ確定したい", "score": 4 },
-        { "text": "1〜3ヶ月。甘酸っぱい駆け引きが一番楽しい", "score": 3 },
-        { "text": "3〜6ヶ月。じっくり観察してから決めたい", "score": 2 },
-        { "text": "期限なし。明確な線引きがなくてもいい", "score": 1 }
-      ]},
-      { "text": "珍しく週末が丸々空いた。どう過ごす？", "options": [
-        { "text": "好きな人と一緒にアウトドアに行きたい", "score": 4 },
-        { "text": "1日は出かけて、1日は家でダラダラ", "score": 3 },
-        { "text": "もう予定パンパン、暇が嫌い", "score": 2 },
-        { "text": "特に予定なし、寝坊してから考える", "score": 1 }
-      ]},
-      { "text": "友達の集まりで、気になる人から話しかけられた。あなたは？", "options": [
-        { "text": "超熱心に応対、話題を広げる努力をする", "score": 4 },
-        { "text": "礼儀正しく返しつつ、相手の反応を観察", "score": 3 },
-        { "text": "ちょっと恥ずかしくて、相手の話を聞くのがメイン", "score": 2 },
-        { "text": "距離を保つ、初対面の人との馴れ合いは苦手", "score": 1 }
-      ]},
-      { "text": "「記念日を祝う」ことについてどう？", "options": [
-        { "text": "超大事！日常に必要不可欠なスパイス", "score": 4 },
-        { "text": "たまにあればいい、毎回大げさでなくていい", "score": 3 },
-        { "text": "その時の気分次第、あってもなくても", "score": 2 },
-        { "text": "面倒くさい、穏やかが一番", "score": 1 }
-      ]},
-      { "text": "曖昧中、毎晩「おやすみ」は必須？", "options": [
-        { "text": "絶対！相手のことを想ってる最高の証", "score": 4 },
-        { "text": "大体は言うけど、忘れても大丈夫", "score": 3 },
-        { "text": "別に、途中で寝落ちも普通", "score": 2 },
-        { "text": "形式的すぎる、無理に言わなくていい", "score": 1 }
-      ]},
-      { "text": "「人を知る」最善の方法は？", "options": [
-        { "text": "一緒に旅行して、予想外の事態への対処を見る", "score": 4 },
-        { "text": "深夜の長話で、お互いの価値観や過去を共有", "score": 3 },
-        { "text": "普段の友達や家族への接し方を観察", "score": 2 },
-        { "text": "日常の雑談や生活の些細なことからゆっくり感じ取る", "score": 1 }
-      ]},
-      { "text": "好きな人ができた時、通常どうする？", "options": [
-        { "text": "積極的に攻める、何度も機会を作って知らせる", "score": 4 },
-        { "text": "まずヒントを出して、相手の反応を見る", "score": 3 },
-        { "text": "黙って観察、目立つ行動はできない", "score": 2 },
-        { "text": "成り行きに任せて、運命と天に委ねる", "score": 1 }
-      ]},
-      { "text": "将来の恋愛についての今の姿勢は？", "options": [
-        { "text": "安定して長く続く関係を強く望んでいる", "score": 4 },
-        { "text": "愛の到来を期待するけど、焦らない", "score": 3 },
-        { "text": "一人の生活も悪くない、ご縁があれば", "score": 2 },
-        { "text": "今は恋愛にフォーカスしてない。まず自分の生活優先", "score": 1 }
-      ]}
+      {
+        "text": "After a first solo movie date, what's your ideal next move?",
+        "options": [
+          {
+            "text": "Find a nice restaurant to sit down and chat over dinner",
+            "score": 4
+          },
+          {
+            "text": "Go for a casual walk nearby, grab a drink",
+            "score": 3
+          },
+          {
+            "text": "Go with the flow, decide based on the vibe",
+            "score": 2
+          },
+          {
+            "text": "It's getting late, just head home separately",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Your honest take on 'text reply speed'?",
+        "options": [
+          {
+            "text": "Want quick replies — slow responses trigger inner drama",
+            "score": 4
+          },
+          {
+            "text": "Reply when I see it, no need to be instant — no pressure",
+            "score": 3
+          },
+          {
+            "text": "Prefer scheduled replies, don't like being tied to messages",
+            "score": 2
+          },
+          {
+            "text": "Depends on mood and schedule — sometimes a whole day is normal",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "How long is the perfect 'flirting stage' before defining a relationship?",
+        "options": [
+          {
+            "text": "1-2 weeks — if it feels right, lock it down fast",
+            "score": 4
+          },
+          {
+            "text": "1-3 months — the sweet push-and-pull is the best part",
+            "score": 3
+          },
+          {
+            "text": "3-6 months — take it slow, observe carefully",
+            "score": 2
+          },
+          {
+            "text": "No timeline — maybe don't even need a clear label",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "You have a rare free weekend. How do you usually spend it?",
+        "options": [
+          {
+            "text": "Plan an outdoor activity with someone you like",
+            "score": 4
+          },
+          {
+            "text": "One day out, one day staying home to recharge",
+            "score": 3
+          },
+          {
+            "text": "Already packed with plans and social events",
+            "score": 2
+          },
+          {
+            "text": "No plans — sleep in and figure it out later",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "At a friend gathering, someone attractive starts chatting you up. You'd…",
+        "options": [
+          {
+            "text": "Enthusiastically engage, work to keep the conversation going",
+            "score": 4
+          },
+          {
+            "text": "Chat politely, quietly assess how they feel",
+            "score": 3
+          },
+          {
+            "text": "Feel shy, mostly listen and nod along",
+            "score": 2
+          },
+          {
+            "text": "Keep distance — not comfortable getting friendly fast",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Your view on 'romantic gestures' (anniversaries, birthday surprises)?",
+        "options": [
+          {
+            "text": "Extremely important! They're essential spice for daily life",
+            "score": 4
+          },
+          {
+            "text": "Nice to have occasionally, no need to go overboard",
+            "score": 3
+          },
+          {
+            "text": "Depends on the mood, take it or leave it",
+            "score": 2
+          },
+          {
+            "text": "Too much hassle — keeping things simple is real love",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If you're in the flirting stage, must you say 'goodnight' every night?",
+        "options": [
+          {
+            "text": "Absolutely! It shows you're thinking of each other",
+            "score": 4
+          },
+          {
+            "text": "Most of the time, but forgetting is no big deal",
+            "score": 3
+          },
+          {
+            "text": "Not necessarily — falling asleep mid-chat is normal",
+            "score": 2
+          },
+          {
+            "text": "Feels too formulaic — no need to force it",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What's the best way to truly get to know someone?",
+        "options": [
+          {
+            "text": "Travel together — see how they handle unexpected situations",
+            "score": 4
+          },
+          {
+            "text": "Late-night deep talks about values and the past",
+            "score": 3
+          },
+          {
+            "text": "Watch how they treat friends and family in daily life",
+            "score": 2
+          },
+          {
+            "text": "Through casual daily chats and life's small moments",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "When you realize you like someone, what do you usually do?",
+        "options": [
+          {
+            "text": "Go for it — actively create opportunities to let them know",
+            "score": 4
+          },
+          {
+            "text": "Drop subtle hints, see how they respond",
+            "score": 3
+          },
+          {
+            "text": "Observe quietly, too afraid to make obvious moves",
+            "score": 2
+          },
+          {
+            "text": "Leave it to fate and the universe",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Your current attitude toward future relationships?",
+        "options": [
+          {
+            "text": "Really want a stable, long-lasting relationship",
+            "score": 4
+          },
+          {
+            "text": "Looking forward to love, but no rush to force it",
+            "score": 3
+          },
+          {
+            "text": "Single life is fine too — whatever happens, happens",
+            "score": 2
+          },
+          {
+            "text": "Not focused on romance right now — living my best solo life",
+            "score": 1
+          }
+        ]
+      }
     ],
     "results": [
-      { "min": 10, "max": 15, "title": "【氷河系】究極のスロースターター", "description": "恋愛のテンポは氷河のようにゆっくり。関係を築くことに非常に慎重で、少し仏教的ですらある。個人の空間を極めて必要とし、ペースの押し付けや表明の強制を嫌います。", "comment": "愛の攻略法：直接攻めても無駄です。まずは共通の趣味を持つ「良い友達」から始めて、プレッシャーのない日常の寄り添いでゆっくり氷山を溶かしましょう。", "radarData": { "labels": ["積極性", "一人時間欲求", "恋愛熱量", "探り心理", "ロマンス度"], "values": [15, 95, 20, 80, 15] } },
-      { "min": 16, "max": 23, "title": "【温帯系】慎重な慢熱観察家", "description": "恋愛を拒絶はしないけれど、決して軽率に踏み込まない。安全な距離から価値観や生活習慣を先に観察する習慣。信頼の積み重ねに時間が必要で、涓涓と流れるような恋愛が好み。", "comment": "愛の攻略法：焦らないで！壮大なデートより、深く語り合える散歩を何度か重ねて、「一緒にいると安心する」と感じさせましょう。", "radarData": { "labels": ["積極性", "一人時間欲求", "恋愛熱量", "探り心理", "ロマンス度"], "values": [35, 70, 45, 85, 40] } },
-      { "min": 24, "max": 32, "title": "【亜熱帯系】程よいバランス派", "description": "恋愛のリズムが最も心地よい！曖昧の駆け引きを楽しみつつ、誠意を見せるタイミングも心得ています。スペースを与えつつロマンスも期待する — 一緒にいると春風のよう。", "comment": "愛の攻略法：今のペースは最高です！日常会話に少しだけピンクの泡を混ぜてみて。例えば「じゃあ今度一緒に行こうよ」と言って反応を見てみましょう。", "radarData": { "labels": ["積極性", "一人時間欲求", "恋愛熱量", "探り心理", "ロマンス度"], "values": [65, 50, 70, 55, 65] } },
-      { "min": 33, "max": 37, "title": "【熱帯系】直球勝負の行動派", "description": "好きか嫌いか、境界線がはっきり。無意味な心理ゲームが嫌いで、曖昧が長すぎるのは時間の無駄だと思う。気になる人を見つけたら即行動、テンポが速くて爽快。", "comment": "愛の攻略法：直球には直球を打ち返すのがベスト！あなたも好意があるなら矜持を張りすぎないで。積極さを適度に見せれば、同じ道を歩む仲間を見つけた気分になるでしょう。", "radarData": { "labels": ["積極性", "一人時間欲求", "恋愛熱量", "探り心理", "ロマンス度"], "values": [85, 30, 85, 30, 80] } },
-      { "min": 38, "max": 40, "title": "【火山系】情熱爆発の超特急", "description": "「フィーリングが合ったら即GO！」恋愛に対して極大の情熱と行動力。直感を信じ、火花に溢れる衝突が好きで、長い駆け引きを嫌う。瞬時に恋を点火できるタイプ。", "comment": "愛の攻略法：嵐のような恋愛の準備はOK！でも飛び込む前に、お互いの基本的な価値観が合っているか確認することを忘れずに！", "radarData": { "labels": ["積極性", "一人時間欲求", "恋愛熱量", "探り心理", "ロマンス度"], "values": [95, 15, 95, 10, 90] } }
+      {
+        "min": 10,
+        "max": 15,
+        "title": "【Glacier Type】 The Zen Observer",
+        "description": "Your romantic pace moves like a glacier — slow, steady, and deliberately cautious. You prioritize personal space above all and don't like being pressured to define things or speed up the timeline.",
+        "comment": "Love Strategy: Direct approaches won't work. Start as a 'friend with shared interests' and use pressure-free daily companionship to slowly melt the ice.",
+        "radarData": {
+          "labels": [
+            "Initiative",
+            "Alone Time Need",
+            "Romantic Heat",
+            "Probing Instinct",
+            "Romantic Gestures"
+          ],
+          "values": [
+            15,
+            95,
+            20,
+            80,
+            15
+          ]
+        }
+      },
+      {
+        "min": 16,
+        "max": 23,
+        "title": "【Temperate Type】The Cautious Observer",
+        "description": "You don't reject love, but you never rush in. You prefer watching from a safe distance, assessing values and habits before making a move. Trust takes time to build — you like love that flows like a gentle stream.",
+        "comment": "Love Strategy: Don't rush! Instead of elaborate dates, try multiple casual walks with honest conversation. Make them feel 'comfortable and safe' around you.",
+        "radarData": {
+          "labels": [
+            "Initiative",
+            "Alone Time Need",
+            "Romantic Heat",
+            "Probing Instinct",
+            "Romantic Gestures"
+          ],
+          "values": [
+            35,
+            70,
+            45,
+            85,
+            40
+          ]
+        }
+      },
+      {
+        "min": 24,
+        "max": 32,
+        "title": "【Subtropical Type】The Easygoing Balancer",
+        "description": "Your romantic rhythm is the most comfortable! You know how to enjoy flirty tension while also knowing when to show sincerity. You give space but also crave romantic moments — being with you feels like a spring breeze.",
+        "comment": "Love Strategy: Your pace is great! Try adding subtle romantic probes into daily conversation — like 'Let's go together next time' — and watch how they respond.",
+        "radarData": {
+          "labels": [
+            "Initiative",
+            "Alone Time Need",
+            "Romantic Heat",
+            "Probing Instinct",
+            "Romantic Gestures"
+          ],
+          "values": [
+            65,
+            50,
+            70,
+            55,
+            65
+          ]
+        }
+      },
+      {
+        "min": 33,
+        "max": 37,
+        "title": "【Tropical Type】The Direct Action-Taker",
+        "description": "Like or dislike — you draw clear lines. You hate pointless guessing games and think dragging out ambiguity is a waste of time. When you spot someone you like, you make moves fast and decisively.",
+        "comment": "Love Strategy: The best response to a direct approach is to be direct back! If you're also interested, don't play too coy — show your enthusiasm and they'll feel they've found a kindred spirit.",
+        "radarData": {
+          "labels": [
+            "Initiative",
+            "Alone Time Need",
+            "Romantic Heat",
+            "Probing Instinct",
+            "Romantic Gestures"
+          ],
+          "values": [
+            85,
+            30,
+            85,
+            30,
+            80
+          ]
+        }
+      },
+      {
+        "min": 38,
+        "max": 40,
+        "title": "【Volcanic Type】The Lightning-Fast Romantic",
+        "description": "'If it feels right, just go for it!' You bring massive passion and action to love. You trust your gut, love fiery chemistry, and despise slow-burn games. You're the type who can ignite love in an instant.",
+        "comment": "Love Strategy: Get ready for a whirlwind romance! But before diving in, do a quick values check — make sure your fundamentals are aligned for the long run!",
+        "radarData": {
+          "labels": [
+            "Initiative",
+            "Alone Time Need",
+            "Romantic Heat",
+            "Probing Instinct",
+            "Romantic Gestures"
+          ],
+          "values": [
+            95,
+            15,
+            95,
+            10,
+            90
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "love-brain-quiz",
+    "title": "恋愛脳指数テスト",
+    "description": "恋をするとIQがゼロになる？それとも常に冷静？10のシチュエーション質問であなたの「恋愛脳」度を測定します。",
+    "category": "romance",
+    "tags": [
+      "恋愛",
+      "心理"
+    ],
+    "questions": [
+      {
+        "text": "今日、相手が少しキツいことを言いました。あなたの最初の反応は？",
+        "options": [
+          {
+            "text": "機嫌が悪いだけだと思い、自動的に言い訳を探す",
+            "score": 4
+          },
+          {
+            "text": "悲しいが、少しなだめられると許してしまう",
+            "score": 3
+          },
+          {
+            "text": "問題点を直接指摘し、謝罪を要求する",
+            "score": 2
+          },
+          {
+            "text": "冷静に意図を分析し、心の中で大きく減点する",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "付き合い始めの時期、相手が急に冷たくなりました。どうしますか？",
+        "options": [
+          {
+            "text": "不安になり、自分が何か間違えたかと反省し続ける",
+            "score": 4
+          },
+          {
+            "text": "少し探りを入れるが、冷たいままなら諦める",
+            "score": 3
+          },
+          {
+            "text": "相手が動かないなら自分も動かず、自分の生活に集中する",
+            "score": 2
+          },
+          {
+            "text": "情緒不安定で面倒な人だと判断し、即座に関係を断つ",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "友達全員が「あの人はやめたほうがいい」と忠告してきました。",
+        "options": [
+          {
+            "text": "表面上は頷くが、実際は盲目的に愛し続ける",
+            "score": 4
+          },
+          {
+            "text": "聞き入れるが、自分の愛で相手を変えられると信じる",
+            "score": 3
+          },
+          {
+            "text": "関係を真剣に見直し、警戒心を強める",
+            "score": 2
+          },
+          {
+            "text": "友達の指摘が客観的で正当なら、すぐにブレーキをかける",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "恋愛の満点が100点の場合、付き合い始めの相手に何点を与えますか？",
+        "options": [
+          {
+            "text": "即座に100点！恋をしたら完璧な存在になる",
+            "score": 4
+          },
+          {
+            "text": "80点。第一印象が良いので高い点からスタートする",
+            "score": 3
+          },
+          {
+            "text": "ギリギリの50点。徐々に点数を稼いでもらう",
+            "score": 2
+          },
+          {
+            "text": "0点。最初はみんな他人、それが公平だ",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "相手があなたの絶対に許せないミスをしたが、泣いて許しを乞いました。",
+        "options": [
+          {
+            "text": "かわいそうに思い、つい心が揺れて許してしまう",
+            "score": 4
+          },
+          {
+            "text": "激怒するが、最終的にもう一度だけチャンスを与える",
+            "score": 3
+          },
+          {
+            "text": "許すが、厳密な観察期間と境界線を設定する",
+            "score": 2
+          },
+          {
+            "text": "原則は原則。一線を越えたら絶対に別れる",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "友達と週末の予定を入れていたが、恋人が急に会いたいと言ってきた。",
+        "options": [
+          {
+            "text": "迷わず友達との約束をキャンセル。恋人が最優先",
+            "score": 4
+          },
+          {
+            "text": "恋人を連れて行けないか調整を試みる",
+            "score": 3
+          },
+          {
+            "text": "なだめつつも、当初の予定通り友達に会いに行く",
+            "score": 2
+          },
+          {
+            "text": "自分で何か探すように言い、予定を邪魔させない",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "安定した関係の中で、無意識に相手の好みに合わせて変えますか？",
+        "options": [
+          {
+            "text": "完全に変える。相手が好きなら喜んで合わせる",
+            "score": 4
+          },
+          {
+            "text": "時折相手の好みに合わせて少し妥協する",
+            "score": 3
+          },
+          {
+            "text": "良い提案は参考にするが、自分のスタイルは保つ",
+            "score": 2
+          },
+          {
+            "text": "絶対にしない。私を好きならありのままを受け入れるべき",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "相手が急に携帯にパスワードを設定し、隠すようになりました。",
+        "options": [
+          {
+            "text": "不安だが、「プライバシーを尊重しよう」と自分に言い聞かせる",
+            "score": 4
+          },
+          {
+            "text": "無限に考えすぎるが、関係が壊れるのが怖くて聞けない",
+            "score": 3
+          },
+          {
+            "text": "直接尋ね、合理的な説明を求める",
+            "score": 2
+          },
+          {
+            "text": "気づかないふりをして、別れの準備のためにこっそり証拠を集める",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "過去を振り返って、あなたの別れの主な原因は何ですか？",
+        "options": [
+          {
+            "text": "数え切れないほどの失望と悔しさに耐えきれなくなった",
+            "score": 4
+          },
+          {
+            "text": "相手が決して変わらないと気づき、悲しみながら去る",
+            "score": 3
+          },
+          {
+            "text": "将来の目標が合わないと気づき、早めに終わらせる",
+            "score": 2
+          },
+          {
+            "text": "一線を越えられたか、冷めたか。非常に決断が早い",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "あなたにとって、理想の恋愛状態とは？",
+        "options": [
+          {
+            "text": "毎日一緒にいて全てを共有したい、世界には二人だけ",
+            "score": 4
+          },
+          {
+            "text": "お互いに頼り合い、相手が最強の避難場所",
+            "score": 3
+          },
+          {
+            "text": "自立しながら支え合い、それぞれが輝く",
+            "score": 2
+          },
+          {
+            "text": "ただのオマケ。恋愛がなくても十分幸せに生きられる",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "恋愛脳指数 0%: 冷静沈着な冷徹マシーン",
+        "description": "あなたの脳は防弾仕様！恋愛でも実用主義者で、甘い言葉は通じず、約束より行動を重視します。",
+        "comment": "専用解析: 常に警戒するのは傷つかないためですが、時には防備を解いて純粋な恋愛を楽しむのも悪くありません。",
+        "radarData": {
+          "labels": [
+            "衝動",
+            "フィルター",
+            "自己防衛",
+            "自己犠牲",
+            "精神疲労"
+          ],
+          "values": [
+            20,
+            10,
+            95,
+            15,
+            10
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "恋愛脳指数 30%: 臨機応変な恋愛戦士",
+        "description": "理知と感情を完璧に使い分けます。ロマンスを楽しみますが、境界線は厳守。相手に赤い旗が見えれば、即座に身を引きます。",
+        "comment": "専用解析: この原則に基づくスタイルは非常に健康的です！自分を見失うことなく幸せを見つけられるでしょう。",
+        "radarData": {
+          "labels": [
+            "衝動",
+            "フィルター",
+            "自己防衛",
+            "自己犠牲",
+            "精神疲労"
+          ],
+          "values": [
+            45,
+            30,
+            80,
+            40,
+            30
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "恋愛脳指数 75%: ピンクのフィルターを持つロマンチスト",
+        "description": "あなたは間違いなく少し恋愛脳です！好きな人を超極厚の美顔フィルター越しに見てしまいます。問題が起きても、すぐに心軟かくなり言い訳を探します。",
+        "comment": "専用解析: あなたの優しさは素晴らしい資産ですが、フィルターが割れた時は自己欺瞞せず勇気を持って認めてください。",
+        "radarData": {
+          "labels": [
+            "衝動",
+            "フィルター",
+            "自己防衛",
+            "自己犠牲",
+            "精神疲労"
+          ],
+          "values": [
+            80,
+            75,
+            40,
+            75,
+            65
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "恋愛脳指数 999%: 救いようのない純愛の神",
+        "description": "重度の末期恋愛脳！恋愛中はIQがゼロになり、世界は相手だけになります。相手が喜ぶなら、どんな苦痛も飲み込んで無限に妥協・犠牲にします。",
+        "comment": "専用解析: 純愛は無敵！しかし、恋愛は二人とも輝かせるべきであり、相手を照らすために自分の光を消さないでください。",
+        "radarData": {
+          "labels": [
+            "衝動",
+            "フィルター",
+            "自己防衛",
+            "自己犠牲",
+            "精神疲労"
+          ],
+          "values": [
+            95,
+            99,
+            10,
+            95,
+            90
+          ]
+        }
+      }
     ]
   }
 ]
