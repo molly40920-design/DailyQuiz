@@ -3421,5 +3421,321 @@
         }
       }
     ]
+  },
+  {
+    "id": "midnight-emo-quiz",
+    "title": "Midnight EMO Frequency Quiz",
+    "description": "Social butterfly by day, social phobic by night? Discover your 'midnight inner monologue' type and see if you're a Revenge Bedtime Champion or Schrödinger's Melancholy Clown!",
+    "category": "psychological",
+    "tags": [
+      "Psychology",
+      "Fun"
+    ],
+    "questions": [
+      {
+        "text": "It's 1 AM, your phone screen is still on. What are you looking at?",
+        "options": [
+          {
+            "text": "Funny shorts or memes, can't stop scrolling, brain is hyper",
+            "score": 1
+          },
+          {
+            "text": "Scrolling through others' stories, feeling a bit anxious and comparing",
+            "score": 2
+          },
+          {
+            "text": "Listening to sad songs, staring at chat logs of someone who won't contact you anymore",
+            "score": 3
+          },
+          {
+            "text": "Already on Do Not Disturb, just checking the time before going back to sleep",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Suddenly recalling something wrong you said in public 5 years ago. Your reaction?",
+        "options": [
+          {
+            "text": "Whatever! Who remembers it now? Quick, watch the next video to distract",
+            "score": 1
+          },
+          {
+            "text": "Twisting in bed, mentally rehearsing 100 times 'what I should have said'",
+            "score": 2
+          },
+          {
+            "text": "Feeling like a failure who always messes up, letting out a long sigh",
+            "score": 3
+          },
+          {
+            "text": "5 years ago? I don't even remember what I had for dinner yesterday",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "A friend texts at 2 AM: 'I'm so sad...'. What do you do?",
+        "options": [
+          {
+            "text": "Send 10 dark humor memes or funny stickers to force a laugh",
+            "score": 1
+          },
+          {
+            "text": "Analyze the situation with them, ending up getting anxious yourself",
+            "score": 2
+          },
+          {
+            "text": "Instantly reply 'What's wrong? I'm here', totally empathizing and almost crying",
+            "score": 3
+          },
+          {
+            "text": "See it at 8 AM, calmly reply: 'Sorry I was asleep, are you okay?'",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "While taking a shower, what's running through your mind?",
+        "options": [
+          {
+            "text": "Holding a solo concert, or rehearsing an award acceptance speech",
+            "score": 1
+          },
+          {
+            "text": "Reviewing everything that happened today, criticizing your own performance",
+            "score": 2
+          },
+          {
+            "text": "Pondering the meaning of life, the end of the universe, and why nobody understands you",
+            "score": 3
+          },
+          {
+            "text": "Spacing out. Thinking the water is a bit hot, turning it down",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Seeing a super EMO (emotional) long post on Threads. What do you do?",
+        "options": [
+          {
+            "text": "Swipe away. Too long, I only want funny stuff",
+            "score": 1
+          },
+          {
+            "text": "Quietly finish reading, think 'Wow this is literally me', and heart it",
+            "score": 2
+          },
+          {
+            "text": "Can't help but leave a comforting comment, feeling everyone has it hard",
+            "score": 3
+          },
+          {
+            "text": "Think 'This person has too much free time', close the app and sleep",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "If your 'midnight mood' were a song, what genre would it be?",
+        "options": [
+          {
+            "text": "EDM Party: Brain spinning, getting hyped, don't want the day to end",
+            "score": 1
+          },
+          {
+            "text": "Indie Rock: Full of murmurs, confusion, and unanswered questions",
+            "score": 2
+          },
+          {
+            "text": "Ballad: A sad love song that almost makes you cry on the first note",
+            "score": 3
+          },
+          {
+            "text": "White Noise: Calm, peaceful, only the sound of rhythmic breathing",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You have an important early morning interview/date tomorrow. Your state tonight?",
+        "options": [
+          {
+            "text": "Tell yourself to sleep early, but fingers can't stop scrolling until the last minute",
+            "score": 1
+          },
+          {
+            "text": "Lie in bed frantically rehearsing all possible disasters, can't sleep at all",
+            "score": 2
+          },
+          {
+            "text": "Worry about performing poorly, lose confidence, sink into a low mood spiral",
+            "score": 3
+          },
+          {
+            "text": "Set three alarms, fall asleep the second you hit the pillow",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "If you could invent a magic pill, what would you want it to cure?",
+        "options": [
+          {
+            "text": "The 'clown mask syndrome' of feeling like a joke at night",
+            "score": 1
+          },
+          {
+            "text": "The 'severe mental drain' of overthinking someone's casual words",
+            "score": 2
+          },
+          {
+            "text": "The 'midnight fragility' of inexplicably feeling lonely and wanting to cry",
+            "score": 3
+          },
+          {
+            "text": "No need for pills, my mental and physical state is healthy as steel",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When you feel overwhelmed by emotions, how do you usually vent?",
+        "options": [
+          {
+            "text": "Binge eating midnight snacks or shopping, filling the void with dopamine",
+            "score": 1
+          },
+          {
+            "text": "Posting cryptic complaints on a private account or Threads that only you understand",
+            "score": 2
+          },
+          {
+            "text": "Crying hard, or writing a long memo essay that will never be sent",
+            "score": 3
+          },
+          {
+            "text": "Sleep. After waking up, the world will return to normal",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "To sum up, what does 'midnight' mean to you?",
+        "options": [
+          {
+            "text": "My only 'free time' of the day, absolutely nobody can take it away",
+            "score": 1
+          },
+          {
+            "text": "A cruel mirror reflecting all the anxiety and insecurity hidden during the day",
+            "score": 2
+          },
+          {
+            "text": "A giant bomb shelter where I can secretly lick my wounds",
+            "score": 3
+          },
+          {
+            "text": "It's just the brain's time to repair and recharge, what else?",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 15,
+        "title": "【Revenge Bedtime Champion】",
+        "description": "'I'm not staying up late, I'm reclaiming the freedom I couldn't get during the day.' Your EMO frequency is very low because you simply don't have time to be sad! You refuse to sleep because midnight is the only time you control. A normal person by day, a web-surfing master by night. As long as your phone has battery, you can party till dawn.",
+        "comment": "Exclusive Analysis: Your hidden toxicity is using temporary pleasure to numb yourself, escaping real-world pressure. Try sleeping earlier and bringing that control back to your daytime!",
+        "radarData": {
+          "labels": [
+            "Night Owl",
+            "Corporate Slave",
+            "Stability",
+            "Overthinking",
+            "Empathy"
+          ],
+          "values": [
+            99,
+            90,
+            70,
+            40,
+            50
+          ]
+        }
+      },
+      {
+        "min": 16,
+        "max": 25,
+        "title": "【Midnight Ruminator】",
+        "description": "'At 2 AM, I promptly recall a wrong sentence I said 5 years ago, and feel too awkward to sleep.' Your EMO is anxiety-driven. A strict disciplinary committee lives in your brain, replaying all your awkward moments and wrong decisions every midnight. Others have long forgotten, but you still punish yourself.",
+        "comment": "Exclusive Analysis: Your hidden toxicity is severe mental drain, torturing yourself with others' mistakes or your own minor flaws. Let it go, nobody really cares about 5 years ago!",
+        "radarData": {
+          "labels": [
+            "Night Owl",
+            "Corporate Slave",
+            "Stability",
+            "Overthinking",
+            "Empathy"
+          ],
+          "values": [
+            80,
+            60,
+            40,
+            95,
+            70
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "【Schrödinger's Melancholy Clown】",
+        "description": "'Post about how terrible I feel, but immediately reply \"Haha I'm fine\" when someone comforts me.' You have pure midnight EMO constitution. Highly empathetic, you easily feel lonely at night. Magically, after a good sleep, you switch back to a sunny personality as if the crying person wasn't you.",
+        "comment": "Exclusive Analysis: Your hidden toxicity is carrying others' emotions while craving salvation yet pushing away care. It's okay to admit your fragility!",
+        "radarData": {
+          "labels": [
+            "Night Owl",
+            "Corporate Slave",
+            "Stability",
+            "Overthinking",
+            "Empathy"
+          ],
+          "values": [
+            60,
+            50,
+            30,
+            85,
+            99
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "【Iron-Walled Sleep God】",
+        "description": "'What is EMO? Can I eat it? As long as I sleep fast enough, sadness can't catch me.' You are the rarest human! Extremely rational and emotionally stable, you believe a good sleep is better than self-pity. Others' EMO stories sound like alien language to you.",
+        "comment": "Exclusive Analysis: Your hidden toxicity is that your excessive rationality sometimes makes sensitive friends think you are cold-blooded. Showing a little human touch occasionally isn't bad!",
+        "radarData": {
+          "labels": [
+            "Night Owl",
+            "Corporate Slave",
+            "Stability",
+            "Overthinking",
+            "Empathy"
+          ],
+          "values": [
+            20,
+            70,
+            99,
+            20,
+            40
+          ]
+        }
+      }
+    ]
   }
 ]
