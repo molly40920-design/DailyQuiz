@@ -110,13 +110,13 @@ function handleRoute(hash) {
     if (quiz) {
       showIntro(quiz);
     } else {
-      switchView('hub');
+      showHub();
     }
   } else if (hash.startsWith('#result=')) {
      // Optional: allow direct linking to results if we persist score in URL
-     switchView('hub'); 
+     showHub(); 
   } else {
-    switchView('hub');
+    showHub();
   }
 }
 
@@ -125,7 +125,7 @@ window.addEventListener('popstate', () => {
   // Also reset state if going back to hub
   if (!window.location.hash || window.location.hash === '') {
     resetQuizState();
-    switchView('hub');
+    showHub();
   } else {
     handleRoute(window.location.hash);
   }
@@ -149,9 +149,13 @@ function switchView(viewName) {
   }, "50");
 }
 
+function showHub() {
+  trackPageView('/', 'Daily Quiz | 每日一測');
+  switchView('hub');
+}
+
 // --- Render Hub ---
 function renderHub(filterTag = '全部') {
-  trackPageView('/', 'Daily Quiz | 每日一測');
   dom.quizGrid.innerHTML = '';
   
   const filteredQ = filterTag === '全部' 
@@ -426,7 +430,7 @@ function showToast() {
 function goHome() {
   resetQuizState();
   window.location.hash = '';
-  switchView('hub');
+  showHub();
 }
 
 function setupEventListeners() {
@@ -441,7 +445,7 @@ function setupEventListeners() {
         // Re-render current view
         resetQuizState();
         renderHub();
-        switchView('hub');
+        showHub();
         window.location.hash = '';
       }
     });
