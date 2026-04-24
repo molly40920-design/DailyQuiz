@@ -3737,5 +3737,322 @@
         }
       }
     ]
+  },
+  {
+    "id": "breakup-assessment-quiz",
+    "title": "Should We Break Up? Relationship Checkup",
+    "description": "A deep dive into your relationship status. Through 10 real-life scenarios, discover if it's time to let go or if your relationship just needs some repair.",
+    "category": "romance",
+    "tags": [
+      "Love",
+      "Psychology",
+      "Quiz"
+    ],
+    "questions": [
+      {
+        "text": "When you think about your 'five-year plan', what's your first reaction?",
+        "options": [
+          {
+            "text": "He's not in the picture at all, and I even feel he'd be an obstacle.",
+            "score": 1
+          },
+          {
+            "text": "The future feels blurry, and I dare not think about him being in it.",
+            "score": 2
+          },
+          {
+            "text": "I sometimes worry our future paths differ, but I still want to try.",
+            "score": 3
+          },
+          {
+            "text": "Every image of the future includes him, and I'm really looking forward to it.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When you two have an argument recently, how does it usually end?",
+        "options": [
+          {
+            "text": "It's never resolved, ending in silent treatment or personal attacks.",
+            "score": 1
+          },
+          {
+            "text": "I compromise just to avoid fighting, but I feel very wronged inside.",
+            "score": 2
+          },
+          {
+            "text": "I get mad at the moment, but we talk it out and understand each other later.",
+            "score": 3
+          },
+          {
+            "text": "We rarely have huge fights; we discuss rationally and find common ground.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Looking back, what is the main reason you are 'still' with him right now?",
+        "options": [
+          {
+            "text": "Just out of habit, fear of being alone, or thinking breaking up is a hassle.",
+            "score": 1
+          },
+          {
+            "text": "He has some good qualities, and I hate to give up the current stability.",
+            "score": 2
+          },
+          {
+            "text": "Even though his flaws give me headaches, I still care deeply about him.",
+            "score": 3
+          },
+          {
+            "text": "Because being with him makes me a better, happier version of myself.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "If starting tomorrow, he never changed his 'fatal flaw', could you accept it?",
+        "options": [
+          {
+            "text": "Absolutely not. I've already had enough and feel suffocated.",
+            "score": 1
+          },
+          {
+            "text": "It would be very painful. I might explode if I endure it a bit longer.",
+            "score": 2
+          },
+          {
+            "text": "I'd feel a bit helpless, but I'm willing to tolerate or find a balance.",
+            "score": 3
+          },
+          {
+            "text": "Totally fine. Nobody is perfect, and I love every part of him.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When something happy or upsetting happens outside, who do you want to share it with first?",
+        "options": [
+          {
+            "text": "Definitely not him. Telling him might even ruin my mood.",
+            "score": 1
+          },
+          {
+            "text": "It used to be him, but now it's usually my best friends.",
+            "score": 2
+          },
+          {
+            "text": "I'd still want to tell him, even though he might not get my point sometimes.",
+            "score": 3
+          },
+          {
+            "text": "Of course him! He's always my safe haven and personal cheerleader.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When you're with him, do you feel you can be your 'true self'?",
+        "options": [
+          {
+            "text": "Not at all. I constantly walk on eggshells around him; it's suffocating.",
+            "score": 1
+          },
+          {
+            "text": "Half and half. I hide many thoughts and feelings from him.",
+            "score": 2
+          },
+          {
+            "text": "Mostly yes, I just actively avoid certain trigger topics.",
+            "score": 3
+          },
+          {
+            "text": "100% yes. Even at my absolute worst, I feel completely relaxed around him.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Regarding your physical intimacy (holding hands, hugs, or sex), what is the current state?",
+        "options": [
+          {
+            "text": "I even slightly reject his touch; I have absolutely zero interest.",
+            "score": 1
+          },
+          {
+            "text": "It feels like a routine, or the frequency has dropped to freezing point.",
+            "score": 2
+          },
+          {
+            "text": "Sometimes it feels a bit plain, but I still love the warmth of his hugs.",
+            "score": 3
+          },
+          {
+            "text": "Extremely compatible. Holding hands or hugging still gives me butterflies.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When you see other happy couples, what goes through your mind?",
+        "options": [
+          {
+            "text": "Intensely jealous, even thinking 'why is my relationship so terrible'.",
+            "score": 1
+          },
+          {
+            "text": "I feel their partners are better, and start feeling dissatisfied with mine.",
+            "score": 2
+          },
+          {
+            "text": "I occasionally compare, but I know every relationship has its own issues.",
+            "score": 3
+          },
+          {
+            "text": "We have our own unique way of being happy; no need to envy others.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "If you were single right now, knowing what you know about him, would you still choose to date him?",
+        "options": [
+          {
+            "text": "Absolutely not. I even feel like I was blind back then.",
+            "score": 1
+          },
+          {
+            "text": "Probably not. This relationship drains way too much of my energy.",
+            "score": 2
+          },
+          {
+            "text": "I probably still would. After all, we have many irreplaceable good memories.",
+            "score": 3
+          },
+          {
+            "text": "Without a doubt! If I could choose a hundred times, I'd still choose him.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Deep down, what outcome do you actually hope to get from this quiz?",
+        "options": [
+          {
+            "text": "I hope it tells me to 'break up now', giving me the courage and an excuse to leave.",
+            "score": 1
+          },
+          {
+            "text": "I hope it makes the decision for me, because I'm too drained to think.",
+            "score": 2
+          },
+          {
+            "text": "I hope it tells me 'it's salvageable' and how to repair the relationship.",
+            "score": 3
+          },
+          {
+            "text": "Just taking it out of curiosity; I know we won't actually break up.",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 16,
+        "title": "【Red Alert: It's time to let yourself go】",
+        "description": "Your subconscious has already given you the answer. This relationship is currently toxic and oppressive, constantly draining your confidence and energy. You're likely staying only because of fear of change or the sunk cost.",
+        "comment": "Exclusive Analysis: Love shouldn't make you feel suffocated. Please face your inner voice bravely. Only by leaving the wrong person can you free your hands to embrace the right self. It's time to cut your losses.",
+        "radarData": {
+          "labels": [
+            "Mental Drain",
+            "Desire to Breakup",
+            "Communication Failure",
+            "Future Consensus",
+            "Lingering Feelings"
+          ],
+          "values": [
+            95,
+            90,
+            85,
+            10,
+            15
+          ]
+        }
+      },
+      {
+        "min": 17,
+        "max": 25,
+        "title": "【Battery Depleted: Suffocating Bottleneck】",
+        "description": "Your relationship is sick. The past passion has been worn out by daily quarrels, indifference, or misunderstandings. You're in a 'tasteless to eat, but a pity to throw away' state, feeling tired but not knowing how to fix it.",
+        "comment": "Exclusive Analysis: Pretending everything is fine will only make it worse. You need a deeply honest 'heart-to-heart', or even consider taking a break to calm down. If neither is willing to change, letting go might just be a matter of time.",
+        "radarData": {
+          "labels": [
+            "Mental Drain",
+            "Desire to Breakup",
+            "Communication Failure",
+            "Future Consensus",
+            "Lingering Feelings"
+          ],
+          "values": [
+            80,
+            65,
+            75,
+            30,
+            40
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "【Adjustment Period: The love is there, but needs a tune-up】",
+        "description": "The foundation of your relationship is still there; you're just encountering some practical friction or communication blind spots. Your confusion comes from differences in habits, not a fundamental lack of love.",
+        "comment": "Exclusive Analysis: Romance doesn't stay in the honeymoon phase forever. This is a turning point. Try shifting from 'what are you mad about' to 'how can we fix this'. With more tolerance and less impulsiveness, you will get through this.",
+        "radarData": {
+          "labels": [
+            "Mental Drain",
+            "Desire to Breakup",
+            "Communication Failure",
+            "Future Consensus",
+            "Lingering Feelings"
+          ],
+          "values": [
+            40,
+            20,
+            30,
+            70,
+            85
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "【Solid as a Rock: Just a temporary doubt, don't worry】",
+        "description": "Your relationship is incredibly healthy and stable! You might have just had a small fight, or are simply curious. Deep down, you know they are the right one. You have great communication and a shared vision of the future.",
+        "comment": "Exclusive Analysis: Congratulations on having a fairytale-like relationship! Occasional friction is just the spice of life. Remember to give them a big hug tonight and tell them how much you love them!",
+        "radarData": {
+          "labels": [
+            "Mental Drain",
+            "Desire to Breakup",
+            "Communication Failure",
+            "Future Consensus",
+            "Lingering Feelings"
+          ],
+          "values": [
+            10,
+            5,
+            10,
+            95,
+            99
+          ]
+        }
+      }
+    ]
   }
 ]
