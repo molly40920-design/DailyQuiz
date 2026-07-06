@@ -4054,5 +4054,4760 @@
         }
       }
     ]
+  },
+  {
+    "id": "q-social-battery-1",
+    "title": "Your Social Battery Diagnostic",
+    "description": "Measure how fast you drain and how you recharge. Which battery model are you?",
+    "category": "personality",
+    "tags": [
+      "Social",
+      "Personality",
+      "Psychology"
+    ],
+    "questions": [
+      {
+        "text": "The weekend is finally here. How do you usually plan your downtime?",
+        "options": [
+          {
+            "text": "Pack it with dinners and events. Staying home is a total waste!",
+            "score": 4
+          },
+          {
+            "text": "One day out to see someone I know, and one day glued to the couch.",
+            "score": 3
+          },
+          {
+            "text": "No real plans. If someone asks and I'm in the mood, sure.",
+            "score": 2
+          },
+          {
+            "text": "Do Not Disturb on. I just want to binge shows and sleep in.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "You walk into a party full of strangers. Your first instinct is to:",
+        "options": [
+          {
+            "text": "Grab a drink and go chat up whoever looks interesting.",
+            "score": 4
+          },
+          {
+            "text": "Find a comfy corner and wait for people to come to me.",
+            "score": 2
+          },
+          {
+            "text": "Stick to the friend who brought me like glue.",
+            "score": 3
+          },
+          {
+            "text": "Silently count down until I can find an excuse to bail.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "You made plans with a friend, but they cancel last minute. Your honest reaction?",
+        "options": [
+          {
+            "text": "A little bummed. Let me quickly see who else is free to sub in.",
+            "score": 4
+          },
+          {
+            "text": "No big deal. Perfect, now I can deal with my own stuff.",
+            "score": 2
+          },
+          {
+            "text": "Huge sigh of relief! Yes, I don't have to leave the house!",
+            "score": 1
+          },
+          {
+            "text": "A bit annoyed they flaked, but secretly thrilled I get to stay home.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "When a task or presentation requires teamwork, your attitude is:",
+        "options": [
+          {
+            "text": "I love brainstorming together. Happy to take the lead.",
+            "score": 4
+          },
+          {
+            "text": "I'll go with the flow. Give me a clear task and I'll nail it.",
+            "score": 3
+          },
+          {
+            "text": "Talking it out costs too much. I'd rather just do it all myself.",
+            "score": 2
+          },
+          {
+            "text": "Keep my mouth shut and just try not to be the weak link.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "After three straight days of social events (dinners, karaoke, etc.), your state is:",
+        "options": [
+          {
+            "text": "Still buzzing! Honestly kind of want to keep the party going!",
+            "score": 4
+          },
+          {
+            "text": "Fun, but a little tired. I need a day or two to recover.",
+            "score": 3
+          },
+          {
+            "text": "My soul has left my body. Fully in 'social blackout' mode.",
+            "score": 2
+          },
+          {
+            "text": "Completely sick or fried. I swear I'm not leaving home for a month.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "You bump into a not-so-close coworker/classmate in the elevator. You:",
+        "options": [
+          {
+            "text": "Say hi warmly, maybe even chat about the weather or gossip.",
+            "score": 4
+          },
+          {
+            "text": "Smile and nod, then stare intently at the floor numbers.",
+            "score": 3
+          },
+          {
+            "text": "Pretend to scroll my phone or dig in my bag to avoid eye contact.",
+            "score": 2
+          },
+          {
+            "text": "See them waiting for the elevator and take the stairs instead.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "For you, what does true 'relaxation' actually look like?",
+        "options": [
+          {
+            "text": "Belting out songs with a big group of friends at karaoke.",
+            "score": 4
+          },
+          {
+            "text": "A chill chat at a cafe with my partner or best friend.",
+            "score": 3
+          },
+          {
+            "text": "Alone with my headphones, walking or window-shopping.",
+            "score": 2
+          },
+          {
+            "text": "Door locked, in pajamas, lying in bed doing absolutely nothing.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Your typical texting habit is:",
+        "options": [
+          {
+            "text": "Read and reply instantly. Love sending voice notes and rapid-fire texts.",
+            "score": 4
+          },
+          {
+            "text": "Depends on my mood and who it is. Only reply fast if it matters.",
+            "score": 3
+          },
+          {
+            "text": "I reply telepathically, then realize a day later I never hit send.",
+            "score": 2
+          },
+          {
+            "text": "My messages pile up sky-high. I read the ones I like and ghost the rest.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If you were forced to speak on stage in front of 50 people, you'd:",
+        "options": [
+          {
+            "text": "Nervous but mostly excited. This is my moment to shine!",
+            "score": 4
+          },
+          {
+            "text": "Prep the script hard. As long as I read it through, I'm fine.",
+            "score": 3
+          },
+          {
+            "text": "Stomachache, sweaty palms, mind completely blank.",
+            "score": 2
+          },
+          {
+            "text": "Seriously weigh calling in sick or just quitting on the spot.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "How would friends describe you?",
+        "options": [
+          {
+            "text": "The life of the party. Wherever you are, there's laughter.",
+            "score": 4
+          },
+          {
+            "text": "Easygoing and warm, a really great listener.",
+            "score": 3
+          },
+          {
+            "text": "Slow to warm up, but once you know me, I'm actually wild.",
+            "score": 2
+          },
+          {
+            "text": "A mysterious lone wolf. Hard to pin down, but full of my own ideas.",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "Eco Mode: The Tiny Solar Cell",
+        "description": "Your social battery is tiny and charges painfully slowly. Socializing is a high-drain activity for you, and you need lots of alone time to refill. You love your peace and quiet, and pointless social events leave you utterly drained.",
+        "comment": "Exclusive Analysis: Don't force yourself to please the crowd. Learn to gracefully decline the things that suck you dry, and save your charge for the people and moments that matter most.",
+        "radarData": {
+          "labels": [
+            "Social Stamina",
+            "Extroversion",
+            "Empathy",
+            "Self-Recovery",
+            "Adaptability"
+          ],
+          "values": [
+            30,
+            25,
+            80,
+            95,
+            50
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "Balanced Mode: The Smart Battery",
+        "description": "Your social battery is medium-sized and auto-adjusts its output to the situation and company. You can get hyped with people you know, but you switch to power-saving mode in unfamiliar settings. You've got the social-versus-solo balance figured out.",
+        "comment": "Exclusive Analysis: You have excellent social flexibility. Keep up this well-judged rhythm, it lets you move through any relationship with ease.",
+        "radarData": {
+          "labels": [
+            "Social Stamina",
+            "Extroversion",
+            "Empathy",
+            "Self-Recovery",
+            "Adaptability"
+          ],
+          "values": [
+            60,
+            55,
+            75,
+            70,
+            80
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "Fast Charge: The Efficient Power Bank",
+        "description": "You've got solid social endurance and you bounce back fast. Sure, you get tired sometimes, but a little rest or a chat with someone you vibe with, and you're back above 80% in no time.",
+        "comment": "Exclusive Analysis: You're the reliable ray of sunshine in your friend group, but don't forget to listen to your own inner voice too. A full day switched off does wonders for body and mind.",
+        "radarData": {
+          "labels": [
+            "Social Stamina",
+            "Extroversion",
+            "Empathy",
+            "Self-Recovery",
+            "Adaptability"
+          ],
+          "values": [
+            80,
+            75,
+            85,
+            90,
+            85
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "Infinite Mode: The Nuclear Reactor",
+        "description": "Incredible! Your social energy is basically limitless, and the livelier the scene, the more it fires you up. You don't need alone time to recharge. Interacting with people and soaking up the crowd's energy IS your best charging method.",
+        "comment": "Exclusive Analysis: You're a natural social pro and the ultimate vibe-setter, but be careful not to accidentally drain all those 'solar cell' friends of yours!",
+        "radarData": {
+          "labels": [
+            "Social Stamina",
+            "Extroversion",
+            "Empathy",
+            "Self-Recovery",
+            "Adaptability"
+          ],
+          "values": [
+            95,
+            100,
+            70,
+            60,
+            95
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "q-villain-index-2",
+    "title": "Your Inner Villain Rating",
+    "description": "Uncover the hidden 'dark side' lurking within, and your true villain charisma!",
+    "category": "personality",
+    "tags": [
+      "Villain",
+      "DarkSide",
+      "Fun"
+    ],
+    "questions": [
+      {
+        "text": "You catch someone talking trash about you behind your back. You:",
+        "options": [
+          {
+            "text": "Confront them face-to-face. Not afraid to blow it up.",
+            "score": 3
+          },
+          {
+            "text": "Stay calm on the surface, but quietly start collecting dirt on them.",
+            "score": 4
+          },
+          {
+            "text": "Feel hurt, and go cry it out to a close friend.",
+            "score": 1
+          },
+          {
+            "text": "Don't care at all. They're too beneath me to be worth my anger.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "When playing competitive games (board or mobile), your style is:",
+        "options": [
+          {
+            "text": "I'll do anything to win, even ruthlessly betray a friend.",
+            "score": 4
+          },
+          {
+            "text": "I love pulling strings behind the scenes and letting others take each other out.",
+            "score": 3
+          },
+          {
+            "text": "Zen player. Winning doesn't matter, as long as it's fun.",
+            "score": 1
+          },
+          {
+            "text": "Losing kills me. I demand a rematch immediately until I win.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "If you suddenly got the power of invisibility, the first thing you'd do is:",
+        "options": [
+          {
+            "text": "Sneak into fancy or off-limits places I could never normally enter.",
+            "score": 2
+          },
+          {
+            "text": "Go eavesdrop on what the people I dislike say in private.",
+            "score": 3
+          },
+          {
+            "text": "Prank and scare my friends just to watch them freak out.",
+            "score": 4
+          },
+          {
+            "text": "Hide somewhere quiet and nap in total, undisturbed peace.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "When someone you dislike fails or embarrasses themselves, your inner monologue is:",
+        "options": [
+          {
+            "text": "I burst out laughing, almost want to applaud: 'So you DO have off days!'",
+            "score": 4
+          },
+          {
+            "text": "A little smirk, quietly thinking 'serves you right.'",
+            "score": 3
+          },
+          {
+            "text": "I dislike them, but seeing them this miserable, I feel a tiny bit sorry.",
+            "score": 1
+          },
+          {
+            "text": "Nothing at all. Their business has nothing to do with me.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "What do you think is the real rule this world runs on?",
+        "options": [
+          {
+            "text": "Survival of the fittest. Only the strong get to make the rules.",
+            "score": 4
+          },
+          {
+            "text": "Trading favors. No permanent friends, only permanent interests.",
+            "score": 3
+          },
+          {
+            "text": "Social connections. Play the relationships right and anything gets solved.",
+            "score": 2
+          },
+          {
+            "text": "Luck decides everything. Hard work matters less than being born rich.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "You find a wallet stuffed with cash on the street. No cameras, no ID inside. You:",
+        "options": [
+          {
+            "text": "Keep it without hesitation. This is the luck I deserve.",
+            "score": 4
+          },
+          {
+            "text": "Take the cash and toss the empty wallet in the trash to destroy evidence.",
+            "score": 3
+          },
+          {
+            "text": "After a serious internal battle, decide to turn it in to the police.",
+            "score": 2
+          },
+          {
+            "text": "Don't even touch it. Walk right by, afraid of getting into trouble.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "When someone asks you for a favor, your usual attitude is:",
+        "options": [
+          {
+            "text": "Weigh what's in it for me. I only help if there's a condition.",
+            "score": 4
+          },
+          {
+            "text": "Help if it's easy, firmly decline if it's a hassle.",
+            "score": 2
+          },
+          {
+            "text": "I struggle to say no and often force myself to agree.",
+            "score": 1
+          },
+          {
+            "text": "Pretend I didn't hear, or brush it off with an excuse.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "Which of the 'seven deadly sins' do you commit most often?",
+        "options": [
+          {
+            "text": "Pride (I think I'm smarter and better than most people).",
+            "score": 4
+          },
+          {
+            "text": "Envy (I can't stand others doing better than me, I get jealous easily).",
+            "score": 3
+          },
+          {
+            "text": "Wrath (My temper takes over. I get emotional and can't control it).",
+            "score": 2
+          },
+          {
+            "text": "Sloth (Lie down over sit down. I absolutely loathe hassle).",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If you were the villain in a drama, what ending would you want?",
+        "options": [
+          {
+            "text": "Go out in a blaze of glory, so no one ever forgets me.",
+            "score": 3
+          },
+          {
+            "text": "Fool everyone, then vanish with a fortune.",
+            "score": 4
+          },
+          {
+            "text": "Redeem myself at the last second, sacrificing everything to protect someone I love.",
+            "score": 1
+          },
+          {
+            "text": "Get defeated and thrown in prison, but flash an eerie smile in the final shot.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "What do the words 'being kind' mean in modern society, to you?",
+        "options": [
+          {
+            "text": "A fig leaf for the weak. A synonym for pushover.",
+            "score": 4
+          },
+          {
+            "text": "A choice, but it needs an edge or it gets exploited.",
+            "score": 2
+          },
+          {
+            "text": "The most precious human quality. The world needs more warmth.",
+            "score": 1
+          },
+          {
+            "text": "A disguise. Nobody is truly selflessly kind.",
+            "score": 3
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "The Harmless Bunny",
+        "description": "Your heart is incredibly soft, with almost no villain traits. Even when people treat you badly, you often choose to forgive or step back. You believe the world is still a beautiful place, and kindness is your most precious weapon.",
+        "comment": "Exclusive Analysis: Kindness is a virtue, but grow yourself a little edge too, so you don't end up the pushover everyone takes advantage of.",
+        "radarData": {
+          "labels": [
+            "Scheming",
+            "Ambition",
+            "Composure",
+            "Cunning",
+            "Rebellion"
+          ],
+          "values": [
+            15,
+            30,
+            60,
+            20,
+            25
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "The Chaotic-Good Phantom Thief",
+        "description": "You've got a mischievous, rebellious streak and you won't blindly follow rules. You carry your own moral compass and might pull a little stunt now and then for fun or self-protection, but your line is crystal clear. You'd never do real harm.",
+        "comment": "Exclusive Analysis: You know how to protect yourself in the real world, and that shades-of-gray quality makes you irresistibly charming.",
+        "radarData": {
+          "labels": [
+            "Scheming",
+            "Ambition",
+            "Composure",
+            "Cunning",
+            "Rebellion"
+          ],
+          "values": [
+            45,
+            50,
+            70,
+            55,
+            65
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "The Smiling Tiger",
+        "description": "You've got deep cunning and a cool, calculating mind. On the surface you're friendly, even a little zen, but you actually see the whole board clearly. Cross your line and you'll deliver a fatal blow from the shadows.",
+        "comment": "Exclusive Analysis: Silent until you strike, then you stun everyone. You have powerful strategic thinking, so remember to point that brilliance in the right direction.",
+        "radarData": {
+          "labels": [
+            "Scheming",
+            "Ambition",
+            "Composure",
+            "Cunning",
+            "Rebellion"
+          ],
+          "values": [
+            75,
+            80,
+            90,
+            85,
+            60
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "The Supreme Overlord",
+        "description": "Your villain stats are off the charts! You're wildly ambitious, willing to do whatever it takes, with a strong streak of control and pride. In the movie, you're absolutely that charismatic, wildly popular final boss who puts the heroes through hell.",
+        "comment": "Exclusive Analysis: Your presence is powerful, with natural dominance and leadership. Just keep your temper and your need for control in check, so you don't actually become everyone's target.",
+        "radarData": {
+          "labels": [
+            "Scheming",
+            "Ambition",
+            "Composure",
+            "Cunning",
+            "Rebellion"
+          ],
+          "values": [
+            95,
+            100,
+            80,
+            95,
+            90
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "q-workplace-survival-3",
+    "title": "Your Workplace Survival Instinct",
+    "description": "Which animal are you in the office jungle? Test your stress tolerance and adaptability.",
+    "category": "career",
+    "tags": [
+      "Career",
+      "Survival",
+      "Work"
+    ],
+    "questions": [
+      {
+        "text": "First day at a new company. The first thing you do is:",
+        "options": [
+          {
+            "text": "Introduce myself to every department to build my network fast.",
+            "score": 4
+          },
+          {
+            "text": "Quietly watch how coworkers interact and figure out who's really in charge.",
+            "score": 3
+          },
+          {
+            "text": "Focus on learning my own job. Not interested in other people's business.",
+            "score": 1
+          },
+          {
+            "text": "Find a friendly-looking coworker and quietly dig for gossip and landmines.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "In a meeting, your boss proposes a clearly flawed decision. You:",
+        "options": [
+          {
+            "text": "Raise my hand right there, question it, and offer a better plan.",
+            "score": 4
+          },
+          {
+            "text": "Agree on the surface, then subtly hint to my boss later in private.",
+            "score": 3
+          },
+          {
+            "text": "Pretend I didn't notice. The tall folks hold up the sky, I just do as told.",
+            "score": 1
+          },
+          {
+            "text": "Watch how the senior coworkers react and follow the wind, never sticking my neck out.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "A coworker dumps their mess on you. Your reaction is:",
+        "options": [
+          {
+            "text": "Flatly refuse. Boundaries locked in tight. I don't take the loss.",
+            "score": 4
+          },
+          {
+            "text": "Annoyed, but I quietly take it and grind through the overtime myself.",
+            "score": 1
+          },
+          {
+            "text": "Agree on the surface, then do it badly on purpose so they won't ask again.",
+            "score": 2
+          },
+          {
+            "text": "Take it with a smile, then trade a favor to get an intern or coworker to do it.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "When you notice cliques forming at work, you:",
+        "options": [
+          {
+            "text": "Become the core of one of them and hold the influence.",
+            "score": 4
+          },
+          {
+            "text": "Stay neutral, friendly with everyone on the surface, but close to no one.",
+            "score": 3
+          },
+          {
+            "text": "Find it exhausting. Focus on work and stay out of the palace intrigue.",
+            "score": 1
+          },
+          {
+            "text": "Bend like grass in the wind, leaning toward whoever has the advantage.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "Facing the same boring, repetitive work every day, your mindset is:",
+        "options": [
+          {
+            "text": "Actively look for ways to optimize the process and make boring fun.",
+            "score": 4
+          },
+          {
+            "text": "Not thrilled, but I do it well and thoroughly for the paycheck.",
+            "score": 2
+          },
+          {
+            "text": "Soul out of body, going through the motions while my brain plans dinner.",
+            "score": 1
+          },
+          {
+            "text": "Start secretly online-shopping or working my side hustle on the clock.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "It's clocking-out time, but your boss hasn't left. You:",
+        "options": [
+          {
+            "text": "Clock out right on time. Off-hours are my sacred, untouchable territory.",
+            "score": 4
+          },
+          {
+            "text": "Politely ask if the boss needs help. I only leave once they say no.",
+            "score": 3
+          },
+          {
+            "text": "Look busy for a bit, then leave once another coworker goes first.",
+            "score": 2
+          },
+          {
+            "text": "Stay and do unpaid overtime just to look dedicated to the boss.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If the company had layoffs, you think you'd be:",
+        "options": [
+          {
+            "text": "On the safe list for sure. I hold the core tech or key clients.",
+            "score": 4
+          },
+          {
+            "text": "A bit at risk. I'm obedient, but my performance isn't the standout.",
+            "score": 1
+          },
+          {
+            "text": "Don't care. I wanted to quit anyway, this way I get severance.",
+            "score": 2
+          },
+          {
+            "text": "Actively fishing for intel, updating my resume early to jump ship.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "During the year-end review, how do you usually rate your own performance?",
+        "options": [
+          {
+            "text": "Sell my achievements hard, turning a 60 into a 100.",
+            "score": 4
+          },
+          {
+            "text": "Fairly and objectively list my strengths and weaknesses, plus next year's plan.",
+            "score": 3
+          },
+          {
+            "text": "Way too humble. I did a lot but don't dare write it down.",
+            "score": 1
+          },
+          {
+            "text": "Copy-paste last year's content and call it a day.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "The company organizes a staff trip. Your honest thoughts?",
+        "options": [
+          {
+            "text": "Awesome! A chance to bond with coworkers from other departments.",
+            "score": 4
+          },
+          {
+            "text": "I'll play along with everyone, a nice change of pace to unwind.",
+            "score": 3
+          },
+          {
+            "text": "Total misery. A trip with coworkers is just overtime in a new location.",
+            "score": 1
+          },
+          {
+            "text": "Invent every absurd excuse to skip it. I'd rather sleep at home.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "For you, what's the ultimate point of work?",
+        "options": [
+          {
+            "text": "Self-fulfillment, chasing achievement and social status.",
+            "score": 4
+          },
+          {
+            "text": "A stable income. As long as it maintains a decent quality of life.",
+            "score": 2
+          },
+          {
+            "text": "Just a tool for making money. I don't want to invest any feelings in it.",
+            "score": 1
+          },
+          {
+            "text": "A training ground for making friends and learning new skills.",
+            "score": 3
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "The Quiet, Honest Sloth",
+        "description": "You keep out of workplace conflict and just want to get your own tasks done in peace. You hate complicated office politics and competition, and pressure makes you anxious. You're obedient, but that also makes you an easy scapegoat or the one left out.",
+        "comment": "Exclusive Analysis: Show your abilities and your limits a little. Don't let your kindness become the reason people push you around.",
+        "radarData": {
+          "labels": [
+            "Survival",
+            "Social Savvy",
+            "Stress Tolerance",
+            "Execution",
+            "Ambition"
+          ],
+          "values": [
+            40,
+            20,
+            30,
+            60,
+            10
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "The Clever, Slick Fox",
+        "description": "You've got sharp workplace instincts. You read the room and protect yourself well. You never start trouble, but you always dodge crises gracefully. You're a master of keeping the peace and a survivor who won't get cut easily.",
+        "comment": "Exclusive Analysis: Your cleverness saves you a lot of detours, but if you channeled it into creating real value, you'd feel far more fulfilled.",
+        "radarData": {
+          "labels": [
+            "Survival",
+            "Social Savvy",
+            "Stress Tolerance",
+            "Execution",
+            "Ambition"
+          ],
+          "values": [
+            80,
+            85,
+            60,
+            50,
+            40
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "The Steady, Loyal Dog",
+        "description": "You're the backbone of the company, responsible and dependable. You communicate well, you finish what your boss assigns, and you work seamlessly with coworkers. You may not always be the flashiest one, but you're absolutely indispensable.",
+        "comment": "Exclusive Analysis: Your ability is plain for all to see. Try fighting for the resources and spotlight you deserve. Don't be so overly humble.",
+        "radarData": {
+          "labels": [
+            "Survival",
+            "Social Savvy",
+            "Stress Tolerance",
+            "Execution",
+            "Ambition"
+          ],
+          "values": [
+            90,
+            75,
+            85,
+            95,
+            65
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "The Ambitious Lion",
+        "description": "You bring powerful presence and a hunger to lead at work. You don't fear challenges. You actually crave competition, because it's your chance to prove yourself. Your goals are clear, and you'll show fierce execution and savvy to get there.",
+        "comment": "Exclusive Analysis: Your ambition is your engine, but remember to soften up now and then and tend to your teammates' feelings. It'll make your climb far smoother.",
+        "radarData": {
+          "labels": [
+            "Survival",
+            "Social Savvy",
+            "Stress Tolerance",
+            "Execution",
+            "Ambition"
+          ],
+          "values": [
+            85,
+            90,
+            95,
+            90,
+            100
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "q-wealth-4",
+    "title": "Your Hidden Money Personality",
+    "description": "Discover why you can't hold onto cash, and the wealth path you're destined for!",
+    "category": "lifestyle",
+    "tags": [
+      "Wealth",
+      "Finance",
+      "Money"
+    ],
+    "questions": [
+      {
+        "text": "On payday, how do you usually celebrate?",
+        "options": [
+          {
+            "text": "Treat myself to a big meal or that pricey thing I've been eyeing.",
+            "score": 1
+          },
+          {
+            "text": "Move my savings to a separate account first, then spend what's left.",
+            "score": 3
+          },
+          {
+            "text": "Nothing special. Life goes on, the money just sits there.",
+            "score": 2
+          },
+          {
+            "text": "Immediately throw it into stocks or crypto and let money make money.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You see something you love but it's a bit pricey. Your buying process is:",
+        "options": [
+          {
+            "text": "If I love it, why not? Just swipe the card!",
+            "score": 1
+          },
+          {
+            "text": "Compare a few shops and wait for a sale or free shipping to strike.",
+            "score": 3
+          },
+          {
+            "text": "Agonize forever, then usually give up because I can't bear to spend.",
+            "score": 2
+          },
+          {
+            "text": "Ask whether it'll appreciate later, or whether it could make me money.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "A friend invites you into a high-return-sounding investment. You:",
+        "options": [
+          {
+            "text": "Weak-willed. I figure a friend wouldn't scam me, so I pay in right away.",
+            "score": 1
+          },
+          {
+            "text": "Study the financials and business model. Only consider it if the risk is manageable.",
+            "score": 4
+          },
+          {
+            "text": "Never touch what I don't understand. A bank deposit feels safest.",
+            "score": 2
+          },
+          {
+            "text": "Test the waters with a little spare cash. If I lose it, so be it.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "If you won a million in the lottery, where does the first chunk go?",
+        "options": [
+          {
+            "text": "Book a flight for a luxury trip abroad and enjoy life immediately.",
+            "score": 1
+          },
+          {
+            "text": "Pay off debts: mortgage, car loan, student loans.",
+            "score": 3
+          },
+          {
+            "text": "Save it all or buy insurance, a safety net for future me.",
+            "score": 2
+          },
+          {
+            "text": "Use it as startup capital and try to turn a million into ten.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When your account hits rock bottom at month's end, your reaction is:",
+        "options": [
+          {
+            "text": "Panic: 'Oh my god, where did all my money even go?!'",
+            "score": 1
+          },
+          {
+            "text": "Used to it. Time to survive on instant noodles and mooching meals.",
+            "score": 2
+          },
+          {
+            "text": "This never happens. I keep a strict budget every single month.",
+            "score": 3
+          },
+          {
+            "text": "Quickly grab freelance gigs or a part-time job to earn it back.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your attitude toward 'budgeting/tracking expenses' is:",
+        "options": [
+          {
+            "text": "A three-day fad. Downloaded the app, used it for three days.",
+            "score": 1
+          },
+          {
+            "text": "I log every expense clearly, down to the last cent.",
+            "score": 3
+          },
+          {
+            "text": "I roughly note the big spends. Small change, too lazy to bother.",
+            "score": 2
+          },
+          {
+            "text": "Tracking is pointless. I'd rather spend that time figuring out how to earn more.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When you hit a financial crisis, who do you turn to for help?",
+        "options": [
+          {
+            "text": "Ask my parents or family to bail me out.",
+            "score": 1
+          },
+          {
+            "text": "Borrow from a trusted close friend and promise to pay it back.",
+            "score": 2
+          },
+          {
+            "text": "Never ask anyone. I tough it out or take a bank loan.",
+            "score": 3
+          },
+          {
+            "text": "Sell off my valuables to raise cash.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "What do you think is the key to becoming rich?",
+        "options": [
+          {
+            "text": "Good luck. Winning the lottery or being born into money.",
+            "score": 1
+          },
+          {
+            "text": "Down to earth. Pinch pennies daily and slowly build wealth.",
+            "score": 2
+          },
+          {
+            "text": "Daring to take big risks and grab the chances others won't touch.",
+            "score": 4
+          },
+          {
+            "text": "Building passive income systems that let money work for you.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "On 'paying for time or convenience' (delivery, taxis, etc.), your view is:",
+        "options": [
+          {
+            "text": "Totally for it! Time is money. If cash can solve it, it's not a problem.",
+            "score": 1
+          },
+          {
+            "text": "Fine once in a while, but doing it too often makes me feel guilty.",
+            "score": 3
+          },
+          {
+            "text": "Absolutely against it! I'd rather walk further or cook than pay extra.",
+            "score": 2
+          },
+          {
+            "text": "Depends on whether it's worth it relative to my hourly rate.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Picture your retirement. What do you most want to have?",
+        "options": [
+          {
+            "text": "Travel the world and taste every kind of luxurious life.",
+            "score": 1
+          },
+          {
+            "text": "Buy some land in the countryside, grow veggies, live simply and self-sufficient.",
+            "score": 2
+          },
+          {
+            "text": "Endless money, so my only worry is how to spend it all.",
+            "score": 4
+          },
+          {
+            "text": "Keep running the work I love. Retire but never fully stop.",
+            "score": 3
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "The Paycheck-to-Paycheck Leaker",
+        "description": "'Live for today' is your motto. You don't have much of a concept of money and often spend on impulse, so your account balance is too painful to look at. Your money personality is a leaky bucket, no matter how much comes in, it drains right out.",
+        "comment": "Exclusive Analysis: Force yourself into a 'save first, spend later' habit and try tracking expenses for one month to find your money leaks.",
+        "radarData": {
+          "labels": [
+            "Money Skill",
+            "Impulse Spend",
+            "Risk Appetite",
+            "Saving",
+            "Earning Drive"
+          ],
+          "values": [
+            20,
+            95,
+            50,
+            10,
+            60
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "The Steady Saver",
+        "description": "Your money mindset is very conservative. You believe keeping cash in the bank or in ultra-safe options is the way to go. You won't waste money, but you also rarely see explosive growth. You're the steady type who grows old slowly and safely.",
+        "comment": "Exclusive Analysis: Within a risk level you can afford, try learning some investing basics so inflation doesn't eat up your hard-earned cash.",
+        "radarData": {
+          "labels": [
+            "Money Skill",
+            "Impulse Spend",
+            "Risk Appetite",
+            "Saving",
+            "Earning Drive"
+          ],
+          "values": [
+            50,
+            30,
+            20,
+            90,
+            40
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "The Savvy Money Master",
+        "description": "You have excellent control over money. You know how to budget carefully and allocate assets. You spend every dollar where it counts and let steady investing snowball your wealth over time.",
+        "comment": "Exclusive Analysis: Your finances are super healthy! Keep up the discipline. Financial freedom is just a matter of time for you.",
+        "radarData": {
+          "labels": [
+            "Money Skill",
+            "Impulse Spend",
+            "Risk Appetite",
+            "Saving",
+            "Earning Drive"
+          ],
+          "values": [
+            85,
+            40,
+            60,
+            85,
+            75
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "The Bold Cash Magnet",
+        "description": "You've got a natural magnetic field for wealth! You dare to take risks, you have a sharp eye, and you're always hunting for the next money-making chance. To you, money is a tool to create more value. Time your moves right and you can leap up the wealth ladder easily.",
+        "comment": "Exclusive Analysis: High returns come with high risk. While chasing big gains, never forget asset protection and risk management.",
+        "radarData": {
+          "labels": [
+            "Money Skill",
+            "Impulse Spend",
+            "Risk Appetite",
+            "Saving",
+            "Earning Drive"
+          ],
+          "values": [
+            90,
+            70,
+            95,
+            50,
+            100
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "q-love-dopamine-5",
+    "title": "Your Love Dopamine Guide",
+    "description": "In love, do you chase thrills or stability? Find out your love-brain type.",
+    "category": "romance",
+    "tags": [
+      "Romance",
+      "Love",
+      "Psychology"
+    ],
+    "questions": [
+      {
+        "text": "At the start of a relationship, what kind of person draws you in most?",
+        "options": [
+          {
+            "text": "Stunning, magnetic, with a little dangerous edge.",
+            "score": 4
+          },
+          {
+            "text": "Gentle and caring, someone who makes you feel totally safe.",
+            "score": 1
+          },
+          {
+            "text": "Funny and quick-witted, always able to make you laugh.",
+            "score": 3
+          },
+          {
+            "text": "Talented, shining in some field, someone you can admire.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "What does your idea of the perfect date look like?",
+        "options": [
+          {
+            "text": "No plan, just go. An adventure full of the unknown and surprise.",
+            "score": 4
+          },
+          {
+            "text": "Fancy restaurant and spots booked ahead, everything running perfectly.",
+            "score": 3
+          },
+          {
+            "text": "Both of us curled up at home ordering takeout and gaming. Easy and cozy.",
+            "score": 1
+          },
+          {
+            "text": "Hit an exhibit or a talk, learn something new and swap ideas.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "When your partner argues with you, how do you want them to handle it?",
+        "options": [
+          {
+            "text": "Hug me and apologize right away, sweet-talk me back to happy.",
+            "score": 4
+          },
+          {
+            "text": "Both of us cool off, then talk it through rationally afterward.",
+            "score": 1
+          },
+          {
+            "text": "Buy my favorite food or a gift as an apology.",
+            "score": 3
+          },
+          {
+            "text": "Proactively analyze why we fought and propose a concrete fix.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "How often do you need your partner to express love (say 'I love you' or hug you)?",
+        "options": [
+          {
+            "text": "Every single second! I'm a puppy who craves touch and reassurance.",
+            "score": 4
+          },
+          {
+            "text": "At least once a day. There has to be a ritual before bed or heading out.",
+            "score": 3
+          },
+          {
+            "text": "Let it flow naturally. Too much on purpose feels cheesy and awkward.",
+            "score": 1
+          },
+          {
+            "text": "No need to say it. Just let me feel it through your actions.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "You find out your partner went out to eat one-on-one with a friend of the opposite sex. Your reaction:",
+        "options": [
+          {
+            "text": "Jealousy overflows! Call immediately to check in, maybe demand a video call.",
+            "score": 4
+          },
+          {
+            "text": "A little bothered inside, but play it cool and ask once they're back.",
+            "score": 3
+          },
+          {
+            "text": "Fully trust them. As long as they gave me a heads up, it's fine.",
+            "score": 1
+          },
+          {
+            "text": "Tit for tat. Next day I go out with a friend of the opposite sex to spite them.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "What's the one dealbreaker you can't tolerate in a relationship?",
+        "options": [
+          {
+            "text": "Lying and betrayal. One time is unforgivable.",
+            "score": 1
+          },
+          {
+            "text": "No plan for the future, just drifting along.",
+            "score": 2
+          },
+          {
+            "text": "Too controlling, meddling in my friendships and personal space.",
+            "score": 4
+          },
+          {
+            "text": "No sense of occasion, forgetting even anniversaries and birthdays.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "What do you think you most lack in a relationship?",
+        "options": [
+          {
+            "text": "Security. I always feel they'll leave me one day.",
+            "score": 4
+          },
+          {
+            "text": "Freshness. Once the honeymoon ends, I get bored and want to quit.",
+            "score": 3
+          },
+          {
+            "text": "Boundaries. I often lose myself trying to please my partner.",
+            "score": 1
+          },
+          {
+            "text": "Empathy. Sometimes I'm too rational and miss their feelings.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "Your partner prepares a surprise. What do you most hope to get?",
+        "options": [
+          {
+            "text": "An elaborate romantic display, ideally something to show off to friends.",
+            "score": 4
+          },
+          {
+            "text": "A handwritten letter or a custom gift full of our shared memories.",
+            "score": 1
+          },
+          {
+            "text": "A straight-up money transfer, or that pricey useful thing I never bought.",
+            "score": 3
+          },
+          {
+            "text": "An all-inclusive couples trip where I don't have to plan a thing.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "When the relationship hits a plateau, how do you keep the heat up?",
+        "options": [
+          {
+            "text": "Manufacture a little drama or jealousy to keep them on their toes.",
+            "score": 4
+          },
+          {
+            "text": "Set a regular date night, put the phones down, and focus on each other.",
+            "score": 2
+          },
+          {
+            "text": "Let it flow. The quiet of an old married couple is its own happiness.",
+            "score": 1
+          },
+          {
+            "text": "Try new things we've never done together (bungee jumping, a craft class).",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "For you, what should love's final destination be?",
+        "options": [
+          {
+            "text": "Love passionately while it lasts, no need to force an outcome.",
+            "score": 4
+          },
+          {
+            "text": "Walk into marriage and build a warm, stable little family.",
+            "score": 1
+          },
+          {
+            "text": "Become each other's strongest backup, leveling up together in life and work.",
+            "score": 2
+          },
+          {
+            "text": "Like best friends who tell each other everything, growing old side by side.",
+            "score": 3
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "The Security-First Sloth",
+        "description": "In love, you crave absolute stability and the slow burn. You don't need over-the-top romance, just daily good-mornings and good-nights and real, steady company. To you, quiet happiness is the truest kind.",
+        "comment": "Exclusive Analysis: Stability is great, but sprinkle in a little surprise now and then to keep the love fresh!",
+        "radarData": {
+          "labels": [
+            "Romance",
+            "Dependence",
+            "Thrill-Seeking",
+            "Need for Security",
+            "Possessiveness"
+          ],
+          "values": [
+            30,
+            85,
+            20,
+            95,
+            40
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "The Level-Headed Owl",
+        "description": "You're a very rational lover, not easily swept away by a moment's passion. You value mental connection and long-term compatibility. More than sweet words, you value your partner's ability to solve problems and plan a future.",
+        "comment": "Exclusive Analysis: In love, it's okay to put the brain aside sometimes and feel your partner's emotions and affection with your heart.",
+        "radarData": {
+          "labels": [
+            "Romance",
+            "Dependence",
+            "Thrill-Seeking",
+            "Need for Security",
+            "Possessiveness"
+          ],
+          "values": [
+            40,
+            50,
+            40,
+            75,
+            30
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "The Ceremony-Loving Peacock",
+        "description": "You truly savor the romantic atmosphere of love, and grand gestures are non-negotiable for you! You love feeling cherished and adored, and you'll happily prepare surprises for your partner too. Your love is bursting with pink bubbles.",
+        "comment": "Exclusive Analysis: Romance is wonderful, but learn to accept that love inevitably cycles into calmer phases. That's the real test.",
+        "radarData": {
+          "labels": [
+            "Romance",
+            "Dependence",
+            "Thrill-Seeking",
+            "Need for Security",
+            "Possessiveness"
+          ],
+          "values": [
+            90,
+            70,
+            70,
+            80,
+            85
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "The Thrill-Chasing Wild Horse",
+        "description": "You're a hopeless romantic and a thrill-seeker! You love that heart-racing, rollercoaster feeling of falling in love. The moment things go quiet and dull, you lose interest. You love fiercely, but dangerously.",
+        "comment": "Exclusive Analysis: Dopamine always fades. Try finding ways to build a deep soul connection after the passion, so you're not forever chasing the next target.",
+        "radarData": {
+          "labels": [
+            "Romance",
+            "Dependence",
+            "Thrill-Seeking",
+            "Need for Security",
+            "Possessiveness"
+          ],
+          "values": [
+            95,
+            40,
+            100,
+            30,
+            95
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "q-past-life-6",
+    "title": "Your Past-Life Soul & This Life's Lesson",
+    "description": "With a touch of the mystical, explore your soul's deepest skill points and unfinished ambitions.",
+    "category": "lifestyle",
+    "tags": [
+      "PastLife",
+      "Soul",
+      "Divination"
+    ],
+    "questions": [
+      {
+        "text": "If you could pick one antique, which would you choose?",
+        "options": [
+          {
+            "text": "An ornate dagger stained with old, dried blood.",
+            "score": 4
+          },
+          {
+            "text": "A yellowed parchment book covered in symbols you can't read.",
+            "score": 3
+          },
+          {
+            "text": "An exquisitely carved brass pocket watch full of hidden mechanisms.",
+            "score": 2
+          },
+          {
+            "text": "A pure gold crown set with an enormous gem.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What kind of dreams do you have most often?",
+        "options": [
+          {
+            "text": "Thrilling ones: always running, fighting, or falling from a height.",
+            "score": 4
+          },
+          {
+            "text": "Dreams where I can fly or wield magic.",
+            "score": 3
+          },
+          {
+            "text": "An ancient city I've never visited but feels strangely familiar.",
+            "score": 2
+          },
+          {
+            "text": "Standing on high, looking down over a crowd, admired by all.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Walking into an old castle, where does your eye go first?",
+        "options": [
+          {
+            "text": "The castle's defenses and where the armory is.",
+            "score": 4
+          },
+          {
+            "text": "The study or cellar hiding a secret passage.",
+            "score": 3
+          },
+          {
+            "text": "The family portraits of generations hanging on the walls.",
+            "score": 2
+          },
+          {
+            "text": "The grand banquet hall and the throne.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If you could have one supernatural power, you'd want:",
+        "options": [
+          {
+            "text": "An indestructible body and immense strength.",
+            "score": 4
+          },
+          {
+            "text": "The ability to see the future or read minds.",
+            "score": 3
+          },
+          {
+            "text": "Teleporting instantly to any corner of the world.",
+            "score": 2
+          },
+          {
+            "text": "Control over the natural elements (wind, fire, water, earth).",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "In an unfamiliar place, what do you rely on to judge if it's safe?",
+        "options": [
+          {
+            "text": "Scanning the terrain and mapping escape routes.",
+            "score": 4
+          },
+          {
+            "text": "My sixth sense. If it feels off, I retreat immediately.",
+            "score": 3
+          },
+          {
+            "text": "Chatting up the locals to gather intel.",
+            "score": 2
+          },
+          {
+            "text": "Reading the expressions and subtle movements of people around me.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What historical era or culture especially fascinates you?",
+        "options": [
+          {
+            "text": "War-torn times like the Three Kingdoms or the age of medieval knights.",
+            "score": 4
+          },
+          {
+            "text": "The mystery-shrouded ancient Egypt or Maya civilization.",
+            "score": 3
+          },
+          {
+            "text": "The romantic, thriving Renaissance or Age of Exploration.",
+            "score": 2
+          },
+          {
+            "text": "The golden glory of the Roman Empire or the Tang Dynasty.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What difficulty do you feel you face most often in this life?",
+        "options": [
+          {
+            "text": "A hot temper. I clash with people easily.",
+            "score": 4
+          },
+          {
+            "text": "Being too sensitive. I soak up other people's negativity.",
+            "score": 3
+          },
+          {
+            "text": "Can't sit still. Always feel there's an endless to-do list waiting.",
+            "score": 2
+          },
+          {
+            "text": "Can't lower my guard. I care too much about others' opinions and my pride.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What kind of aura do friends often say you carry?",
+        "options": [
+          {
+            "text": "A powerful presence, a natural authority without even trying.",
+            "score": 4
+          },
+          {
+            "text": "An ethereal, otherworldly air, like you're above it all.",
+            "score": 3
+          },
+          {
+            "text": "Socially deft, able to chat with anyone, warm and approachable.",
+            "score": 2
+          },
+          {
+            "text": "Calm and reserved, an old soul who sees through the world.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Lost in the wilderness, which way does instinct pull you?",
+        "options": [
+          {
+            "text": "Climb high to find a vantage point and read the terrain.",
+            "score": 4
+          },
+          {
+            "text": "Close my eyes and follow my gut and the guidance of the wind.",
+            "score": 3
+          },
+          {
+            "text": "Find water and follow the river downstream.",
+            "score": 2
+          },
+          {
+            "text": "Stay put, build a fire, and wait for rescue.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What do you think the purpose of soul reincarnation is?",
+        "options": [
+          {
+            "text": "To make up for the regrets and unfinished ambitions of a past life.",
+            "score": 4
+          },
+          {
+            "text": "To experience different lives and learn the lessons the soul is meant to learn.",
+            "score": 3
+          },
+          {
+            "text": "To pay off the karma and debts of love accumulated across lifetimes.",
+            "score": 2
+          },
+          {
+            "text": "Reincarnation is just a random process, no special purpose at all.",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "The Ruler / Noble",
+        "description": "Deep in your soul is imprinted the memory of power and duty. In a past life you may have been a leader or noble carrying heavy responsibility. This life, you still carry an uncommon air and pride. Your lesson is to learn to release your need for control and treat those around you more gently.",
+        "comment": "Exclusive Analysis: True strength isn't making others fear you. It's making them respect you from the heart.",
+        "radarData": {
+          "labels": [
+            "Spiritual Awareness",
+            "Historical Echo",
+            "Intuition",
+            "Adventurousness",
+            "Need for Stability"
+          ],
+          "values": [
+            30,
+            80,
+            50,
+            40,
+            90
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "The Artisan / Chronicler",
+        "description": "In a past life you may have been a craftsman devoted to a trade, or a scholar recording history. You have a delicate mind and a fierce dedication to your craft. This life, you still love diving deep into what interests you. Your lesson is to learn to express your feelings, not always hide your thoughts away.",
+        "comment": "Exclusive Analysis: You have hands and a heart that can create beauty. Try sharing your talent with the world more.",
+        "radarData": {
+          "labels": [
+            "Spiritual Awareness",
+            "Historical Echo",
+            "Intuition",
+            "Adventurousness",
+            "Need for Stability"
+          ],
+          "values": [
+            50,
+            70,
+            60,
+            50,
+            80
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "The Mystic / Priest",
+        "description": "You carry an unusually strong spiritual nature and intuition. In a past life you may have been a priest connected to the divine, or a healer skilled with herbs. This life, you resonate easily with others' emotions. Your lesson is to build emotional boundaries and protect your energy from being drained.",
+        "comment": "Exclusive Analysis: Your intuition is remarkably accurate. Trust your inner voice. It's your soul's compass.",
+        "radarData": {
+          "labels": [
+            "Spiritual Awareness",
+            "Historical Echo",
+            "Intuition",
+            "Adventurousness",
+            "Need for Stability"
+          ],
+          "values": [
+            95,
+            60,
+            90,
+            60,
+            50
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "The Warrior / Adventurer",
+        "description": "Your soul is full of wildness and a hunger for battle. In a past life you may have been a general charging across the battlefield or a wandering explorer. This life, you still love a challenge and hate being tied down. Your lesson is to quiet the restlessness within and find your own inner peace.",
+        "comment": "Exclusive Analysis: Brave is your middle name, but don't forget: pausing to enjoy the view now and then is a practice too.",
+        "radarData": {
+          "labels": [
+            "Spiritual Awareness",
+            "Historical Echo",
+            "Intuition",
+            "Adventurousness",
+            "Need for Stability"
+          ],
+          "values": [
+            40,
+            50,
+            70,
+            95,
+            20
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "q-procrastination-7",
+    "title": "Your Late-Stage Procrastination Chart",
+    "description": "Straight for the sore spot! Find out why you always leave things to the last second. Which terminal procrastinator are you?",
+    "category": "lifestyle",
+    "tags": [
+      "Procrastination",
+      "Productivity",
+      "Psychology"
+    ],
+    "questions": [
+      {
+        "text": "One week before the deadline, your progress is usually:",
+        "options": [
+          {
+            "text": "Already 80% done, ready to wrap up the final touches.",
+            "score": 1
+          },
+          {
+            "text": "Just created a blank file named 'New Folder.'",
+            "score": 3
+          },
+          {
+            "text": "Rehearsed the perfect draft in my head a hundred times, but haven't lifted a finger.",
+            "score": 2
+          },
+          {
+            "text": "What deadline? I completely forgot this was even a thing!",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "The moment you decide to 'start working,' what do you usually do first?",
+        "options": [
+          {
+            "text": "Write a detailed to-do list and follow it step by step.",
+            "score": 1
+          },
+          {
+            "text": "Decide my desk is too messy and launch into a full room clean.",
+            "score": 3
+          },
+          {
+            "text": "Scroll my phone for ten minutes to relax, then an hour has vanished.",
+            "score": 4
+          },
+          {
+            "text": "Go make a coffee or grab a snack. The prep takes longer than the work.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "What do you think is the main reason you procrastinate?",
+        "options": [
+          {
+            "text": "Perfectionism. Things aren't good enough yet, so I can't start.",
+            "score": 2
+          },
+          {
+            "text": "It feels too hard and complex. I don't know where to begin.",
+            "score": 3
+          },
+          {
+            "text": "Pure laziness. If I can lie down, I will never sit up.",
+            "score": 4
+          },
+          {
+            "text": "I love that last-second adrenaline rush of clutch play.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "After finally finishing something you'd put off forever, you feel:",
+        "options": [
+          {
+            "text": "Full of pride. I'm honestly a genius!",
+            "score": 1
+          },
+          {
+            "text": "Drained and wrecked. Swear I'll never procrastinate again (but I will).",
+            "score": 3
+          },
+          {
+            "text": "The result is bad. Should have just started earlier.",
+            "score": 2
+          },
+          {
+            "text": "Relieved. Immediately open a game or binge shows in revenge.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When you realize you're about to run out of time, what happens to you?",
+        "options": [
+          {
+            "text": "Eerily calm. Focus skyrockets 500%, entering a state of pure flow.",
+            "score": 1
+          },
+          {
+            "text": "Anxious to the point of stomachache, crying while I type through the crunch.",
+            "score": 3
+          },
+          {
+            "text": "Start inventing absurd reasons to ask my boss or teacher for an extension.",
+            "score": 2
+          },
+          {
+            "text": "Give up treatment. Throw up my hands and decide to just phone it in.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "What's your go-to method for 'escaping reality'?",
+        "options": [
+          {
+            "text": "Binge mindless short videos or garbage posts like crazy.",
+            "score": 4
+          },
+          {
+            "text": "Suddenly start googling random trivia (like how many feathers a penguin has).",
+            "score": 2
+          },
+          {
+            "text": "Go to sleep, hypnotizing myself that I'll have inspiration when I wake.",
+            "score": 3
+          },
+          {
+            "text": "Panic-shop online, numbing the anxiety by spending money.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Your follow-through rate on a plan you've made is usually:",
+        "options": [
+          {
+            "text": "Over 90%. I'm an extremely self-disciplined robot.",
+            "score": 1
+          },
+          {
+            "text": "About 50%. Plans can't keep up with change.",
+            "score": 2
+          },
+          {
+            "text": "10%. A schedule is just a pretty piece of scrap paper to me.",
+            "score": 3
+          },
+          {
+            "text": "I never make plans. I just go on feel.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "If someone nags you to hand something in, your reaction is:",
+        "options": [
+          {
+            "text": "Honestly report my progress and give an exact finish time.",
+            "score": 1
+          },
+          {
+            "text": "Say 'almost done, almost done' when I actually haven't started.",
+            "score": 3
+          },
+          {
+            "text": "Get irritated. The more you push me, the less I want to do it.",
+            "score": 4
+          },
+          {
+            "text": "Pretend I didn't see the message and go into vanish mode.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "What kind of environment helps you focus most?",
+        "options": [
+          {
+            "text": "Dead silent, where you could hear a pin drop.",
+            "score": 2
+          },
+          {
+            "text": "A cafe or library with a little white noise.",
+            "score": 1
+          },
+          {
+            "text": "Once the deadline's near, I could focus in the front row of a concert.",
+            "score": 3
+          },
+          {
+            "text": "Environment doesn't really matter. It's all about my mood.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "To convince yourself to do something later, what excuse do you use?",
+        "options": [
+          {
+            "text": "'I'm not in the zone right now. I'll be more efficient later.'",
+            "score": 2
+          },
+          {
+            "text": "'One episode as a reward first, then I'll start right after.'",
+            "score": 3
+          },
+          {
+            "text": "'There's still plenty of time. Tomorrow works just fine.'",
+            "score": 4
+          },
+          {
+            "text": "'This isn't actually that urgent. Let me do something else first!'",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "The God of Efficiency",
+        "description": "Congrats! You basically have zero procrastination. You're organized and have iron control over your time. To you, finishing early is the only way to rest easy. You're the eternal productivity legend in your friends' eyes.",
+        "comment": "Exclusive Analysis: Your efficiency is great, but don't push yourself too hard. Letting yourself slack off once in a while is healthy too.",
+        "radarData": {
+          "labels": [
+            "Procrastination",
+            "Perfectionism",
+            "Anxiety",
+            "Focus",
+            "Drive"
+          ],
+          "values": [
+            10,
+            80,
+            40,
+            95,
+            100
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "The Perfectionist Procrastinator",
+        "description": "You procrastinate because you want to do things perfectly. You've dreamed up countless flawless plans in your head, but you don't dare put pen to paper, terrified the result won't match. You're not lazy. You're afraid of not being good enough.",
+        "comment": "Exclusive Analysis: Done beats perfect. Try getting something out first, then refining it slowly. You'll find it's not as hard as you imagined.",
+        "radarData": {
+          "labels": [
+            "Procrastination",
+            "Perfectionism",
+            "Anxiety",
+            "Focus",
+            "Drive"
+          ],
+          "values": [
+            60,
+            95,
+            85,
+            70,
+            50
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "The Deadline-Dodger",
+        "description": "The moment you hit stress or a hard task, you want to flee. You'll do every unrelated little chore (like cleaning your room) to numb yourself. Until the very last second, your inner adrenaline simply refuses to fire.",
+        "comment": "Exclusive Analysis: Break the big task into five-minute mini-steps and tell yourself 'I'll only do five minutes.' That's often enough to get rolling.",
+        "radarData": {
+          "labels": [
+            "Procrastination",
+            "Perfectionism",
+            "Anxiety",
+            "Focus",
+            "Drive"
+          ],
+          "values": [
+            85,
+            60,
+            90,
+            50,
+            30
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "The Happily-Given-Up Procrastinator",
+        "description": "You've reached procrastination's final form: giving up treatment. 'It'll all work out somehow' is your gospel. Even with the deadline right in front of you, you can happily binge shows and game. Your mental fortitude is unshakable. The sky could fall and you wouldn't care.",
+        "comment": "Exclusive Analysis: A laid-back attitude is nice, but be careful. This let-it-rot approach can hurt other people's interests, or your own future!",
+        "radarData": {
+          "labels": [
+            "Procrastination",
+            "Perfectionism",
+            "Anxiety",
+            "Focus",
+            "Drive"
+          ],
+          "values": [
+            100,
+            20,
+            10,
+            30,
+            20
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "q-digital-detox-8",
+    "title": "Your Digital Detox & Phone Addiction Index",
+    "description": "So relatable! Test how hooked you are on your phone and social media. Has your brain been hijacked by short videos?",
+    "category": "lifestyle",
+    "tags": [
+      "DigitalDetox",
+      "PhoneAddiction",
+      "Lifestyle"
+    ],
+    "questions": [
+      {
+        "text": "The first thing you do when you open your eyes in the morning is:",
+        "options": [
+          {
+            "text": "Stretch, drink some water, and start the new day.",
+            "score": 1
+          },
+          {
+            "text": "Grab the phone with eyes still shut to kill the alarm and check the time.",
+            "score": 2
+          },
+          {
+            "text": "Pick up the phone and scroll every social app before I'll get up.",
+            "score": 4
+          },
+          {
+            "text": "Open my mobile games to do daily quests and grab login rewards.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "If you left home and realized you forgot your phone, your reaction is:",
+        "options": [
+          {
+            "text": "No big deal. A perfect day free of interruptions.",
+            "score": 1
+          },
+          {
+            "text": "As long as I don't need to reach anyone important, I won't bother going back.",
+            "score": 2
+          },
+          {
+            "text": "A little anxious and uneasy, like a part of my body is missing.",
+            "score": 3
+          },
+          {
+            "text": "Even if I'm about to be late, I absolutely sprint home for it!",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "During meals, where's your phone usually?",
+        "options": [
+          {
+            "text": "In my bag or pocket, focusing on the food.",
+            "score": 1
+          },
+          {
+            "text": "On the table face-down. Only check it if it buzzes.",
+            "score": 2
+          },
+          {
+            "text": "Right by my hand on standby, watching short videos or shows while I eat.",
+            "score": 3
+          },
+          {
+            "text": "The phone 'eats' first. No chopsticks until I've shot the perfect story.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You see an unread red dot on a social app. You:",
+        "options": [
+          {
+            "text": "Feel nothing. Hundreds of unread notifications, no problem.",
+            "score": 1
+          },
+          {
+            "text": "Only open it when I have a spare moment.",
+            "score": 2
+          },
+          {
+            "text": "OCD flares up. I must clear that red dot immediately.",
+            "score": 3
+          },
+          {
+            "text": "Even without a red dot, I unconsciously keep pull-to-refreshing.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "In the last hour before bed, what are you usually doing?",
+        "options": [
+          {
+            "text": "Reading, meditating, or listening to soft music to fall asleep.",
+            "score": 1
+          },
+          {
+            "text": "Chatting with family or partner, or prepping tomorrow's things.",
+            "score": 2
+          },
+          {
+            "text": "Lying in bed scrolling, accidentally scrolling till the early hours.",
+            "score": 4
+          },
+          {
+            "text": "Watching horror/thrillers or playing intense games. The later, the more hyped.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "If you vacationed somewhere with zero internet, how would you feel?",
+        "options": [
+          {
+            "text": "Amazing! THIS is a real vacation.",
+            "score": 1
+          },
+          {
+            "text": "The first two days felt odd, then I slowly adjusted.",
+            "score": 2
+          },
+          {
+            "text": "Bored out of my mind, with no idea how to pass the time.",
+            "score": 3
+          },
+          {
+            "text": "Break down crying, hunt for signal everywhere, even want to cut the trip short.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "How often do you post your own updates on social media?",
+        "options": [
+          {
+            "text": "Almost never. My account looks fake, I just lurk.",
+            "score": 1
+          },
+          {
+            "text": "Once every few months for a big event or a special trip photo.",
+            "score": 2
+          },
+          {
+            "text": "At least one story a day, sharing life's little moments.",
+            "score": 3
+          },
+          {
+            "text": "Shoot wherever I go. A day without posting feels wrong all over.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When you see someone post glamorous, polished life photos, you feel:",
+        "options": [
+          {
+            "text": "Happy for them. Tap like and scroll on.",
+            "score": 1
+          },
+          {
+            "text": "Nothing much. I know that's just social-media packaging.",
+            "score": 2
+          },
+          {
+            "text": "Can't help comparing myself. Feel a bit inferior or anxious.",
+            "score": 4
+          },
+          {
+            "text": "They're showing off. Secretly sour grapes inside.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "When you hit something you don't know, your first instinct is:",
+        "options": [
+          {
+            "text": "Think it through myself or go find a book at the library.",
+            "score": 1
+          },
+          {
+            "text": "Ask an experienced friend or elder around me.",
+            "score": 2
+          },
+          {
+            "text": "Immediately whip out the phone to Google it or ask an AI.",
+            "score": 3
+          },
+          {
+            "text": "Post on social media and lazily ask the netizens to spoon-feed me.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "What is your phone to you?",
+        "options": [
+          {
+            "text": "Just a tool for handling communication.",
+            "score": 1
+          },
+          {
+            "text": "An indispensable little helper for daily convenience.",
+            "score": 2
+          },
+          {
+            "text": "An emotional anchor. Without it I'd lose my sense of security.",
+            "score": 3
+          },
+          {
+            "text": "The evil digital heroin that controls my brain and my time.",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "Caveman Tier",
+        "description": "Congrats! You show zero signs of internet addiction. You prefer the warmth of the real world, and the phone really is just a tool to you. You don't get hijacked by social-media information anxiety, and your real-life quality is sky-high.",
+        "comment": "Exclusive Analysis: Keep up this enviable state, but occasionally make sure you don't fall too far out of touch with modern info!",
+        "radarData": {
+          "labels": [
+            "Web Dependence",
+            "Social Anxiety",
+            "Real-World Bond",
+            "Solo Capacity",
+            "Info FOMO"
+          ],
+          "values": [
+            10,
+            10,
+            95,
+            90,
+            15
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "In-Control Tier",
+        "description": "You've found a healthy balance between the virtual and the real. You use the internet for info and fun, but you won't let it disrupt your normal life or sleep. When you need to focus, you can decisively put the phone down.",
+        "comment": "Exclusive Analysis: You have excellent self-control, a rare clear-headed one in modern society. Keep up this healthy digital habit.",
+        "radarData": {
+          "labels": [
+            "Web Dependence",
+            "Social Anxiety",
+            "Real-World Bond",
+            "Solo Capacity",
+            "Info FOMO"
+          ],
+          "values": [
+            40,
+            30,
+            80,
+            70,
+            35
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "Mildly Hooked Tier",
+        "description": "You're getting a bit inseparable from the internet! The moment you have a free second, your hand instinctively swipes open a social app. It's not wrecking your work yet, but your attention and sleep are slowly getting eaten by your phone.",
+        "comment": "Exclusive Analysis: Set a daily 'phone-free window' (say, the hour before bed) to give your eyes and brain a proper rest.",
+        "radarData": {
+          "labels": [
+            "Web Dependence",
+            "Social Anxiety",
+            "Real-World Bond",
+            "Solo Capacity",
+            "Info FOMO"
+          ],
+          "values": [
+            75,
+            65,
+            50,
+            40,
+            70
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "Late-Stage Addiction",
+        "description": "Alarm bells! Your soul has been kidnapped by your phone. No internet makes you intensely anxious, even with withdrawal symptoms. Your joy and sadness are heavily swayed by social media, and you're seriously neglecting real life.",
+        "comment": "Exclusive Analysis: You need a full digital detox! Try starting with a half-day out on the weekend, phone left behind, to find the feel of real life again.",
+        "radarData": {
+          "labels": [
+            "Web Dependence",
+            "Social Anxiety",
+            "Real-World Bond",
+            "Solo Capacity",
+            "Info FOMO"
+          ],
+          "values": [
+            100,
+            90,
+            20,
+            15,
+            95
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "q-stress-explosion-9",
+    "title": "Your Pressure-Cooker Explosion Index",
+    "description": "Measure how tense your body and mind are lately, spot the warning signs before you crack, and find the stress relief that fits you best.",
+    "category": "lifestyle",
+    "tags": [
+      "Stress",
+      "Relief",
+      "Health"
+    ],
+    "questions": [
+      {
+        "text": "In the past month, which physical symptom shows up most for you?",
+        "options": [
+          {
+            "text": "Terrible sleep, either insomnia or restless, dream-filled nights.",
+            "score": 4
+          },
+          {
+            "text": "Stiff neck and shoulders, migraines, or stomach and gut trouble.",
+            "score": 3
+          },
+          {
+            "text": "Easily binge-eating, or no appetite at all.",
+            "score": 2
+          },
+          {
+            "text": "No real issues. Eating well, sleeping well, strong as an ox.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "When something bad hits out of nowhere, your first reaction is:",
+        "options": [
+          {
+            "text": "Mind goes blank. No idea what to do.",
+            "score": 3
+          },
+          {
+            "text": "Emotions instantly explode. Want to pick a fight or throw something.",
+            "score": 4
+          },
+          {
+            "text": "Take a deep breath, calm down, and think of a solution.",
+            "score": 1
+          },
+          {
+            "text": "Figure it's fate and reluctantly accept reality.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "Lying in bed at night about to sleep, what's on your mind?",
+        "options": [
+          {
+            "text": "Replaying the day's embarrassing or upsetting moments on loop.",
+            "score": 3
+          },
+          {
+            "text": "Anxious about how much work or hassle tomorrow holds.",
+            "score": 4
+          },
+          {
+            "text": "Weaving unrealistic daydreams, like winning the lottery.",
+            "score": 2
+          },
+          {
+            "text": "Nothing at all. Head hits the pillow, out cold in three seconds.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "When a friend asks 'how have you been?', how do you usually answer?",
+        "options": [
+          {
+            "text": "'Eh, you know, dog-tired as always.'",
+            "score": 3
+          },
+          {
+            "text": "Smile and say 'not bad,' while it's actually bitter inside.",
+            "score": 4
+          },
+          {
+            "text": "Seize the chance to unload and complain nonstop.",
+            "score": 2
+          },
+          {
+            "text": "'Great! Something fun just happened recently...'",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What's the biggest source of stress in your life right now?",
+        "options": [
+          {
+            "text": "Office culture or the never-ending pile of work.",
+            "score": 4
+          },
+          {
+            "text": "Money troubles, the anxiety of never having enough.",
+            "score": 3
+          },
+          {
+            "text": "Friction in relationships, or emotional blackmail from family or partner.",
+            "score": 2
+          },
+          {
+            "text": "Uncertainty about the future, not knowing what I even want.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "When you feel about to break down, what do you most want to do?",
+        "options": [
+          {
+            "text": "Lock myself in my room and cry it all out.",
+            "score": 3
+          },
+          {
+            "text": "Book a flight to somewhere no one knows me and escape reality.",
+            "score": 4
+          },
+          {
+            "text": "Get wasted with a good friend or scream it out at karaoke.",
+            "score": 2
+          },
+          {
+            "text": "Devour high-calorie junk food, numbing myself with sugar.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "When you have a free day with no plans, you feel:",
+        "options": [
+          {
+            "text": "Guilty, like I wasted precious time.",
+            "score": 3
+          },
+          {
+            "text": "A little bored, endlessly scrolling to see what others are up to.",
+            "score": 2
+          },
+          {
+            "text": "Amazing! I just want to be a puddle in bed all day.",
+            "score": 1
+          },
+          {
+            "text": "Seize the time to better myself, read or learn a new skill.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Seeing a desk piled with unhandled clutter, how do you feel?",
+        "options": [
+          {
+            "text": "Frustrated and scattered. It's a snapshot of my life right now.",
+            "score": 4
+          },
+          {
+            "text": "Ignore it. As long as I can still find my stuff, it's fine.",
+            "score": 1
+          },
+          {
+            "text": "OCD suddenly kicks in. I must tidy it spotless right now.",
+            "score": 3
+          },
+          {
+            "text": "There's order in the chaos. It's my unique personal style.",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "text": "How long has it been since you laughed with real joy?",
+        "options": [
+          {
+            "text": "Every day. My laugh threshold is super low.",
+            "score": 1
+          },
+          {
+            "text": "A few days ago, over a funny meme.",
+            "score": 2
+          },
+          {
+            "text": "Can't remember. Lately my laughs are all polite fake ones.",
+            "score": 3
+          },
+          {
+            "text": "I've forgotten how to laugh from the heart.",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "For you, what's the most effective way to 'recharge'?",
+        "options": [
+          {
+            "text": "Get out in nature, hike, see the sea, breathe fresh air.",
+            "score": 1
+          },
+          {
+            "text": "Get a spa, massage, or hot spring, fully relax the body.",
+            "score": 2
+          },
+          {
+            "text": "Immerse in my hobbies (gaming, drawing, stanning idols).",
+            "score": 3
+          },
+          {
+            "text": "As long as I'm not working, anything recharges me.",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "Stress-Immune Constitution",
+        "description": "Congrats, right now your body and mind are super healthy! You have excellent stress tolerance and emotional regulation. Even when you hit setbacks, you digest them fast and turn them into fuel. Your life is full of balance and fun.",
+        "comment": "Exclusive Analysis: Keep up this optimistic, easygoing mindset. You're the sun to your friends around you!",
+        "radarData": {
+          "labels": [
+            "Stress Level",
+            "Suppression",
+            "Fatigue",
+            "Social Burnout",
+            "Resilience"
+          ],
+          "values": [
+            15,
+            20,
+            10,
+            15,
+            95
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "Mildly Tense State",
+        "description": "You may have hit a few challenges lately, leaving your nerves a little on edge. But don't worry, it's still within what you can handle. Your body is reminding you it's time to slow down a bit.",
+        "comment": "Exclusive Analysis: Plan a little weekend getaway or go eat something delicious to clear out the fatigue you've been stacking up!",
+        "radarData": {
+          "labels": [
+            "Stress Level",
+            "Suppression",
+            "Fatigue",
+            "Social Burnout",
+            "Resilience"
+          ],
+          "values": [
+            45,
+            40,
+            50,
+            30,
+            70
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "Pressure-Cooker Alarm",
+        "description": "Watch out! Your stress index is already high and your body may be starting to show little issues. You tend to bottle things up, not wanting to burden others, but that only turns your emotions into a pressure cooker about to boil over.",
+        "comment": "Exclusive Analysis: Stop 'toughing it out' right now! Confide in someone you trust, or get a massage to loosen up. You badly need a release.",
+        "radarData": {
+          "labels": [
+            "Stress Level",
+            "Suppression",
+            "Fatigue",
+            "Social Burnout",
+            "Resilience"
+          ],
+          "values": [
+            80,
+            85,
+            75,
+            60,
+            40
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "On the Brink of Breakdown",
+        "description": "Danger! Your body and mind have hit their limit. You may be extremely anxious, sleepless, or world-weary. The tiniest outside spark could be the last straw that breaks the camel's back. You've forgotten how to relax.",
+        "comment": "Exclusive Analysis: Drop everything! Please seek professional counseling or take a long break. Stop forcing yourself to be strong.",
+        "radarData": {
+          "labels": [
+            "Stress Level",
+            "Suppression",
+            "Fatigue",
+            "Social Burnout",
+            "Resilience"
+          ],
+          "values": [
+            95,
+            95,
+            95,
+            90,
+            15
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "q-parallel-universe-10",
+    "title": "The Other You in a Parallel Universe",
+    "description": "In another timeline, what life would you be living? Reveal the dream you crave deep down but don't dare to chase.",
+    "category": "lifestyle",
+    "tags": [
+      "ParallelUniverse",
+      "Dreams",
+      "Psychology"
+    ],
+    "questions": [
+      {
+        "text": "If you could go back and change one decision, what would you change?",
+        "options": [
+          {
+            "text": "Change my old decision about school or my major.",
+            "score": 2
+          },
+          {
+            "text": "Bravely confess to my crush, or win back a lost relationship.",
+            "score": 3
+          },
+          {
+            "text": "Tell past me: 'Go all in on that stock/Bitcoin, now!'",
+            "score": 4
+          },
+          {
+            "text": "Change nothing. My experiences made me who I am.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What job do you think the parallel-universe you is doing right now?",
+        "options": [
+          {
+            "text": "A superstar in the spotlight or an artist on stage.",
+            "score": 4
+          },
+          {
+            "text": "A wandering backpacker or a freelance writer.",
+            "score": 3
+          },
+          {
+            "text": "A lab-coat scientist or a world-changing entrepreneur.",
+            "score": 2
+          },
+          {
+            "text": "An ordinary but happy office worker, just like now.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "In another timeline, how do you think your personality would differ from now?",
+        "options": [
+          {
+            "text": "Turned super outgoing and confident, the center of attention everywhere.",
+            "score": 4
+          },
+          {
+            "text": "Turned cold and ruthless, living purely for myself.",
+            "score": 3
+          },
+          {
+            "text": "Turned incredibly gentle and tender, caring for everyone like an angel.",
+            "score": 2
+          },
+          {
+            "text": "Probably about the same. A leopard can't change its spots.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If you could take one thing from now into the parallel universe, you'd bring:",
+        "options": [
+          {
+            "text": "All my current memories and experience points.",
+            "score": 4
+          },
+          {
+            "text": "The people I love most (partner, family, or pet).",
+            "score": 2
+          },
+          {
+            "text": "The money in my bank account (if it converts).",
+            "score": 3
+          },
+          {
+            "text": "A blank heart, to start fresh and experience it all anew.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "What do you think the love life of parallel-universe you is like?",
+        "options": [
+          {
+            "text": "Surrounded by countless admirers, an absolute heartthrob.",
+            "score": 4
+          },
+          {
+            "text": "Living a fairytale life with a true soulmate.",
+            "score": 2
+          },
+          {
+            "text": "Staying single to the end, savoring ultimate freedom.",
+            "score": 3
+          },
+          {
+            "text": "Been through countless players, still searching for true love.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If you got to meet the parallel-universe you, what's your first line?",
+        "options": [
+          {
+            "text": "'Are you doing okay? Happier than me?'",
+            "score": 2
+          },
+          {
+            "text": "'Quick, tell me your world's lottery numbers!'",
+            "score": 4
+          },
+          {
+            "text": "'How did you end up like this? / How'd you get so gorgeous?'",
+            "score": 3
+          },
+          {
+            "text": "Say nothing, just give them a deep, tight hug.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Do you think parallel-universe you envies your current life?",
+        "options": [
+          {
+            "text": "Definitely! I'm not perfect, but I have amazing family and friends.",
+            "score": 1
+          },
+          {
+            "text": "Probably not. Their life is likely ten thousand times more exciting.",
+            "score": 4
+          },
+          {
+            "text": "We each have our own worries. We envy each other.",
+            "score": 2
+          },
+          {
+            "text": "They wouldn't care at all. They're living just fine in their own world.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "On a planet with no gravity, what would you want to try?",
+        "options": [
+          {
+            "text": "Feel the thrill of soaring and flipping freely through the air.",
+            "score": 4
+          },
+          {
+            "text": "Build a floating castle in mid-air.",
+            "score": 3
+          },
+          {
+            "text": "Study how to eat spicy hot pot in zero gravity.",
+            "score": 2
+          },
+          {
+            "text": "Way too unsettling. Find a way back to Earth, fast.",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "If parallel-you comes begging for help, saying their world is about to be destroyed, you:",
+        "options": [
+          {
+            "text": "No hesitation! Cross the timelines with them to save the world.",
+            "score": 4
+          },
+          {
+            "text": "Let them stay in my world. We'll live together.",
+            "score": 1
+          },
+          {
+            "text": "Sympathetic, but it's too dangerous. Politely decline.",
+            "score": 2
+          },
+          {
+            "text": "Suspect they're a scammer. Call the cops first, ask questions later.",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "text": "Do you believe there's another person in this world exactly like you?",
+        "options": [
+          {
+            "text": "Absolutely! The universe is huge, there must be another me.",
+            "score": 4
+          },
+          {
+            "text": "That only happens in sci-fi movies.",
+            "score": 2
+          },
+          {
+            "text": "Maybe, but our paths will never cross.",
+            "score": 3
+          },
+          {
+            "text": "I'm one of a kind! No one could possibly be exactly like me.",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "The Content Guardian",
+        "description": "You're very satisfied with the status quo. Life may not be lavishly rich, but you deeply cherish the people and things around you. You have few regrets and don't crave a thrilling, adventurous life. The parallel you would still be a gentle, kind, ordinary person.",
+        "comment": "Exclusive Analysis: Knowing how to be grateful and treasure the present is your greatest weapon for finding calm and happiness.",
+        "radarData": {
+          "labels": [
+            "Regret",
+            "Adventure Drive",
+            "Contentment",
+            "Self-Expectation",
+            "Imagination"
+          ],
+          "values": [
+            10,
+            20,
+            95,
+            50,
+            40
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "The Down-to-Earth Dreamer",
+        "description": "You carry a few small regrets and unfinished dreams, but you won't flee reality over them. You believe the way to change your fate isn't crossing timelines, but the effort you put in now. You've found the perfect balance between the two universes.",
+        "comment": "Exclusive Analysis: You have regrets, but you're always on the road to becoming better. Trust yourself. You're creating the best timeline.",
+        "radarData": {
+          "labels": [
+            "Regret",
+            "Adventure Drive",
+            "Contentment",
+            "Self-Expectation",
+            "Imagination"
+          ],
+          "values": [
+            40,
+            50,
+            70,
+            80,
+            60
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "The Freedom-Craving Wanderer",
+        "description": "Deep down you long to break free of society's constraints and experience a different life. You feel a trace of dissatisfaction and weariness with the status quo, often fantasizing whether, in another parallel timeline, you'd live more freely and boldly.",
+        "comment": "Exclusive Analysis: If you're unhappy with the status quo, start making small changes now! You don't need a parallel universe to be reborn.",
+        "radarData": {
+          "labels": [
+            "Regret",
+            "Adventure Drive",
+            "Contentment",
+            "Self-Expectation",
+            "Imagination"
+          ],
+          "values": [
+            75,
+            85,
+            40,
+            70,
+            80
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "The World-Shaking Visionary",
+        "description": "Your imagination runs wild, bursting with disruptive, creative ideas! You strongly crave to change certain past decisions and firmly believe the parallel you is absolutely a world-shaking big shot. Your soul hungers for the ultimate experience.",
+        "comment": "Exclusive Analysis: Your imagination is a priceless treasure. Try turning that wild vision into real creative work or a business. You'll amaze everyone!",
+        "radarData": {
+          "labels": [
+            "Regret",
+            "Adventure Drive",
+            "Contentment",
+            "Self-Expectation",
+            "Imagination"
+          ],
+          "values": [
+            90,
+            100,
+            20,
+            95,
+            100
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "banwei-index-quiz",
+    "title": "\"Work Smell\" Concentration Test: Has Your Job Pickled You Yet?",
+    "description": "\"Work smell\" is the aura that won't wash off — dead-tired eyes, a noise-cancelled soul, zero enthusiasm for anything. 10 questions to measure how deep the workplace brine has soaked in, and how much \"after-hours life\" you have left.",
+    "category": "career",
+    "tags": [
+      "work smell",
+      "workplace",
+      "burnout"
+    ],
+    "questions": [
+      {
+        "text": "The moment your alarm goes off in the morning, your very first thought is?",
+        "options": [
+          {
+            "text": "\"A new day! Let's go make it count\"",
+            "score": 1
+          },
+          {
+            "text": "\"Ugh, five more minutes. Just five\"",
+            "score": 2
+          },
+          {
+            "text": "\"What day is it? How many days till Friday?\"",
+            "score": 3
+          },
+          {
+            "text": "Running the numbers: what would calling in sick cost me right now",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "The current state of your closet?",
+        "options": [
+          {
+            "text": "A different look every day — getting dressed is how I recharge",
+            "score": 1
+          },
+          {
+            "text": "A few go-to fits I love; I'll dress up when the mood strikes",
+            "score": 2
+          },
+          {
+            "text": "Same rotation of \"work uniforms\" — convenience wins",
+            "score": 3
+          },
+          {
+            "text": "Black, white, gray on infinite loop. Fashion is dead, long live comfy",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "A friend invites you to dinner after work. Your honest reaction?",
+        "options": [
+          {
+            "text": "\"I'm in!\" Instant yes — I've been dying to talk to someone",
+            "score": 1
+          },
+          {
+            "text": "Depends who's asking — I'll show up for people I like",
+            "score": 2
+          },
+          {
+            "text": "\"So tired today, rain check\" (the rain check never comes)",
+            "score": 3
+          },
+          {
+            "text": "Left on read. My soul is already on the train home",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "What does Sunday night look like for you?",
+        "options": [
+          {
+            "text": "Excited for tomorrow — already planned what to crush this week",
+            "score": 1
+          },
+          {
+            "text": "Totally chill. Monday is just another day",
+            "score": 2
+          },
+          {
+            "text": "Getting antsy, revenge-scrolling until I can't bear to fall asleep",
+            "score": 3
+          },
+          {
+            "text": "Full \"Monday dread\" mode — my chest tightens just thinking about clocking in",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When was the last time you genuinely laughed out loud (not a polite smile)?",
+        "options": [
+          {
+            "text": "Today, actually. Joy is everywhere",
+            "score": 1
+          },
+          {
+            "text": "This week — my friend's memes still hit",
+            "score": 2
+          },
+          {
+            "text": "Can't really remember... last month, maybe?",
+            "score": 3
+          },
+          {
+            "text": "My smile muscles have atrophied; only the fake boss-smile is still in business",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your default face in the office kitchen or elevator?",
+        "options": [
+          {
+            "text": "Smiling — I can chat with anyone I run into",
+            "score": 1
+          },
+          {
+            "text": "Relaxed and natural; I say hi when hi is due",
+            "score": 2
+          },
+          {
+            "text": "Completely blank, eyes glazed over in power-save mode",
+            "score": 3
+          },
+          {
+            "text": "A do-not-approach storm cloud — coworkers auto-reroute around me",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "\"So what do you do after work?\" Your answer is?",
+        "options": [
+          {
+            "text": "Gym, classes, hangouts — schedule packed to the brim",
+            "score": 1
+          },
+          {
+            "text": "Sometimes shows, sometimes going out — whatever the mood says",
+            "score": 2
+          },
+          {
+            "text": "Lie down, scroll my phone, look up and it's somehow bedtime",
+            "score": 3
+          },
+          {
+            "text": "After work? Not sure my shift ever actually ends (keeps replying to messages)",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Someone mentions the word \"dreams.\" Your internal monologue?",
+        "options": [
+          {
+            "text": "Eyes light up — I'm actively working toward mine",
+            "score": 1
+          },
+          {
+            "text": "I still remember what it looks like; I take it out and dust it off sometimes",
+            "score": 2
+          },
+          {
+            "text": "What's that? How much salary does it convert to?",
+            "score": 3
+          },
+          {
+            "text": "Don't even. My only remaining dream is \"never working again\"",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You hear \"quick meeting in a bit.\" Your physiological response?",
+        "options": [
+          {
+            "text": "Sure thing — we might actually hash out something good",
+            "score": 1
+          },
+          {
+            "text": "Calm acceptance. It's part of the job",
+            "score": 2
+          },
+          {
+            "text": "Deep breath in. Eyes go dead for a solid three seconds",
+            "score": 3
+          },
+          {
+            "text": "Soul leaves body on the spot; the husk nods and says \"sounds good\"",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Surprise day off tomorrow — how do you spend it?",
+        "options": [
+          {
+            "text": "Bucket list locked and loaded, heading out immediately",
+            "score": 1
+          },
+          {
+            "text": "A nice meal with friends — a full, satisfying day",
+            "score": 2
+          },
+          {
+            "text": "Sleep till I wake up naturally, then rot away the rest",
+            "score": 3
+          },
+          {
+            "text": "Catch up on sleep, shows, and my wrecked schedule — and somehow end the day more tired",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "[Scent-Free] Fresh-Picked Baby Greens",
+        "description": "There's barely a whiff of work smell on you — work is just one part of your life, not the whole thing. You've still got real curiosity and fire for the world, and your after-hours life is rich enough to make coworkers jealous: hobbies, friends, things to look forward to. You know exactly why you work, and exactly who you are outside of it. This \"more human than employee\" state is a luxury most office veterans can never get back.",
+        "comment": "Guard that freshness with your life! Treat your vacation plans and little life rituals as top-priority assets — they're your natural preservatives against getting pickled by the job.",
+        "radarData": {
+          "labels": [
+            "Fatigue Level",
+            "Work Creep",
+            "Life Freshness",
+            "Passion Reserve",
+            "Recovery Power"
+          ],
+          "values": [
+            20,
+            25,
+            95,
+            90,
+            85
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "[Lightly Seasoned] Gently Marinated Side Dish",
+        "description": "You've started giving off a faint work smell: the occasional sigh, the occasional thousand-yard stare, dead eyes at the word \"meeting.\" The good news: your life hasn't been fully annexed by your job. You still stay up late for things you love and still remember the shape of your dreams — you just take them out less often. You're standing right on the ridge between \"office worker\" and \"person with a life.\" Which way you slide depends on where you spend your energy next.",
+        "comment": "Prescription: force one \"completely work-free thing to look forward to\" into every week — a great meal, a movie night. Work smell washes out easiest while it's still faint.",
+        "radarData": {
+          "labels": [
+            "Fatigue Level",
+            "Work Creep",
+            "Life Freshness",
+            "Passion Reserve",
+            "Recovery Power"
+          ],
+          "values": [
+            45,
+            50,
+            70,
+            65,
+            70
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "[Fully Marinated] Old Braise, Eight-Tenths Done",
+        "description": "The work smell has pickled you to the bone: grayscale uniform, leaving everyone on read, going horizontal the second you're home, smile only activated by payroll. Work seeps into every day like braising liquid — even your weekends are soaked in \"compensatory rotting\" that somehow leaves you more tired. The real warning sign: you've started treating exhaustion as your default setting, forgetting you weren't always like this.",
+        "comment": "Time to launch Operation De-Marinate. Start small: pick one day a week to leave on time and kill your notifications, and let life's flavor cover the work smell again. You don't need one long vacation — you need a little slice of every day that's 100% yours.",
+        "radarData": {
+          "labels": [
+            "Fatigue Level",
+            "Work Creep",
+            "Life Freshness",
+            "Passion Reserve",
+            "Recovery Power"
+          ],
+          "values": [
+            75,
+            80,
+            40,
+            35,
+            45
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "[Vintage Grade] Ten-Year Braise Left on the Stove",
+        "description": "Alert! Your work smell is off the charts — you've hit \"everyone in the elevator can tell you've been doing overtime\" levels. Your soul is in permanent standby: numb to joy, numb to vacations, too tired to even complain. This isn't just work smell anymore — it's the opening act of burnout, and your body is sending SOS signals through fatigue, numbness, and that storm cloud over your head. Seriously: put \"yourself\" back on the calendar. You are a person, not headcount.",
+        "comment": "Strong recommendation: take an actual vacation (not the lying-down-scrolling kind). And if the exhaustion has been wrecking your sleep and mood for more than two weeks, talking to a professional is a genuinely good move. The work will never be finished — but there's only one of you.",
+        "radarData": {
+          "labels": [
+            "Fatigue Level",
+            "Work Creep",
+            "Life Freshness",
+            "Passion Reserve",
+            "Recovery Power"
+          ],
+          "values": [
+            95,
+            95,
+            15,
+            10,
+            25
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "alive-vibe-quiz",
+    "title": "Alive-Person Energy Check: Is Your Soul Still Open for Business?",
+    "description": "\"Alive-person energy\" — light in your eyes, real reactions to the world, posts that sound like an actual human. It's the rarest vibe of the social media era. 10 questions to gauge your soul's freshness: are you certified fresh-catch alive, or a cardboard cutout that leaves everyone on read?",
+    "category": "personality",
+    "tags": [
+      "alive-person energy",
+      "soul freshness",
+      "self check"
+    ],
+    "questions": [
+      {
+        "text": "You spot a flower blooming ridiculously well on the roadside. You...",
+        "options": [
+          {
+            "text": "Stop for a proper look — maybe even snap a pic for a friend",
+            "score": 4
+          },
+          {
+            "text": "Internal \"whoa,\" but keep walking",
+            "score": 3
+          },
+          {
+            "text": "I think I saw it? Felt nothing",
+            "score": 2
+          },
+          {
+            "text": "Flower? What flower? I was on my phone",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "The recent state of your social media accounts?",
+        "options": [
+          {
+            "text": "Life fragments and random thoughts, posted on impulse — very warm-blooded",
+            "score": 4
+          },
+          {
+            "text": "Occasional stories for moments worth remembering",
+            "score": 3
+          },
+          {
+            "text": "Basically just reposting other people's stuff; I don't really speak",
+            "score": 2
+          },
+          {
+            "text": "Last post dates back to the ancient era; the account has grown weeds",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Friends start on a topic you know nothing about (a new show, some fandom drama). You...",
+        "options": [
+          {
+            "text": "\"Wait, what is that? Tell me everything!\" Curiosity: fully online",
+            "score": 4
+          },
+          {
+            "text": "Find myself getting interested, quietly look it up at home",
+            "score": 3
+          },
+          {
+            "text": "Polite nodding, zero ripples inside",
+            "score": 2
+          },
+          {
+            "text": "Auto-switch to mute mode and wait for the topic to pass",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "When you eat something amazing, your reaction is...",
+        "options": [
+          {
+            "text": "Audible, on the spot: \"This is INSANELY good!\"",
+            "score": 4
+          },
+          {
+            "text": "Eyes light up — immediately offer a bite to whoever's next to me",
+            "score": 3
+          },
+          {
+            "text": "Think \"not bad,\" then finish it in silence",
+            "score": 2
+          },
+          {
+            "text": "The only difference between good and bad food is how fast I eat it",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Your last \"just because\" move (a detour to catch the sunset, a sudden urge to learn something new) was when?",
+        "options": [
+          {
+            "text": "This week — my life runs on spontaneous impulses",
+            "score": 4
+          },
+          {
+            "text": "Last month, and it still makes me smile",
+            "score": 3
+          },
+          {
+            "text": "Hmm, let me think... six months ago?",
+            "score": 2
+          },
+          {
+            "text": "Why would I do something with no purpose?",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "A friend sends you a funny video. You usually...",
+        "options": [
+          {
+            "text": "Laugh out loud and fire back three funnier ones",
+            "score": 4
+          },
+          {
+            "text": "Genuinely crack up and reply with a wall of \"HAHAHAHA\"",
+            "score": 3
+          },
+          {
+            "text": "Slight smirk, send one \"haha\" to fulfill my social duty",
+            "score": 2
+          },
+          {
+            "text": "Seen. Thinking: what exactly is funny about this",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "How do you feel about \"tomorrow\"?",
+        "options": [
+          {
+            "text": "There's something to look forward to — I smile just thinking about it before sleep",
+            "score": 4
+          },
+          {
+            "text": "Ordinary, but I can always find some small thing to anticipate",
+            "score": 3
+          },
+          {
+            "text": "Tomorrow is just copy-paste of today",
+            "score": 2
+          },
+          {
+            "text": "I'd rather it not come. Just let me sleep forever",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "You hear a song you love while walking down the street. You...",
+        "options": [
+          {
+            "text": "Steps sync to the beat, can't help humming along",
+            "score": 4
+          },
+          {
+            "text": "Instant mood lift — quietly crank the volume",
+            "score": 3
+          },
+          {
+            "text": "\"Oh, this song,\" then back to spacing out",
+            "score": 2
+          },
+          {
+            "text": "No idea what's playing in my earbuds. I wasn't listening",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Someone compliments you sincerely. Your reaction?",
+        "options": [
+          {
+            "text": "Can't hide the joy — big thank you and a compliment right back",
+            "score": 4
+          },
+          {
+            "text": "Shy but grinning, secretly happy about it all day",
+            "score": 3
+          },
+          {
+            "text": "\"It's whatever.\" Zero ripples inside",
+            "score": 2
+          },
+          {
+            "text": "Alert: what are they about to ask me for?",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "text": "Alone late at night, your most common state is...",
+        "options": [
+          {
+            "text": "Grateful for today, itching for tomorrow",
+            "score": 4
+          },
+          {
+            "text": "Calm and cozy, enjoying my own little world",
+            "score": 3
+          },
+          {
+            "text": "Brain auto-plays \"Today's Most Awkward Moments: Greatest Hits\"",
+            "score": 2
+          },
+          {
+            "text": "No emotions. Literally. None",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "[Soul in Hibernation] NPC Standby Mode",
+        "description": "Your alive-person reading is hovering near zero: numb to food, numb to compliments, numb to tomorrow — like someone set you to mute. But take note: this usually isn't \"just how you are.\" Long-running exhaustion, stress, or disappointment has flipped your feelings into protective shutdown. Your soul isn't gone — it's hibernating, waiting for a safe moment to come back online.",
+        "comment": "No rush on the reboot — start micro: actually taste one meal today; before bed, write down one thing that was \"okay.\" If the numbness sticks around and starts disrupting your life, talking to someone you trust or a mental health professional is a brave move, not a weak one.",
+        "radarData": {
+          "labels": [
+            "Emotional Freshness",
+            "Curiosity",
+            "Expressiveness",
+            "Sensitivity",
+            "Drive"
+          ],
+          "values": [
+            15,
+            25,
+            10,
+            30,
+            20
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "[Power-Save Mode] Half-Thawed Fresh Fish",
+        "description": "Your alive-person energy flickers on and off, like a phone in low-power mode: a real smile occasionally escapes around close friends, but most of the time a single \"haha\" carries the whole conversation. It's not that you feel nothing — you've just trained yourself to compress every feeling to minimum volume, because expressing is exhausting, hoping risks disappointment, and caring risks getting hurt. But deep down you know: those \"can't be bothered to say it\" moments are hiding a whole lot of unspoken aliveness.",
+        "comment": "Try one \"over-reaction\" a day: if it's delicious, say so out loud; if it's funny, actually laugh. Expression is a muscle — build it back, and you'll notice the world warming up to you in return.",
+        "radarData": {
+          "labels": [
+            "Emotional Freshness",
+            "Curiosity",
+            "Expressiveness",
+            "Sensitivity",
+            "Drive"
+          ],
+          "values": [
+            45,
+            50,
+            35,
+            55,
+            40
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "[Fresh Catch Grade] Certified Alive, Eyes Full of Light",
+        "description": "Congrats — you're the rarest resource of the social media era: a genuine, certified alive person! You make noises over good food, get a mood lift from a single song, and laugh for real at your friends' terrible jokes. Your emotions flow in and out, back and forth, and everyone around you can feel it: this person is really listening, really laughing. That authentic responsiveness is the beating heart of alive-person energy.",
+        "comment": "Your freshness is beautifully preserved. One note: alive people need rest too. Give yourself permission to be a quiet NPC for a day now and then — you don't have to be open for business 24/7. That's how the aliveness lasts.",
+        "radarData": {
+          "labels": [
+            "Emotional Freshness",
+            "Curiosity",
+            "Expressiveness",
+            "Sensitivity",
+            "Drive"
+          ],
+          "values": [
+            75,
+            75,
+            70,
+            80,
+            70
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "[Supernova Grade] Walking Dopamine",
+        "description": "Your alive-person energy is overflowing! The light in your eyes could illuminate an entire street, and your curiosity runs permanently overclocked: a roadside flower, a new shop, a friend's random topic — everything ignites you. You don't just live at full boil yourself; you're contagious with it. You're the walking dopamine of your friend group, a human solar panel — even the air around you tastes sweeter.",
+        "comment": "You're the rare of the rare — but remember: not everyone runs at your clock speed. Slow down a beat sometimes and wait for your power-save-mode friends. Your warmth hits even harder when it isn't rushing.",
+        "radarData": {
+          "labels": [
+            "Emotional Freshness",
+            "Curiosity",
+            "Expressiveness",
+            "Sensitivity",
+            "Drive"
+          ],
+          "values": [
+            95,
+            95,
+            90,
+            85,
+            90
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "adult-level-quiz",
+    "title": "Adulting Level Check: Are You an Entry-Level Adult or an Advanced Adult?",
+    "description": "The viral phrase of the year — \"entry-level adults\" are desperate to prove they've grown up, while \"advanced adults\" have already made peace with life. 10 real-life scenarios to reveal which tier your adulting has reached.",
+    "category": "psychological",
+    "tags": [
+      "advanced adult",
+      "maturity",
+      "personal growth"
+    ],
+    "questions": [
+      {
+        "text": "The restaurant brings you the wrong dish. You...",
+        "options": [
+          {
+            "text": "Too embarrassed to say anything — quietly eat the wrong order",
+            "score": 1
+          },
+          {
+            "text": "Demand a replacement at maximum intensity to establish \"don't mess with me\"",
+            "score": 2
+          },
+          {
+            "text": "Ask them to fix it, then feel awkward for the rest of the meal",
+            "score": 3
+          },
+          {
+            "text": "Smile, let the server know, get it swapped — and let it go",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "It's payday. Your very first move?",
+        "options": [
+          {
+            "text": "Treat myself first! Check out everything that's been sitting in the cart",
+            "score": 1
+          },
+          {
+            "text": "Pay the bills; whatever's left flows wherever it flows",
+            "score": 2
+          },
+          {
+            "text": "Budget and track everything diligently... and still overspend by month's end",
+            "score": 3
+          },
+          {
+            "text": "Auto-transfer a fixed cut to savings and investments, then spend the rest guilt-free",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "A friend cancels on you last minute. Your reaction?",
+        "options": [
+          {
+            "text": "\"No worries!\" out loud, permanent entry in my mental grudge ledger",
+            "score": 1
+          },
+          {
+            "text": "Sulk and leave them on read for the next few days",
+            "score": 2
+          },
+          {
+            "text": "Bummed, but immediately draft an excellent solo plan B",
+            "score": 3
+          },
+          {
+            "text": "Tell them straight — \"hey, that didn't feel great\" — then talk it out",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Facing a relationship (friendship or romance) that no longer fits you, you...",
+        "options": [
+          {
+            "text": "Keep it going — we go way back, and cutting it off feels like a waste",
+            "score": 1
+          },
+          {
+            "text": "Slow fade, letting the read receipts deliver the message",
+            "score": 2
+          },
+          {
+            "text": "Lay it all out even if things get ugly — it needs a proper ending",
+            "score": 3
+          },
+          {
+            "text": "Part on good terms, let go with gratitude, and save the seat for the right person",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When you're feeling emo in the middle of the night, you...",
+        "options": [
+          {
+            "text": "Dump my feelings into a story post, then panic-delete it in the morning",
+            "score": 1
+          },
+          {
+            "text": "White-knuckle it — \"thinking about this is useless\" — and shove the feelings down",
+            "score": 2
+          },
+          {
+            "text": "Trauma-dump to someone and somehow feel even messier afterward",
+            "score": 3
+          },
+          {
+            "text": "Let myself be sad for a bit, write it down or sleep on it, and deal with it tomorrow",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Seeing peers doing better than you (buying homes, getting promoted, traveling the world), your honest feeling is...",
+        "options": [
+          {
+            "text": "Anxiety-induced insomnia — I start questioning my entire life",
+            "score": 1
+          },
+          {
+            "text": "Congratulations on the surface, a little salty in private",
+            "score": 2
+          },
+          {
+            "text": "A twinge of envy, then quickly back to my own pace",
+            "score": 3
+          },
+          {
+            "text": "Genuinely happy for them — because I know exactly what I want",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When you're sick and feeling awful, you...",
+        "options": [
+          {
+            "text": "Power through work or class — taking leave feels like a hassle, and I don't want to look like I can't handle pressure",
+            "score": 1
+          },
+          {
+            "text": "Wait until it gets really bad, then grudgingly see a doctor",
+            "score": 2
+          },
+          {
+            "text": "See the doctor and take the meds, but lie there with my head still full of work",
+            "score": 3
+          },
+          {
+            "text": "Take the day off, see the doctor, sleep properly — my body is my most important asset",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "How do you feel about admitting fault and apologizing?",
+        "options": [
+          {
+            "text": "Apologizing is humiliating — find an excuse and hold the line first",
+            "score": 1
+          },
+          {
+            "text": "I'll apologize, but always with a \"but you were wrong too\" attached",
+            "score": 2
+          },
+          {
+            "text": "I'm willing to apologize, but then I spiral about whether I'm a failure",
+            "score": 3
+          },
+          {
+            "text": "If I'm wrong, I own it sincerely and do better — that's not shameful, it builds credit",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Facing relatives' \"concern\" (When are you getting married? How much do you make?), you...",
+        "options": [
+          {
+            "text": "Awkward polite laughter, followed by three days of internal damage",
+            "score": 1
+          },
+          {
+            "text": "Visible attitude or a clapback on the spot — the room instantly freezes",
+            "score": 2
+          },
+          {
+            "text": "Deploy a well-rehearsed script and deflect until they give up",
+            "score": 3
+          },
+          {
+            "text": "Smile and set the boundary — \"I'll keep that one to myself~\" — then steer the conversation elsewhere",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your deepest takeaway about growing up?",
+        "options": [
+          {
+            "text": "Growing up is nonstop losing, and I'm not ready for it",
+            "score": 1
+          },
+          {
+            "text": "Growing up means holding it together — never let the exhaustion show",
+            "score": 2
+          },
+          {
+            "text": "Growing up is learning to make trade-offs, even when letting go hurts",
+            "score": 3
+          },
+          {
+            "text": "Growing up is finally being able to take care of myself — with warmth left over for others",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "[Adult-in-Training] A Kid Holding a Grown-Up ID",
+        "description": "Your body is legally an adult, but the kid inside is still clutching your sleeve. You dread conflict, can't speak up when you're shortchanged, and your first instinct against unfairness is to endure it — the adult world just feels impossibly hard. Here's the truth: it's not that you're not good enough. Nobody ever actually taught us how to be adults. Right now you're more of an \"adult by obligation\" — the uniform is on, but the operating manual never arrived.",
+        "comment": "Step one of practice: voice your needs, even quietly. Wrong dish? Ask for the swap. Feeling sick? Take the day off. You'll find the world doesn't hate you for standing up for yourself — it starts respecting you.",
+        "radarData": {
+          "labels": [
+            "Emotional Stability",
+            "Self-Sufficiency",
+            "Boundaries",
+            "Self-Acceptance",
+            "Ease Factor"
+          ],
+          "values": [
+            30,
+            40,
+            20,
+            30,
+            25
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "[Entry-Level Adult] The Adult Trying Very Hard to Prove It",
+        "description": "You're a textbook \"entry-level adult\": working overtime to look mature, tough, and bulletproof — as if one crack of softness means losing. You defend your rights at maximum force, compress emotions into internal injuries, and spiral when others are thriving — because somewhere along the way, you decided adulthood is a competition you must win. But real maturity isn't armor; it's ease. You already have an adult's capabilities. What you need to train next is an adult's breathing room.",
+        "comment": "A line just for you: \"You don't have to keep proving you're an adult. You already are one.\" Try redirecting some of that armor-building energy into rest and self-acceptance.",
+        "radarData": {
+          "labels": [
+            "Emotional Stability",
+            "Self-Sufficiency",
+            "Boundaries",
+            "Self-Acceptance",
+            "Ease Factor"
+          ],
+          "values": [
+            45,
+            60,
+            55,
+            40,
+            45
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "[Mid-Level Adult] A Life Player Hitting Their Stride",
+        "description": "You've outgrown the \"trying way too hard at adulthood\" phase and started finding your own rhythm: you know how to say no, how to manage your money, and how to cut yourself slack on emo nights. Sure, you still overthink sometimes, still envy people, still question your life at 2 a.m. — but your recovery speed keeps getting faster. You're on the road from \"holding it together\" to \"genuinely at ease,\" and the advanced-adult ticket is already waving at you.",
+        "comment": "The one class you still need: \"permission to be imperfect.\" The gap between mid-level and advanced usually isn't ability — it's whether you can gently let yourself off the hook.",
+        "radarData": {
+          "labels": [
+            "Emotional Stability",
+            "Self-Sufficiency",
+            "Boundaries",
+            "Self-Acceptance",
+            "Ease Factor"
+          ],
+          "values": [
+            70,
+            75,
+            70,
+            65,
+            65
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "[Advanced Adult] The At-Ease Player Who Made Peace with Life",
+        "description": "Congrats — you've reached the legendary \"advanced adult\" tier: wrong dish, no rage; boundary crossed, calmly redrawn; others succeed, genuine cheers; sadness shows up, and you let it stay a while. Your maturity isn't armor held up by willpower — it's ease from the inside out, because you know exactly who you are, what you want, and what you don't. Rarest of all: after taking good care of yourself, you still have warmth left over to catch other people when they fall.",
+        "comment": "You're already what a lot of people are trying to become. One reminder: advanced adults are allowed to fall apart too. Occasionally dropping the composure and being a bratty kid for one night — that's also part of being advanced.",
+        "radarData": {
+          "labels": [
+            "Emotional Stability",
+            "Self-Sufficiency",
+            "Boundaries",
+            "Self-Acceptance",
+            "Ease Factor"
+          ],
+          "values": [
+            90,
+            90,
+            85,
+            95,
+            90
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "delulu-index-quiz",
+    "title": "Delulu Index: Is Your Inner Theater Out of Control?",
+    "description": "\"Delulu is the solulu\" — the confidence gospel that took over the internet. The right dose of delusion is courage fuel; an overdose is a social emergency. 10 questions to measure exactly how much fan-fiction your brain is writing.",
+    "category": "psychological",
+    "tags": [
+      "delulu",
+      "delusion index",
+      "inner theater"
+    ],
+    "questions": [
+      {
+        "text": "Your crush read your message 3 hours ago and hasn't replied. Your interpretation?",
+        "options": [
+          {
+            "text": "They're busy, or just don't feel like replying. Both totally normal",
+            "score": 1
+          },
+          {
+            "text": "Slightly bummed, but I go do my own thing",
+            "score": 2
+          },
+          {
+            "text": "Re-reading our entire chat history line by line, hunting for evidence they secretly like me",
+            "score": 3
+          },
+          {
+            "text": "They obviously like me SO much they're too nervous to reply!",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "The interview ends with \"we'll be in touch.\" You think...",
+        "options": [
+          {
+            "text": "Standard closing line. No assumptions",
+            "score": 1
+          },
+          {
+            "text": "Replay my performance and do a little post-mortem",
+            "score": 2
+          },
+          {
+            "text": "They smiled at me twice — this is basically in the bag!",
+            "score": 3
+          },
+          {
+            "text": "Already planning my first-day outfit and how to spend the year-end bonus",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your mental state when buying lottery or scratch-off tickets?",
+        "options": [
+          {
+            "text": "Pure entertainment — forgotten the moment I buy it",
+            "score": 1
+          },
+          {
+            "text": "A tiny daydream before the draw, a shrug and a laugh after",
+            "score": 2
+          },
+          {
+            "text": "Already drafted the opening line of my post-jackpot resignation letter",
+            "score": 3
+          },
+          {
+            "text": "This round feels DIFFERENT! I'm already browsing real estate",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your favorite celebrity glances toward your section at a concert. You...",
+        "options": [
+          {
+            "text": "They were looking at the big screen. Nothing to do with me",
+            "score": 1
+          },
+          {
+            "text": "Little thrill — this ticket just paid for itself!",
+            "score": 2
+          },
+          {
+            "text": "\"That was ABSOLUTELY eye contact\" — and I tell my friends about it for three straight days",
+            "score": 3
+          },
+          {
+            "text": "A bond has formed between us. They will remember me forever",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Before starting a new project (losing weight, learning a language, saving money), you...",
+        "options": [
+          {
+            "text": "Set realistic small goals and proceed step by step",
+            "score": 1
+          },
+          {
+            "text": "Set a slightly ambitious target to motivate myself",
+            "score": 2
+          },
+          {
+            "text": "Fantasize about my total glow-up in three months — and post the announcement first",
+            "score": 3
+          },
+          {
+            "text": "Throw the victory party in my head, get moved to tears — then start tomorrow",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "A friend says \"you're glowing today.\" Your internal translation?",
+        "options": [
+          {
+            "text": "Polite small talk. Say thanks",
+            "score": 1
+          },
+          {
+            "text": "Yes! The skincare routine is finally working",
+            "score": 2
+          },
+          {
+            "text": "Have I gotten hotter lately? No wonder strangers keep looking at me twice",
+            "score": 3
+          },
+          {
+            "text": "I might be an undiscovered natural beauty. Is it too late to debut?",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Have you ever rehearsed an award acceptance speech or a \"post-fame interview\" in your head?",
+        "options": [
+          {
+            "text": "Never. Why would I practice that?",
+            "score": 1
+          },
+          {
+            "text": "The thought flashes by occasionally, then I laugh at myself",
+            "score": 2
+          },
+          {
+            "text": "I keep a few standard versions — shower time is rehearsal time",
+            "score": 3
+          },
+          {
+            "text": "Lines, blocking, the exact timing of my voice cracking — all choreographed and stage-ready",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You see a post like \"Mercury retrograde is over — your luck is on the way.\" You...",
+        "options": [
+          {
+            "text": "Scroll past. Not really a believer",
+            "score": 1
+          },
+          {
+            "text": "Give it a look, just for peace of mind",
+            "score": 2
+          },
+          {
+            "text": "Screenshot it and repost to my story: \"Claiming this energy!\"",
+            "score": 3
+          },
+          {
+            "text": "Total belief. Standing by for destiny — even the numbers from my dream go straight onto a lottery ticket",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Someone shoots down your idea. Your first reaction?",
+        "options": [
+          {
+            "text": "Hear them out — if it makes sense, I'll take it on board",
+            "score": 1
+          },
+          {
+            "text": "A little defensive, but I'll go chew on it later",
+            "score": 2
+          },
+          {
+            "text": "\"They just can't see my vision yet\"",
+            "score": 3
+          },
+          {
+            "text": "Genius is always lonely. History will prove me right",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your stance on \"dreams coming true\"?",
+        "options": [
+          {
+            "text": "Dreams take planning and execution, not wishful thinking",
+            "score": 1
+          },
+          {
+            "text": "I believe in hard work, plus a little bit of luck",
+            "score": 2
+          },
+          {
+            "text": "Law of attraction! Believe first, and the universe handles the logistics",
+            "score": 3
+          },
+          {
+            "text": "My life is a binge-worthy drama — the main-character arc will activate any day now",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "[Painfully Sober] Documentary Director Personality",
+        "description": "Your brain is a high-resolution documentary camera: left on read means they didn't want to reply, interview scripts are just scripts, and the lottery is an entertainment tax. You don't embellish, don't apply filters, don't move yourself to tears — you live strictly in the land of verified evidence. It keeps you rarely hurt and razor-sharp in judgment: the designated \"sober friend\" of the group. But occasionally, all that clarity costs you a little \"irrational courage\" — some opportunities only become visible after you choose to believe in them.",
+        "comment": "Your prescription: allow yourself one delulu moment per month. Before any big decision, try asking, \"If success were guaranteed, what would I do?\" A measured dose of delusion is the clear-eyed person's cheat code.",
+        "radarData": {
+          "labels": [
+            "Headcanon Power",
+            "Confidence Level",
+            "Reality Anchor",
+            "Action Conversion",
+            "Drama Factor"
+          ],
+          "values": [
+            15,
+            55,
+            95,
+            70,
+            10
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "[Pleasantly Buzzed] The Healthy Moderate Dreamer",
+        "description": "You've nailed delulu's golden ratio: you fantasize, but never fully commit to the bit; you hope, but always keep an exit. A little post-interview optimism here, a five-minute resignation-letter daydream after buying a lottery ticket there — these measured doses of brain sugar keep life sweet without unmooring you from reality. Psychology calls this \"positive illusion,\" and in moderation it's genuinely good for you. You're the social drinker of the delusion world: pleasantly buzzed, never blacked out.",
+        "comment": "Keep this exact formula! One available upgrade: convert your daydreams into concrete action lists, and your \"inner theater\" levels up into a trailer for real life.",
+        "radarData": {
+          "labels": [
+            "Headcanon Power",
+            "Confidence Level",
+            "Reality Anchor",
+            "Action Conversion",
+            "Drama Factor"
+          ],
+          "values": [
+            45,
+            65,
+            75,
+            65,
+            40
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "[Resident Screenwriter] Inner Theater Flagship Store",
+        "description": "Your brain runs prime-time drama 24/7: one glance becomes a three-episode arc, one \"you're glowing\" becomes proof you should debut as an idol. A solid sixty percent of your daily happiness comes from the theater in your head, and your award speech and interview lines have been rehearsal-ready for years. Good news: that lush imagination makes you self-charging and remarkably hard to demoralize. Bad news: with the script this packed, you occasionally forget the real-life plot needs you to physically move it forward.",
+        "comment": "The script is fantastic — now roll cameras! Rule of thumb: every finished mental blockbuster earns one matching real-world micro-action. Send that message; sign up for that class. Delusion that lands in reality gets a new name: vision.",
+        "radarData": {
+          "labels": [
+            "Headcanon Power",
+            "Confidence Level",
+            "Reality Anchor",
+            "Action Conversion",
+            "Drama Factor"
+          ],
+          "values": [
+            80,
+            80,
+            45,
+            40,
+            85
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "[Final Form] The Chosen One of Delulu",
+        "description": "Congratulations (?) — you have ascended to peak delulu: being left on read is evidence of a secret crush, an idol's stray glance is destiny, and your main-character aura idles on permanent standby. You live inside a self-written, self-directed, self-starring hit drama; your happiness levels are enviable and your confidence is unbreakable — rejected a hundred times, you'd simply conclude the universe is filtering out the unworthy. That thick skin and optimism are genuinely rare gifts. Just be careful: when the gap between the script and reality gets wide enough to need damage control, the fall can hurt more than usual.",
+        "comment": "Keep the main-character aura, but hire a \"reality-check consigliere\" — one friend who dares to tell you the truth. Before any big money, love, or career decision, let them finish talking before you start filming. Delulu is the solulu — but the solulu needs a pinch of fact-checking for seasoning.",
+        "radarData": {
+          "labels": [
+            "Headcanon Power",
+            "Confidence Level",
+            "Reality Anchor",
+            "Action Conversion",
+            "Drama Factor"
+          ],
+          "values": [
+            100,
+            95,
+            15,
+            35,
+            100
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "love-flag-quiz",
+    "title": "Dating Flag Check: Are You a Red Flag, Green Flag, or Beige Flag?",
+    "description": "Red flag, green flag, beige flag — the internet's favorite way to size up a partner. 10 brutally honest questions: in your partner's eyes, are you a warning sign to run from, or a keeper worth holding onto?",
+    "category": "romance",
+    "tags": [
+      "red flag green flag",
+      "beige flag",
+      "dating personality"
+    ],
+    "questions": [
+      {
+        "text": "They read your message and only replied three hours later. Your move?",
+        "options": [
+          {
+            "text": "Interrogation — \"why didn't you reply?\" — plus a barrage of back-to-back calls",
+            "score": 1
+          },
+          {
+            "text": "Leave THEM hanging for exactly three hours. We're even",
+            "score": 2
+          },
+          {
+            "text": "It bugs me a little, but I'll bring it up casually next time we meet",
+            "score": 3
+          },
+          {
+            "text": "Everyone has their own rhythm — I don't read into it",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Mid-argument, your most common move is...",
+        "options": [
+          {
+            "text": "Dredge up old scores plus personal jabs — win first, talk later",
+            "score": 1
+          },
+          {
+            "text": "Go straight to silent treatment and vanish, waiting to be coaxed back",
+            "score": 2
+          },
+          {
+            "text": "Hold it all in and quietly bruise on the inside",
+            "score": 3
+          },
+          {
+            "text": "Stick to the issue: \"I feel...\" instead of \"You always...\"",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "When their ex comes up, your attitude is...",
+        "options": [
+          {
+            "text": "Full background check plus periodic surprise phone inspections",
+            "score": 1
+          },
+          {
+            "text": "\"Don't care\" on the surface — privately excavated the ex's IG back three years",
+            "score": 2
+          },
+          {
+            "text": "Curious, quietly comparing myself, never saying it out loud",
+            "score": 3
+          },
+          {
+            "text": "The past is the past. What matters is they're with me now",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You're running late for a date. You...",
+        "options": [
+          {
+            "text": "I'll get there when I get there. A little waiting won't kill them",
+            "score": 1
+          },
+          {
+            "text": "Blame it on traffic — definitely not my fault",
+            "score": 2
+          },
+          {
+            "text": "Apologize sincerely... though next time I'll probably be late again",
+            "score": 3
+          },
+          {
+            "text": "Text ahead with an apology and live ETA updates, then make it up in person",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "They're going to dinner with a friend of the opposite sex. Your reaction?",
+        "options": [
+          {
+            "text": "Hard no. That, or we break up",
+            "score": 1
+          },
+          {
+            "text": "They can go, but with location sharing on plus check-ins every half hour",
+            "score": 2
+          },
+          {
+            "text": "Say \"have fun,\" then spend the entire night restlessly refreshing my phone",
+            "score": 3
+          },
+          {
+            "text": "Trust them completely and genuinely hope they have a great time",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your style with money in a relationship?",
+        "options": [
+          {
+            "text": "Their money is our money; my money is still my money",
+            "score": 1
+          },
+          {
+            "text": "Whoever loves more pays — paying is proof of love",
+            "score": 2
+          },
+          {
+            "text": "I'll split things, but I keep a silent ledger of who's paid more",
+            "score": 3
+          },
+          {
+            "text": "Agree on a split that feels good to both of us — generous and unbothered",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "You realize you wrongly accused them. You...",
+        "options": [
+          {
+            "text": "Never admit it — change the subject and flip the blame while I'm at it",
+            "score": 1
+          },
+          {
+            "text": "Brush it off with a quick \"fine, fine, whatever\"",
+            "score": 2
+          },
+          {
+            "text": "Too embarrassed to say it outright, so I quietly compensate by being extra nice",
+            "score": 3
+          },
+          {
+            "text": "Apologize properly and spell out exactly where my thinking went wrong",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "How do you run this relationship on social media?",
+        "options": [
+          {
+            "text": "Hide my relationship status — keeps my \"options open\"",
+            "score": 1
+          },
+          {
+            "text": "Audit every single like they hand out, one by one",
+            "score": 2
+          },
+          {
+            "text": "Post couple content, but mostly to mark my territory",
+            "score": 3
+          },
+          {
+            "text": "Share naturally, and respect how visible they want to be",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "They're slammed at work lately and have less time for you. You...",
+        "options": [
+          {
+            "text": "Threaten a breakup to test whether they really love me",
+            "score": 1
+          },
+          {
+            "text": "Start itemized scorekeeping — \"you never spend time with me\" — and replay that ledger daily",
+            "score": 2
+          },
+          {
+            "text": "Understanding on the outside, quietly hurt on the inside, until one day it all erupts",
+            "score": 3
+          },
+          {
+            "text": "Say what I need, problem-solve together — and keep my own life running well meanwhile",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "text": "Your attitude toward commitment (meeting the parents, planning a future)?",
+        "options": [
+          {
+            "text": "Commitment is a tool for locking someone down — secure first, ask questions later",
+            "score": 1
+          },
+          {
+            "text": "Stall as long as possible; deflect whenever it comes up",
+            "score": 2
+          },
+          {
+            "text": "I have thoughts, but I'm scared saying them out loud will scare them off",
+            "score": 3
+          },
+          {
+            "text": "When the timing feels right, talk about it honestly — let them see the roadmap",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "min": 10,
+        "max": 17,
+        "title": "[Red Flag Flagship Store] A Walking Red Alert",
+        "description": "Diagnosis: red lights flashing. Control, score-dredging, emotional blackmail, allergic to apologizing — the high-risk behaviors of dating, and you may have gotten disturbingly fluent in them. But before you rip up this result: behind most red-flag behavior stands someone who is terrified of being left. Control comes from insecurity; tests come from not daring to ask for love directly. You're not a bad person — you're just holding on with a grip that pushes people away. Flags can be swapped. Step one is looking at yours honestly.",
+        "comment": "Start by trading interrogation for expression: swap \"why didn't you reply?\" for \"when you go quiet that long, I get a little worried.\" And if you notice the same spiral repeating in every relationship, talking to a counselor isn't admitting defeat — it's leveling up.",
+        "radarData": {
+          "labels": [
+            "Emotional Stability",
+            "Communication",
+            "Respect for Boundaries",
+            "Honesty",
+            "Romantic Spark"
+          ],
+          "values": [
+            20,
+            25,
+            15,
+            40,
+            70
+          ]
+        }
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "title": "[Orange Alert Zone] The Half-Cooked Lover Who Occasionally Smokes",
+        "description": "You're not a red flag, but you are wearing a few orange ones: silent treatments, undercover jealousy, psychological warfare via read receipts. You actually know what healthy love looks like — but when the feelings surge, you still swap \"saying it\" for \"making them guess.\" Your love is real; it just insists on taking the scenic route. You're waiting for them to get it, they're waiting for you to say it, and in the end you're both exhausted.",
+        "comment": "You have exactly one homework assignment: upgrade \"guess\" to \"say.\" Next time the cold-war urge hits, send this first: \"I'm feeling off and need a little space — but this is not a cold war.\" That single step is the difference between half-cooked and fully done.",
+        "radarData": {
+          "labels": [
+            "Emotional Stability",
+            "Communication",
+            "Respect for Boundaries",
+            "Honesty",
+            "Romantic Spark"
+          ],
+          "values": [
+            45,
+            45,
+            50,
+            60,
+            75
+          ]
+        }
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "title": "[Certified Beige Flag] The Room-Temperature-Water Partner, Maximum Security",
+        "description": "Congrats — there's barely a red flag on you. In their place: a full row of beige flags. Stable, reasonable, boundary-respecting; on time for dates, calm in arguments, transparent with money. You're the blue-chip stock of the dating market. The only catch: stability sometimes gets misread as blandness, and thoughtfulness gets taken for granted. What you've never lacked is character — you're just missing a small dash of \"didn't see that coming\" spark.",
+        "comment": "Your fundamentals are unbeatable, so add a curveball: every once in a while, plan a surprise for absolutely no reason and let them see your unhinged-adorable side. Beige plus one pop of color is the combination that never gets old.",
+        "radarData": {
+          "labels": [
+            "Emotional Stability",
+            "Communication",
+            "Respect for Boundaries",
+            "Honesty",
+            "Romantic Spark"
+          ],
+          "values": [
+            80,
+            75,
+            85,
+            85,
+            45
+          ]
+        }
+      },
+      {
+        "min": 34,
+        "max": 40,
+        "title": "[Green Flag Dream] The Textbook Ideal Partner",
+        "description": "All green, full marks! You've collected the complete healthy-relationship set: emotionally steady, communicates directly, respects freedom, apologizes when wrong, transparent about commitment. Dating you feels like breathing mountain air — safe, clean, and somehow still romantic. It's not that you have no temper; you've learned to translate temper into words. It's not that you never get jealous; you choose to trust first and verify gently. Partners like you are an endangered species — your other half had better appreciate it.",
+        "comment": "One reminder: the classic green-flag pitfall is shouldering all the understanding by yourself. You're allowed to feel hurt too — a healthy relationship means both people flying green flags, not you holding the flag up alone.",
+        "radarData": {
+          "labels": [
+            "Emotional Stability",
+            "Communication",
+            "Respect for Boundaries",
+            "Honesty",
+            "Romantic Spark"
+          ],
+          "values": [
+            90,
+            95,
+            90,
+            90,
+            80
+          ]
+        }
+      }
+    ]
   }
 ]

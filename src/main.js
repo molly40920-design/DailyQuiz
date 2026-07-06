@@ -1,5 +1,5 @@
 import './style.css';
-import { t, getCurrentLang, getQuizFilename, initI18n, setLanguage, applyTranslations, translateTag } from './i18n.js';
+import { t, getQuizFilename, initI18n, setLanguage } from './i18n.js';
 
 // --- State Management ---
 let quizzesData = [];
@@ -155,13 +155,15 @@ function showHub() {
 }
 
 // --- Render Hub ---
-function renderHub(filterTag = '全部') {
+function renderHub(filterCat = 'all') {
   dom.quizGrid.innerHTML = '';
-  
-  const filteredQ = filterTag === '全部' 
-    ? quizzesData 
-    : quizzesData.filter(q => q.tags && q.tags.includes(filterTag));
-    
+
+  // filterCat may be 'all' or a comma-separated list of category keys
+  const cats = filterCat.split(',');
+  const filteredQ = filterCat === 'all'
+    ? quizzesData
+    : quizzesData.filter(q => cats.includes(q.category));
+
   filteredQ.forEach((quiz, index) => {
     const row = document.createElement('div');
     row.className = 'quiz-list-item';
@@ -444,6 +446,8 @@ function setupEventListeners() {
         await loadQuizData();
         // Re-render current view
         resetQuizState();
+        // Reset filter tabs to "all" so the highlight matches the full list
+        dom.navTabs.forEach((tab, i) => tab.classList.toggle('active', i === 0));
         renderHub();
         showHub();
         window.location.hash = '';
@@ -457,8 +461,8 @@ function setupEventListeners() {
       tab.addEventListener('click', () => {
         dom.navTabs.forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
-        const filterTag = tab.getAttribute('data-filter') || '全部';
-        renderHub(filterTag);
+        const filterCat = tab.getAttribute('data-filter') || 'all';
+        renderHub(filterCat);
       });
     });
   }
