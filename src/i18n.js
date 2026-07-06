@@ -27,6 +27,11 @@ const translations = {
     fallback_title: '神秘的未知結果',
     fallback_desc: '你的分數超出了我們的計算，你是個獨特的存在。',
     radar_label: '屬性強度',
+    mbti_cognition: '認知功能',
+    mbti_strengths: '核心優勢',
+    mbti_challenges: '盲點挑戰',
+    mbti_relationship: '愛情・人際',
+    mbti_career: '職場・適性',
   },
   en: {
     site_title: 'Daily Quiz',
@@ -54,6 +59,11 @@ const translations = {
     fallback_title: 'Mysterious Unknown',
     fallback_desc: 'Your score is beyond our calculations — you are truly unique.',
     radar_label: 'Attribute Strength',
+    mbti_cognition: 'Cognitive Functions',
+    mbti_strengths: 'Core Strengths',
+    mbti_challenges: 'Blind Spots',
+    mbti_relationship: 'Love & Relationships',
+    mbti_career: 'Career Fit',
   },
   ja: {
     site_title: 'Daily Quiz',
@@ -81,6 +91,11 @@ const translations = {
     fallback_title: '神秘的な未知の結果',
     fallback_desc: 'あなたのスコアは計算の範囲外です。あなたはユニークな存在です。',
     radar_label: '属性強度',
+    mbti_cognition: '認知機能',
+    mbti_strengths: '強み',
+    mbti_challenges: '弱点・課題',
+    mbti_relationship: '恋愛・対人',
+    mbti_career: '仕事・適性',
   },
   ko: {
     site_title: 'Daily Quiz',
@@ -108,6 +123,11 @@ const translations = {
     fallback_title: '신비로운 미지의 결과',
     fallback_desc: '당신의 점수는 계산 범위를 초과했습니다. 당신은 특별한 존재입니다.',
     radar_label: '속성 강도',
+    mbti_cognition: '인지 기능',
+    mbti_strengths: '핵심 강점',
+    mbti_challenges: '맹점 & 도전',
+    mbti_relationship: '연애 · 인간관계',
+    mbti_career: '직장 · 적성',
   },
 };
 

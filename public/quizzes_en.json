@@ -8809,5 +8809,1228 @@
         }
       }
     ]
+  },
+  {
+    "id": "mbti-pro-quiz",
+    "type": "mbti",
+    "scoring": "dimensional",
+    "title": "The Professional MBTI 16 Personality Types Test",
+    "description": "20 scenario-based questions spanning the four core dimensions—where you get your energy (E/I), how you take in information (S/N), how you make decisions (T/F), and how you approach life (J/P)—weighted to reveal which of the 16 personality types you are. Every type comes with a deep dive into your cognitive wiring, strengths and blind spots, love and relationships, career fit, and personalized growth tips.",
+    "category": "personality",
+    "tags": [
+      "MBTI",
+      "16 Personality Types",
+      "Personality Analysis"
+    ],
+    "dimensions": [
+      {
+        "key": "EI",
+        "pos": "E",
+        "neg": "I",
+        "posLabel": "Extraversion (E)",
+        "negLabel": "Introversion (I)"
+      },
+      {
+        "key": "SN",
+        "pos": "S",
+        "neg": "N",
+        "posLabel": "Sensing (S)",
+        "negLabel": "Intuition (N)"
+      },
+      {
+        "key": "TF",
+        "pos": "T",
+        "neg": "F",
+        "posLabel": "Thinking (T)",
+        "negLabel": "Feeling (F)"
+      },
+      {
+        "key": "JP",
+        "pos": "J",
+        "neg": "P",
+        "posLabel": "Judging (J)",
+        "negLabel": "Perceiving (P)"
+      }
+    ],
+    "questions": [
+      {
+        "text": "After a long, busy week, how do you usually recharge?",
+        "dimension": "EI",
+        "options": [
+          {
+            "text": "Round up a group of friends for dinner, karaoke, or a big hangout—the livelier, the more energized I feel",
+            "value": 2
+          },
+          {
+            "text": "Grab coffee with one or two close friends and catch up—just right",
+            "value": 1
+          },
+          {
+            "text": "Depends on my mood, but more often I'd rather have some quiet time alone",
+            "value": -1
+          },
+          {
+            "text": "Phone off, alone, doing nothing—that's what actually refills my tank",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "At a party where you barely know anyone, you'll most likely?",
+        "dimension": "EI",
+        "options": [
+          {
+            "text": "Jump right in and work the room, striking up conversations with different people",
+            "value": 2
+          },
+          {
+            "text": "Observe for a bit first, then find a chance to join a group I click with",
+            "value": 1
+          },
+          {
+            "text": "Stick close to the people I already know and chat once I'm introduced",
+            "value": -1
+          },
+          {
+            "text": "Find a corner to zone out and quietly count down to when I can leave",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "When you're working through a problem that takes some thought, your habit is closer to?",
+        "dimension": "EI",
+        "options": [
+          {
+            "text": "Thinking out loud—pulling people in to talk it through helps me get clearer",
+            "value": 2
+          },
+          {
+            "text": "Bouncing a few ideas off someone, then circling back to sort it out",
+            "value": 1
+          },
+          {
+            "text": "Working out the gist on my own first, then checking with someone",
+            "value": -1
+          },
+          {
+            "text": "Having to think it all the way through in private before I'll say a word",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "Which of these best describes your everyday self?",
+        "dimension": "EI",
+        "options": [
+          {
+            "text": "Talkative and expressive—people can read my mood at a glance",
+            "value": 2
+          },
+          {
+            "text": "Actually pretty chatty once I've warmed up to you",
+            "value": 1
+          },
+          {
+            "text": "Not much of a talker—I'm usually the one listening",
+            "value": -1
+          },
+          {
+            "text": "Quiet and reserved—a lot going on inside, but I rarely show it",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "After several days on your own, how do you feel?",
+        "dimension": "EI",
+        "options": [
+          {
+            "text": "About to lose it—I'm dying for some human interaction",
+            "value": 2
+          },
+          {
+            "text": "Starting to miss the buzz, so I'll reach out and make plans",
+            "value": 1
+          },
+          {
+            "text": "Pretty content, though I'll want to talk to someone now and then",
+            "value": -1
+          },
+          {
+            "text": "Loving it—honestly, I hope it lasts a little longer",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "When someone's telling you about something, what do you notice first?",
+        "dimension": "SN",
+        "options": [
+          {
+            "text": "The concrete details—who, what, when, where, the facts",
+            "value": 2
+          },
+          {
+            "text": "I lock onto the facts first, then think a bit about what they mean",
+            "value": 1
+          },
+          {
+            "text": "As I listen, my mind drifts to the meaning or possibilities behind it",
+            "value": -1
+          },
+          {
+            "text": "I jump straight to 'what does this signify and where is it headed'",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "Faced with a brand-new idea, your first reaction leans toward?",
+        "dimension": "SN",
+        "options": [
+          {
+            "text": "Asking 'how would this actually work, and is it even doable?'",
+            "value": 2
+          },
+          {
+            "text": "Finding it interesting, but quickly pulling it back to a reality check",
+            "value": 1
+          },
+          {
+            "text": "Excitedly running with all the possibilities it opens up",
+            "value": -1
+          },
+          {
+            "text": "Dreaming up everything it could become—details can come later",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "Which kind of information do you trust more?",
+        "dimension": "SN",
+        "options": [
+          {
+            "text": "Concrete, verified experience I've seen with my own eyes",
+            "value": 2
+          },
+          {
+            "text": "Mostly the facts, but I factor in gut instinct too",
+            "value": 1
+          },
+          {
+            "text": "Mostly my instincts, though I'll look for some facts to back them up",
+            "value": -1
+          },
+          {
+            "text": "The flashes of insight and overall vibe in my head—they're often uncannily right",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "When learning something new, what approach suits you best?",
+        "dimension": "SN",
+        "options": [
+          {
+            "text": "Give me clear steps and real examples, and I'll follow along",
+            "value": 2
+          },
+          {
+            "text": "Steps first, ideally with a bit of the reasoning behind them",
+            "value": 1
+          },
+          {
+            "text": "Let me grasp the underlying concept, and I'll fill in the details myself",
+            "value": -1
+          },
+          {
+            "text": "Get me the big-picture framework and principles first—I hate rote-memorizing steps",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "When you look back on a past experience, what usually comes to mind?",
+        "dimension": "SN",
+        "options": [
+          {
+            "text": "Vivid images and details—what was said, what we ate",
+            "value": 2
+          },
+          {
+            "text": "I remember the main facts, though the details get a little fuzzy",
+            "value": 1
+          },
+          {
+            "text": "I remember the overall mood of the moment more than the specifics",
+            "value": -1
+          },
+          {
+            "text": "The details are gone—I just remember the feeling and what it meant",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "When making an important decision, what do you rely on first?",
+        "dimension": "TF",
+        "options": [
+          {
+            "text": "Logic, data, and an objective weighing of pros and cons",
+            "value": 2
+          },
+          {
+            "text": "Mostly reason, but I fold in a bit of how I feel",
+            "value": 1
+          },
+          {
+            "text": "Mostly how I feel, but I factor in the practical realities",
+            "value": -1
+          },
+          {
+            "text": "How it affects people, and where it sits with my inner values",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "When a friend vents to you, your instinct is to first?",
+        "dimension": "TF",
+        "options": [
+          {
+            "text": "Help them break down the problem and offer solutions",
+            "value": 2
+          },
+          {
+            "text": "Offer advice first, then throw in some reassurance",
+            "value": 1
+          },
+          {
+            "text": "Comfort them first, then work out a plan together",
+            "value": -1
+          },
+          {
+            "text": "Wholeheartedly feel with them and let them know I get it",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "When you have to give someone negative feedback, you tend to?",
+        "dimension": "TF",
+        "options": [
+          {
+            "text": "Lay out the problem and the facts directly—it's about the issue, not the person",
+            "value": 2
+          },
+          {
+            "text": "Be honest above all, but pick my words carefully",
+            "value": 1
+          },
+          {
+            "text": "Soften and package it to spare their feelings as much as possible",
+            "value": -1
+          },
+          {
+            "text": "Care so much about their feelings that I'd rather be vague than hurt them",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "What matters most in a good team decision, in your view?",
+        "dimension": "TF",
+        "options": [
+          {
+            "text": "Fair, consistent principles and the most efficient solution",
+            "value": 2
+          },
+          {
+            "text": "Sound reasoning first, and it has to hold up",
+            "value": 1
+          },
+          {
+            "text": "Accounting for how members feel, so no one's left uncomfortable",
+            "value": -1
+          },
+          {
+            "text": "Preserving team harmony and everyone's sense of buy-in matters most",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "What are people more likely to get wrong about you?",
+        "dimension": "TF",
+        "options": [
+          {
+            "text": "That I'm too level-headed, sometimes coming off as cold",
+            "value": 2
+          },
+          {
+            "text": "Occasionally being told I'm too blunt",
+            "value": 1
+          },
+          {
+            "text": "Occasionally being told I overthink and care too much about others",
+            "value": -1
+          },
+          {
+            "text": "That I'm too driven by emotion and easily swept away by my feelings",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "On a trip, which style do you enjoy more?",
+        "dimension": "JP",
+        "options": [
+          {
+            "text": "Itinerary, lodging, and transport all locked in—following the plan feels safest",
+            "value": 2
+          },
+          {
+            "text": "Nail down the general direction and must-see spots, figure out the rest on the fly",
+            "value": 1
+          },
+          {
+            "text": "Book the flight and go—everything else, I take as it comes",
+            "value": -1
+          },
+          {
+            "text": "No plan at all—wandering wherever the moment takes me is the thrill",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "Faced with a task that has a deadline, you'll most likely?",
+        "dimension": "JP",
+        "options": [
+          {
+            "text": "Plan early and finish in stages—never leaving it to the last minute",
+            "value": 2
+          },
+          {
+            "text": "Set a schedule and usually wrap up a little ahead of time",
+            "value": 1
+          },
+          {
+            "text": "Take it easy early on and hit the gas as the deadline nears",
+            "value": -1
+          },
+          {
+            "text": "Go into overdrive at the last second—the more pressure, the more efficient I get",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "Your room or desk is usually?",
+        "dimension": "JP",
+        "options": [
+          {
+            "text": "Sorted and tidy, everything in its place—mess makes my skin crawl",
+            "value": 2
+          },
+          {
+            "text": "Mostly neat, and I tidy up on a regular basis",
+            "value": 1
+          },
+          {
+            "text": "Looks a bit messy, but I know exactly where everything is",
+            "value": -1
+          },
+          {
+            "text": "Organized chaos (okay, just chaos)—but it doesn't bother me one bit",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "When plans get thrown off at the last minute, your reaction is?",
+        "dimension": "JP",
+        "options": [
+          {
+            "text": "Really irritated—I need to reshuffle fast and get back on track",
+            "value": 2
+          },
+          {
+            "text": "A little thrown, but I'll adjust as quickly as I can",
+            "value": 1
+          },
+          {
+            "text": "No big deal—rolling with the changes comes easily to me",
+            "value": -1
+          },
+          {
+            "text": "Perfect—last-minute curveballs actually fire me up",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "When facing a choice you haven't figured out yet, you lean toward?",
+        "dimension": "JP",
+        "options": [
+          {
+            "text": "Locking it down ASAP—leaving things unresolved makes me anxious",
+            "value": 2
+          },
+          {
+            "text": "Deciding sooner rather than later, but giving myself a little time",
+            "value": 1
+          },
+          {
+            "text": "Preferring to keep some flexibility before committing",
+            "value": -1
+          },
+          {
+            "text": "Keeping things open-ended—staying flexible leaves room for more possibilities",
+            "value": -2
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "type": "INTJ",
+        "title": "INTJ · Architect",
+        "tagline": "A strategist with both imagination and follow-through, always keeping a meticulous blueprint ready in their head.",
+        "rarity": "About 2% of the population—one of the rarest types, and INTJ women are rarer still.",
+        "traits": [
+          "Independent",
+          "Far-Sighted",
+          "Cool-Headed",
+          "High Standards",
+          "Decisive"
+        ],
+        "cognition": "Your dominant function, Introverted Intuition (Ni), lets you cut through the surface to grasp the long-term nature and trajectory of things; your auxiliary function, Extraverted Thinking (Te), breaks abstract insights down into efficient, executable systems. Your tertiary function (Fi) gives you a firm internal code, while your inferior function (Se) makes you less comfortable living in the moment and handling on-the-spot sensory details.",
+        "description": "You're a born strategist. Your mind is like a chessboard perpetually running the next moves—while everyone else is fixed on the present, you've already foreseen how it plays out three steps ahead. You're independent, rational, and hold yourself and the world to sky-high standards, chasing efficiency and airtight logic in everything. You don't need applause—just a problem worth cracking. Rather than drifting with the current, you'd rather spend the time building a complete system of your own, then quietly and resolutely make it real.",
+        "strengths": [
+          "Powerful strategic and systems thinking—you see several moves ahead and position yourself early",
+          "Highly independent and self-disciplined—once you lock onto a goal, you tune out distractions and see it through",
+          "Rational and objective, not easily swayed by mood swings or peer pressure",
+          "Hungry to learn, always leveling up, never satisfied with your skills or knowledge"
+        ],
+        "challenges": [
+          "Can come across as cold and distant, with stiff emotional expression that keeps people at arm's length",
+          "Little patience for those who seem 'not smart or hardworking enough'—your standards run too high",
+          "Overconfident in your own views, sometimes tuning out dissenting voices",
+          "Often underestimate how much emotions and relationships actually weigh in decisions and connections"
+        ],
+        "relationship": "In love and friendship, you prize quality over quantity—few friends, but every one a true confidant. You're no good at sweet nothings, but you protect the people you love with long-term planning, dependable commitments, and quietly solving their problems. What you need is a partner who respects your independent space and can go deep in conversation. Learning to say the 'I care' out loud, instead of just thinking it, is your single most effective move for closing the distance.",
+        "career": "You thrive in fields that call for long-range planning, independent reasoning, and deep expertise: strategy consulting, scientific research, systems/engineering architecture, investment analysis, executive decision-making, and entrepreneurship. You shine in autonomous, expertise-driven, goal-clear environments—and can't stand drawn-out pointless meetings, rigid red tape, or illogical management.",
+        "growth": "Your rationality is a superpower—just don't let it become an island. Try treating 'expressing feelings' as another project to conquer, letting the people close to you see the caring beneath your calm exterior. Remember: not everything worthwhile can be optimized—some relationships just need you present, not you fixing them.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            95,
+            45,
+            88,
+            55,
+            55
+          ]
+        }
+      },
+      {
+        "type": "INTP",
+        "title": "INTP · Logician",
+        "tagline": "Endlessly asking the world 'why,' with a precision thought-laboratory running inside their head.",
+        "rarity": "About 3% of the population—overrepresented among thinkers and scientists.",
+        "traits": [
+          "Truth-Seeking",
+          "Rigorously Logical",
+          "Independent Thinker",
+          "Wildly Imaginative",
+          "Low-Key"
+        ],
+        "cognition": "Your dominant function, Introverted Thinking (Ti), builds rigorous, internally consistent logical models in your mind; your auxiliary function, Extraverted Intuition (Ne), constantly reaches outward to connect new possibilities and hypotheses. Your tertiary Si and inferior Fe leave you a bit clumsy with interpersonal emotions and everyday practicalities.",
+        "description": "You're an explorer of ideas—in love with concepts, theories, and abstract problems, able to spot the tiniest contradiction in an argument at a glance. Truth matters more to you than saving face; you'd sooner admit you're wrong than accept a conclusion that doesn't hold up. Your world is built from countless 'what ifs,' and a single question can lead you into an entire forest of thought. You don't much care about worldly achievements or conventions—only whether something actually makes sense.",
+        "strengths": [
+          "Deep logical and abstract analysis—skilled at dismantling complex problems",
+          "Independent, objective, and unswayed by authority—you challenge established frameworks",
+          "An endless stream of creativity and cross-disciplinary connections",
+          "Astonishing depth of focus and study on topics that fascinate you"
+        ],
+        "challenges": [
+          "Prone to getting stuck 'thinking' and stalling on 'doing'—short on follow-through",
+          "Find daily chores, time management, and interpersonal emotions tricky",
+          "Procrastinate in pursuit of the perfect understanding, or keep getting sidetracked by new problems",
+          "Often skip the context when communicating, leaving people unable to follow your train of thought"
+        ],
+        "relationship": "You're genuine and unpretentious in relationships, and you loathe emotional manipulation and phony socializing. Your love language is sharing your mental world and exploring interesting questions together. You need a partner who gives you room to think and won't be hurt by the occasional zoning out. Practicing proactively responding to your partner's emotional needs is the most worthwhile homework you can do.",
+        "career": "You suit fields with intellectual freedom and depth: research and academia, programming, data science, philosophy, systems analysis, writing, and any work that demands deep reasoning. You need flexibility and autonomy—your worst nightmare is repetitive, rigidly regulated work heavy on interpersonal coordination.",
+        "growth": "There's treasure in your head, but only ideas that land in the real world have value. Set yourself a 'good enough, ship it' threshold and don't let perfectionism eat your momentum. And don't forget: people aren't equations to be solved—sometimes dropping the analysis and simply being present rewards a relationship with unexpected warmth.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            92,
+            42,
+            45,
+            82,
+            48
+          ]
+        }
+      },
+      {
+        "type": "ENTJ",
+        "title": "ENTJ · Commander",
+        "tagline": "A born leader who can't resist stepping in to fix inefficiency and chaos, then charging ahead with everyone in tow.",
+        "rarity": "About 3% of the population—markedly overrepresented in leadership and management.",
+        "traits": [
+          "Strong-Willed",
+          "Big-Picture Organizer",
+          "Decisive Doer",
+          "Confident",
+          "Goal-Driven"
+        ],
+        "cognition": "Your dominant function, Extraverted Thinking (Te), efficiently organizes resources, orchestrates the big picture, and chases results; your auxiliary function, Introverted Intuition (Ni), locks onto a long-range vision and strategic direction. Your tertiary Se and inferior Fi make you less attuned to the subtle emotions of yourself and others.",
+        "description": "You're a born leader. Strong-willed and decisive, you can't resist stepping in when you see inefficiency and chaos. Challenges aren't stress to you—they're fuel; you believe almost no problem can't be solved with strategy plus willpower. You excel at breaking grand visions into clear milestones, then leading a group to push them forward efficiently. Standing at the front and directing the whole show isn't a burden for you—it's second nature.",
+        "strengths": [
+          "Outstanding decisiveness and command—you shoulder responsibility at the crucial moment",
+          "The drive to turn vision into concrete plans and forcefully make them real",
+          "Confident and bold, with a natural presence that rallies and persuades",
+          "Efficient and pragmatic—skilled at integrating resources, clearing obstacles, and hitting goals"
+        ],
+        "challenges": [
+          "Can come off as domineering or impatient, unintentionally steamrolling others",
+          "In the rush for efficiency, you overlook team members' emotions and pace",
+          "Not patient enough to listen—you tend to dominate conversations and rush to conclusions",
+          "You weigh work achievement so heavily you may neglect your life and intimate relationships"
+        ],
+        "relationship": "In relationships you're loyal, reliable, and dependable, folding your partner's life into your long-term plans. But you tend to 'solve' rather than 'listen,' sometimes treating love itself as a project to manage. Learning to let go of control, to simply be present and show vulnerability, lets your other half truly enter your inner world—rather than standing outside the fortress you've built.",
+        "career": "You're a born manager and entrepreneur, suited to running businesses, leading projects and teams, strategic planning, law, finance, and any high-pressure field that demands decisiveness and coordination. You're in your element where you can wield influence, with clear goals and clear consequences—and you can't tolerate passive, sluggish, directionless organizations.",
+        "growth": "You're built to win, but a true leader gets others wanting to win alongside them. Slow down half a beat to listen, and to ask rather than command—your influence upgrades from 'being obeyed' to 'being trusted.' Remember: the occasional show of vulnerability isn't losing control—it's the door that lets people get close to you.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            93,
+            48,
+            92,
+            58,
+            90
+          ]
+        }
+      },
+      {
+        "type": "ENTP",
+        "title": "ENTP · Debater",
+        "tagline": "A fireworks factory of ideas who loves playing devil's advocate—all to force out a better answer.",
+        "rarity": "About 3% of the population—quite common among entrepreneurs and creatives.",
+        "traits": [
+          "Quick-Witted",
+          "Bold Challenger",
+          "Silver-Tongued",
+          "Bursting with Ideas",
+          "Freedom-Loving"
+        ],
+        "cognition": "Your dominant function, Extraverted Intuition (Ne), instantly sees countless possibilities and connections; your auxiliary function, Introverted Thinking (Ti), takes on the job of dissecting, testing, and reassembling those ideas. Your tertiary Fe and inferior Si make you impatient with routine details and long-term consistency.",
+        "description": "You're sharp-minded and silver-tongued, and you love being the one who plays devil's advocate in a conversation—not to pick fights, but to force out a better answer. Rules and conventions are just 'defaults that haven't been challenged yet' to you. Your brain is like an engine that never idles, always wiring together unrelated concepts into startlingly new ideas. You relish the thrill of brainstorming, treating every clash of ideas as a fun game.",
+        "strengths": [
+          "An endless stream of creativity and rapid cross-disciplinary connections",
+          "Powerful debating, adaptability, and on-the-spot persuasion",
+          "Happy to challenge the status quo—always producing framework-breaking new solutions",
+          "Quick-witted, funny, and a natural at getting a room going"
+        ],
+        "challenges": [
+          "Prone to fizzling out—your interests shift even faster than your ideas, making follow-through hard",
+          "Debating for the sake of debating, unintentionally stepping on others' emotional landmines",
+          "You hate repetition and detail—execution and discipline are often weak spots",
+          "Commitment and long-term persistence are a real test for you"
+        ],
+        "relationship": "In relationships you're witty and charming, forever bringing fresh energy and intellectual sparks. But you need a partner who can keep up with your pace and won't be rattled by your 'debate mode.' The keys to a lasting relationship are learning to holster your sharp wit when your partner needs comfort rather than analysis, and treating commitment as something worth sticking with.",
+        "career": "You suit fields that call for creativity, variety, and persuasion: entrepreneurship, marketing, product development, consulting, law, media, and any work built on brainstorming. You come alive in free, ever-changing environments full of new things—and you despise unchanging routine and rigid bureaucracy.",
+        "growth": "You've got ideas overflowing, but the world only remembers the few you actually 'finish.' Pick one or two you genuinely care about and practice seeing them all the way through—the ability to close the loop doubles your talent. Also, not every conversation needs to be won—sometimes the other person just wants to feel validated.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            88,
+            55,
+            48,
+            90,
+            88
+          ]
+        }
+      },
+      {
+        "type": "INFJ",
+        "title": "INFJ · Advocate",
+        "tagline": "A quiet, resolute idealist who wants to leave the world a little better than they found it.",
+        "rarity": "About 1% of the population—the rarest of all 16 types.",
+        "traits": [
+          "Insightful",
+          "Idealistic",
+          "Deeply Empathetic",
+          "Conviction-Driven",
+          "Gentle & Reserved"
+        ],
+        "cognition": "Your dominant function, Introverted Intuition (Ni), sees the deeper meaning and direction behind people and events; your auxiliary function, Extraverted Feeling (Fe), perceives and responds to others' emotions with great sensitivity. Your tertiary Ti and inferior Se make you prize meaning over the sensory reality of the here and now.",
+        "description": "You're a rare idealist—easygoing on the surface, but carrying a set of uncompromising values within. What you long for isn't just success, but meaning. You keenly read the emotions others leave unspoken, and often form an accurate gut read on someone the moment you meet. You're quiet, yet astonishingly steadfast—once you've settled on a conviction worth devoting yourself to, you'll spend a lifetime protecting it.",
+        "strengths": [
+          "Profound insight—you see through to people's hearts and the essence of things",
+          "Powerful empathy and listening that leaves people feeling understood",
+          "Steadfast in your ideals and convictions, with the power to inspire and uplift others",
+          "Creative and altruistic in equal measure—valuing depth over surface"
+        ],
+        "challenges": [
+          "Prone to giving until you burn out, neglecting your own needs",
+          "Bottling up emotions until they hit a breaking point and explode (the threshold effect)",
+          "Chasing perfect ideals, easily disillusioned by reality",
+          "Overly sensitive—others' negative emotions often drain you"
+        ],
+        "relationship": "In relationships you seek soul-deep connection and can't stand shallowness or pretense. You give your whole heart to those you love, but you're easily let down when they fall short of the ideal in your mind. An essential lesson for sustaining your relationships is learning to voice your real needs and set healthy boundaries—rather than silently enduring and getting hurt alone.",
+        "career": "You suit fields where you can live out your values and help others: counseling, education, writing, social work, nonprofits, human development, and creative work. You're most driven in meaningful, humane, autonomous environments—and can't tolerate purely mercenary, cold, or conscience-violating work.",
+        "growth": "You're always catching others—but who catches you? Put taking care of yourself at the top of your list of ideals. Learn to set boundaries before you burn out and to speak your needs early, instead of silently shouldering it all until you break. Your gentleness is precious—don't save it only for the world and forget to save some for yourself.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            85,
+            92,
+            78,
+            55,
+            60
+          ]
+        }
+      },
+      {
+        "type": "INFP",
+        "title": "INFP · Mediator",
+        "tagline": "A gentle guardian of ideals with an entire universe inside—true to themselves and longing for authenticity.",
+        "rarity": "About 4% of the population—overrepresented among artists and creators.",
+        "traits": [
+          "Sincere & Kind",
+          "Imaginative",
+          "Values-Driven",
+          "Empathetic & Accepting",
+          "True to Self"
+        ],
+        "cognition": "Your dominant function, Introverted Feeling (Fi), anchors an extraordinarily deep and genuine set of personal values; your auxiliary function, Extraverted Intuition (Ne), sees the beautiful possibilities and potential in people and things. Your tertiary Si and inferior Te make real-world execution and objective decisiveness a struggle.",
+        "description": "You feel things deeply and imagine vividly, with an entire universe living inside you. You detest pretense and conflict, longing for genuine connection and a meaning of your own. You seem easygoing, but touch your core values and you'll show astonishing steadfastness. You always find poetry in ordinary things, and you're often moved by other people's stories. For you, staying true to your inner reality matters more than living up to the world's expectations.",
+        "strengths": [
+          "Sincere and kind, with deep empathy and acceptance",
+          "Rich imagination and a distinctive gift for creativity and aesthetics",
+          "Loyal to your personal values—not easily swept along with the crowd",
+          "Able to see others' potential and goodness, and skilled at lifting people up"
+        ],
+        "challenges": [
+          "When the gap between ideal and reality grows too wide, you slip into self-doubt and low spirits",
+          "You avoid conflict and everyday practicalities—follow-through tends to be weak",
+          "Overly hard on yourself, prone to overthinking and inner turmoil",
+          "You internalize emotions easily and aren't great at objective, decisive choices"
+        ],
+        "relationship": "In relationships you're romantic, devoted, and all in, seeking a soulmate you truly connect with. You'll accept everything about your partner, but you're easily hurt when the ideal shatters. Learning to tell 'the partner you imagined' from 'the partner who's actually there,' and to bravely voice your needs instead of quietly bearing it all, makes your love more grounded and lasting.",
+        "career": "You suit fields where you can express yourself and connect with people's hearts: writing, art and design, counseling, education, social good, and any work that conveys meaning. You do your best in free, meaningful, respectful environments—and struggle most in fiercely competitive, cold, mercenary workplaces that force you to betray your true self.",
+        "growth": "Your sensitivity isn't fragility—it's a gift for perceiving the subtle beauty of the world. But don't let 'the perfect version in your imagination' block 'the now you could begin'—break one small ideal into a tiny step you can take today. And be gentle with yourself; you judge yourself by a standard far harsher than the one you hold others to.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            75,
+            95,
+            42,
+            78,
+            55
+          ]
+        }
+      },
+      {
+        "type": "ENFJ",
+        "title": "ENFJ · Protagonist",
+        "tagline": "A charismatic guide who always makes the people around them feel seen and inspired.",
+        "rarity": "About 2% of the population—common among teachers, leaders, and public figures.",
+        "traits": [
+          "Charismatic",
+          "Inspiring",
+          "Deeply Empathetic",
+          "Warm & Altruistic",
+          "Unifying"
+        ],
+        "cognition": "Your dominant function, Extraverted Feeling (Fe), precisely reads a group's emotions and needs and cultivates harmony; your auxiliary function, Introverted Intuition (Ni), sees each person's potential and possible future. Your tertiary Se and inferior Ti mean you occasionally struggle with purely objective, logic-based choices.",
+        "description": "You're a born guide—charismatic, generous, and deeply infectious. You precisely sense a group's emotions and lead everyone to grow together, warmly yet firmly. Your sense of fulfillment comes from 'helping others become better versions of themselves.' You excel at rallying people and defusing conflict—the kind who lights up a room the moment you walk in and makes everyone feel valued. You believe in people's goodness and potential, and you'll go all out for it.",
+        "strengths": [
+          "Powerful ability to inspire and rally—you motivate and unite people",
+          "Nuanced empathy and insight—skilled at reading and responding to others' needs",
+          "Generous and altruistic, glad to nurture others and elevate the team",
+          "Excellent communication and coordination—a natural bridge between people"
+        ],
+        "challenges": [
+          "You take on everyone's problems as your own, neglecting your own needs",
+          "Overly concerned with others' opinions, finding it hard to bear being disliked",
+          "You suppress your true opinions and emotions to keep the peace",
+          "You idealize others, then feel let down after all you've given"
+        ],
+        "relationship": "In relationships you're warm, considerate, and all in, always keeping your partner's needs top of mind. But you also tend to over-give and treat their happiness as your responsibility. Learning to accept that 'not everyone can be rescued by you,' and allowing yourself moments of vulnerability and being cared for too, keeps your relationships balanced instead of draining you dry.",
+        "career": "You suit fields built on connecting with people and wielding influence: education, training, human resources, PR, leadership and management, counseling, and social good. You're most passionate in environments that inspire others and value collaboration and human care—and struggle most in cold, cutthroat, or isolating work climates.",
+        "growth": "You give your light to everyone—remember to keep a lamp for yourself. Your worth isn't built on 'being liked by everyone'—learn to accept that some people just won't get you, and allow yourself a day of 'not wanting to take care of anyone.' Fill your own cup first, and you'll have an endless supply to pour for others.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            80,
+            95,
+            82,
+            62,
+            92
+          ]
+        }
+      },
+      {
+        "type": "ENFP",
+        "title": "ENFP · Campaigner",
+        "tagline": "A walking generator of enthusiasm who can make an ordinary day feel like an adventure.",
+        "rarity": "About 7% of the population—a fairly common and high-energy type.",
+        "traits": [
+          "Bursting with Enthusiasm",
+          "Endlessly Curious",
+          "Creative",
+          "Sincere & Emotional",
+          "Freedom-Loving"
+        ],
+        "cognition": "Your dominant function, Extraverted Intuition (Ne), is full of curiosity and possibility about everything in the world; your auxiliary function, Introverted Feeling (Fi), infuses everything with genuine meaning and value. Your tertiary Te and inferior Si make routine discipline and long-term attention to detail less of a strength.",
+        "description": "You're free-spirited, passionate, and infectious—you can spot someone's spark in an instant and turn an ordinary day into an adventure. You crave deep connection and fresh experiences, and your worst fear is being trapped in an unchanging routine. Your curiosity is like a spring that never runs dry—there's always a new interest, a new plan, a new person to meet. You live life at full boil, and you generously infect everyone around you with that vitality.",
+        "strengths": [
+          "Passionate and optimistic, with a powerful spark that ignites others",
+          "Boundless curiosity and creativity—you always see new possibilities",
+          "Sincere and empathetic, quick to build deep connections with people",
+          "Highly adaptable and bold to experiment—you turn life into an adventure"
+        ],
+        "challenges": [
+          "Prone to fleeting enthusiasm—chased around by novelty and struggling to focus",
+          "You hate routine and detail—execution and discipline are often lacking",
+          "Big emotional swings—easily drained by other people and your surroundings",
+          "Hard to say no and eager to please everyone, leaving you stretched too thin"
+        ],
+        "relationship": "In relationships you're romantic, passionate, and full of surprises, forever injecting fresh energy into the bond. But you also need to learn the patience to nurture the everyday once the honeymoon rush fades. The keys to your happiness are finding a partner who admires your freedom yet gives you a sense of stability, and practicing loving one person with focus.",
+        "career": "You suit creative, ever-changing, people-facing fields: marketing and PR, creative planning, media, education, event planning, entrepreneurship, and any work that runs on passion and inspiration. You come alive in free, flexible, interaction-rich environments—and can't tolerate monotonous, isolating, rule-bound work.",
+        "growth": "Your enthusiasm can light up the whole world—but don't forget to save some fuel for yourself. Practice the 'boring moments' of sticking with something after the excitement fades—that's the key to turning talent into achievement. And remember: you don't have to be good to everyone—save your most precious energy for the people and things that truly matter.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            78,
+            88,
+            45,
+            92,
+            90
+          ]
+        }
+      },
+      {
+        "type": "ISTJ",
+        "title": "ISTJ · Logistician",
+        "tagline": "The reliable backbone who does what they say—hand them the task and you can rest easy.",
+        "rarity": "About 12% of the population—one of the most common types.",
+        "traits": [
+          "Practical & Reliable",
+          "Strong Sense of Duty",
+          "Order-Loving",
+          "True to Their Word",
+          "Meticulous"
+        ],
+        "cognition": "Your dominant function, Introverted Sensing (Si), firmly internalizes past experience and facts into trustworthy standards; your auxiliary function, Extraverted Thinking (Te), plans and executes methodically. Your tertiary Fi and inferior Ne make you favor the familiar and the certain, and resist the unknown and sudden change.",
+        "description": "You're a dependable backbone—practical, responsible, and true to your word, doing exactly what you say without any fuzziness. You believe in order, tradition, and honest effort; you're the person others can hand a task to and rest completely easy. You don't chase the spotlight—you just care about doing your part flawlessly. Your reliability isn't a gift but the sum of day-after-day self-discipline: while others run on inspiration, you run on discipline and experience.",
+        "strengths": [
+          "A powerful sense of duty and follow-through—what you're assigned gets done, guaranteed",
+          "Meticulous and thorough—skilled at handling detail and safeguarding quality",
+          "Honest and reliable—you keep your word and steady the whole team",
+          "Practical and steady—you stay highly consistent over long-haul tasks"
+        ],
+        "challenges": [
+          "Cling to established methods, resisting change and new possibilities",
+          "Feel uneasy with abstract concepts and unexpected situations",
+          "Value rules so heavily you can seem rigid and inflexible",
+          "Not great at expressing emotion, which can leave those close to you feeling distant"
+        ],
+        "relationship": "In relationships you're loyal, stable, and deeply responsible, expressing love through concrete acts and dependable commitments. You're no good at romantic words, but you'll take care of your partner's life down to the last detail. Learning to occasionally break routine and surprise them, and to speak your feelings out loud, adds a layer of warmth on top of your rock-solid dependability.",
+        "career": "You suit fields that demand precision, responsibility, and stability: accounting, finance, administration, legal affairs, engineering, quality control, data management, and any work that values process and detail. You do your best where the systems are clear, the goals are defined, and expertise and reputation are prized—and adapt worst to chaotic, ever-shifting organizations that change the rules on a whim.",
+        "growth": "Your steadiness is the team's anchor, but the world moves faster than the rules. Try treating 'change' as a skill to practice, and occasionally allow yourself one attempt that doesn't follow the SOP. And don't let 'I'll just do it myself' bury your feelings—the people you care about really do want to hear you say a little more.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            70,
+            50,
+            95,
+            35,
+            45
+          ]
+        }
+      },
+      {
+        "type": "ISFJ",
+        "title": "ISFJ · Defender",
+        "tagline": "The warm guardian who holds everything up from behind the scenes—and rarely takes the credit.",
+        "rarity": "About 13% of the population—the most common type.",
+        "traits": [
+          "Considerate",
+          "Dutiful & Loyal",
+          "Humble & Warm",
+          "Harmony-Loving",
+          "Quietly Giving"
+        ],
+        "cognition": "Your dominant function, Introverted Sensing (Si), remembers the little details of everyone's likes and needs; your auxiliary function, Extraverted Feeling (Fe), turns care into meticulous, concrete action. Your tertiary Ti and inferior Ne make you value stability and tradition, and shy away from risk.",
+        "description": "You're a warm guardian—considerate, dutiful, and humble—always putting others' needs before your own and expressing love through actions rather than words. You value harmony and security, the kind who props everything up from behind the scenes and rarely takes credit. You quietly remember everyone's birthday, preferences, and struggles, and slip in to cover for them when they need it. Your giving is so natural that the people around you often only realize how important you are once you're gone.",
+        "strengths": [
+          "Considerate and perceptive—you sense and tend to others' needs",
+          "A high sense of duty and great patience—grounded and dependable in your work",
+          "Loyal and warm—a trustworthy long-term partner",
+          "Attentive to detail and tradition—skilled at maintaining relationships and order"
+        ],
+        "challenges": [
+          "You over-sacrifice, can't say no, and swallow your grievances",
+          "Fearful of conflict and change, you easily miss out on what you truly want",
+          "Overly concerned with others' opinions, prone to anxiety and self-doubt",
+          "Your emotional needs often get suppressed—you're not good at speaking up for yourself"
+        ],
+        "relationship": "In relationships you're gentle, loyal, and selflessly devoted—the kind who can make a home and a bond incredibly warm. But you also tend to give without limit and neglect your own needs, even silently enduring unfairness. Learning to voice your feelings and needs, and to believe you deserve to be cared for too, is a crucial step toward healthy relationships.",
+        "career": "You suit fields that care for others and attend to detail: nursing, education, administration, HR, customer service, social work, and any supportive work that calls for patience and empathy. You feel most at home in stable, harmonious environments where you're needed and appreciated—and struggle most in cold, high-conflict, or relentlessly competitive workplaces.",
+        "growth": "You keep everyone in your heart—yet you're the one you most often leave out. Practice saying 'no'—turning people down won't make you a bad person, but it will let you live more like yourself. Your giving deserves to be seen and returned; don't be afraid to voice your needs—the people who truly love you will be glad to catch you.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            58,
+            90,
+            90,
+            42,
+            50
+          ]
+        }
+      },
+      {
+        "type": "ESTJ",
+        "title": "ESTJ · Executive",
+        "tagline": "A born organizer who swiftly untangles chaos and drives things to completion.",
+        "rarity": "About 9% of the population—common in management and administrative roles.",
+        "traits": [
+          "Decisive & Practical",
+          "Strong Organizer",
+          "Efficiency-Focused",
+          "Fair & Firm",
+          "Responsible"
+        ],
+        "cognition": "Your dominant function, Extraverted Thinking (Te), arranges people and resources in perfect order and chases results; your auxiliary function, Introverted Sensing (Si), leans on practical experience and established rules for steady judgment. Your tertiary Ne and inferior Fi make you less attuned to subtle emotions.",
+        "description": "You're a born organizer—practical, decisive, and devoted to efficiency and order, able to swiftly untangle chaos and drive things to completion. You respect rules and commitments, mean what you say, and reward and discipline fairly, with a natural leadership instinct for getting a team running. You believe hard work and discipline eventually pay off, and you're willing to lead by example. In your eyes, the world should have clear rules and clear responsibilities—and you're the one who makes sure everything keeps running as it should.",
+        "strengths": [
+          "Powerful organization and execution—you keep things running efficiently",
+          "Decisive and dependable—you dare to take responsibility and make the call when it counts",
+          "Value commitments and rules—consistent in word and deed, fair and clear",
+          "Practical and steady—skilled at building systems and maintaining order"
+        ],
+        "challenges": [
+          "Stubborn in your views, with little patience for different approaches",
+          "Overemphasize rules and efficiency, overlooking others' emotions and flexibility",
+          "Slow to accept criticism and change, coming across as domineering and dictatorial",
+          "Used to leading and controlling, sometimes drowning out the team's voice"
+        ],
+        "relationship": "In relationships you're reliable, responsible, and true to your word, giving your all to your duties toward family. But you also tend to treat love with a 'management' approach, easily overlooking your partner's emotional needs. Learning to listen before you judge, and to swap 'I think you should' for 'what would you like to do,' lets your care actually be felt.",
+        "career": "You suit fields that call for organization, management, and decisiveness: business management, project leadership, administration, finance, military and police, law, and any work that values systems and efficiency. You do your best in goal-clear, reward-and-consequence-clear, results-driven environments—and can't tolerate lax, ambiguous, irresponsible organizations.",
+        "growth": "Your ability to get things 'moving' is unmatched, but people aren't machines, and efficiency isn't the only answer. Try adding one more question—'what do you think?'—before you give the order, and leave room for others. Remember: the best leadership doesn't just get things done—it makes people want to follow.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            78,
+            52,
+            95,
+            45,
+            88
+          ]
+        }
+      },
+      {
+        "type": "ESFJ",
+        "title": "ESFJ · Consul",
+        "tagline": "The soul of the gathering and the caretaker of the friend group, making everyone feel welcome.",
+        "rarity": "About 12% of the population—one of the most common types.",
+        "traits": [
+          "Warmhearted & Dutiful",
+          "Understanding",
+          "Relationship-Focused",
+          "Strong Organizer",
+          "Warm & Approachable"
+        ],
+        "cognition": "Your dominant function, Extraverted Feeling (Fe), keenly senses and responds to the emotions and needs of everyone around you and keeps the peace; your auxiliary function, Introverted Sensing (Si), turns care into one thoughtful, concrete act after another. Your tertiary Ne and inferior Ti make you lean on established values and others' approval.",
+        "description": "You're the glue of the community—warm, responsible, and focused on relationships and belonging—the soul of the gathering and the caretaker of the friend group. You keenly sense everyone's emotions and always make people feel welcome and cared for. You find your worth in giving and being needed. You remember everyone's preferences, thoughtfully arrange every occasion, and tie people together tightly through concrete acts of care.",
+        "strengths": [
+          "Warmhearted and considerate—skilled at caring for and rallying the people around you",
+          "Powerful organization and drive—you keep relationships and occasions running smoothly",
+          "Dutiful and reliable—you value commitments and tradition",
+          "Highly approachable—the group's social lubricant and mood-maker"
+        ],
+        "challenges": [
+          "Overly concerned with others' opinions, craving affirmation and approval",
+          "Fearful of conflict and rejection, easily wronging yourself to please others",
+          "Hard to take criticism—you magnify disapproval into self-doubt",
+          "Used to centering others, you overlook your own true needs"
+        ],
+        "relationship": "In relationships you're warm, loyal, and attentive to every detail, caring for your partner and family flawlessly. But you also tend to fret and over-give because you care so much what your partner thinks. Learning to tell 'I genuinely want to do this' from 'I'm doing this out of fear of being disliked,' and to believe you deserve love without earning it through people-pleasing, makes your relationships lighter and more at ease.",
+        "career": "You suit fields built on serving others and cultivating relationships: education, nursing, customer service, HR, events and administration, PR, and any work that calls for warmth and coordination. You're most driven in harmonious environments where you're needed and get clear interpersonal feedback—and struggle most in cold, isolating, or highly adversarial workplaces.",
+        "growth": "You make every relationship warm and moving, but your worth doesn't need others' approval to prove it. Practice telling 'I genuinely want to do this' from 'I'm doing this out of fear of being disliked'—the former makes you shine, the latter slowly hollows you out. The love you deserve doesn't have to be bought with people-pleasing.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            60,
+            90,
+            88,
+            50,
+            88
+          ]
+        }
+      },
+      {
+        "type": "ISTP",
+        "title": "ISTP · Virtuoso",
+        "tagline": "Few words, action over talk—the cool-headed problem-solver you can count on when it matters most.",
+        "rarity": "About 5% of the population—more common among men than women.",
+        "traits": [
+          "Cool-Headed & Practical",
+          "Hands-On",
+          "Independent",
+          "Unflappable",
+          "Sharp Logic"
+        ],
+        "cognition": "Your dominant function, Introverted Thinking (Ti), takes apart how things work in your head; your auxiliary function, Extraverted Sensing (Se), lets you build and adapt precisely in the moment. Your tertiary Ni and inferior Fe leave you less skilled at expressing emotion and maintaining relationships over the long haul.",
+        "description": "You're a cool-headed problem-solver—independent, practical, and unflappable, with a natural instinct for machines, tools, and any 'how does this work' puzzle. You're a person of few words who lets action speak louder, loves freedom, and hates being tied down by rules—the kind you can count on most when it matters. You understand the world through your hands and your logic: rather than talk theory, you'd rather take something apart and see how it actually works. When crisis hits and everyone else panics, you turn oddly clear-headed.",
+        "strengths": [
+          "Outstanding hands-on and problem-solving ability",
+          "Cool and rational—especially composed under pressure and in crisis",
+          "Powerful on-the-spot adaptability and nimble logical reflexes",
+          "Independent—you pick up any tool or technique fast"
+        ],
+        "challenges": [
+          "Stiff emotional expression that can come across as distant and cold",
+          "Not great at long-term commitment or nurturing slow-and-steady relationships",
+          "Prone to impulsive acts in pursuit of thrills or freedom",
+          "Little patience for long-range planning and routine responsibilities"
+        ],
+        "relationship": "In relationships you value freedom and space, and dislike clingy or emotional dynamics. Your love language is action—fixing things for your partner, quietly showing up when needed. But intimacy can't survive on problem-solving alone; practicing voicing your inner feelings and giving your partner a little emotional response makes your connection run deeper.",
+        "career": "You suit hands-on, technical, autonomy-driven fields: engineering, mechanics, IT, driving, sports, emergency response, and any work that calls for building things and reacting on the fly. You're most at ease in free, flexible environments where you can solve problems independently—and you hate red tape, drawn-out meetings, and emotional office politics.",
+        "growth": "Your composure and skill put people at ease, but intimacy can't be sustained by 'problem-solving' alone. Try 'saying' your inner feelings out loud too—one word of expression to someone you care about beats quietly doing ten things. Occasionally drop the 'I've got it,' and let others into your world too.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            80,
+            45,
+            55,
+            88,
+            45
+          ]
+        }
+      },
+      {
+        "type": "ISFP",
+        "title": "ISFP · Adventurer",
+        "tagline": "A living-in-the-moment life artist with a gentle tenderness hidden in the details.",
+        "rarity": "About 9% of the population—quite common in art and design.",
+        "traits": [
+          "Gentle & Easygoing",
+          "Aesthetically Keen",
+          "Present-Focused",
+          "Authenticity-Valuing",
+          "Low-Key & Humble"
+        ],
+        "cognition": "Your dominant function, Introverted Feeling (Fi), holds firm to a quiet yet profound set of personal values; your auxiliary function, Extraverted Sensing (Se), soaks up the beauty of the present with your whole being—color, sound, texture, and emotion. Your tertiary Ni and inferior Te make you less skilled at long-range planning and hard-nosed decisiveness.",
+        "description": "You're a gentle life artist—humble, easygoing, aesthetically rich and empathetic, understated yet hiding a delicate tenderness in the details. You value freedom and authenticity, and you hate being controlled or forced to betray your true self. You live in the moment and keenly catch life's fleeting beauty—a ray of light, a song, a glance. You're not one to declare your feelings in words, but through actions and creations you quietly express the softness within.",
+        "strengths": [
+          "Keen aesthetic sense and perception—skilled at finding beauty in life",
+          "Gentle, considerate, and empathetic—you put people at ease",
+          "Present-focused and adaptable—you roll with whatever comes",
+          "True to your own values, with a quiet steadfastness about what you care about"
+        ],
+        "challenges": [
+          "You avoid conflict and long-term planning, prone to just getting by",
+          "Overly low-key—you don't fight for what you want",
+          "You internalize emotions easily, silently enduring without letting anyone know",
+          "Sensitive to criticism, easily hurt by others' opinions"
+        ],
+        "relationship": "In relationships you're gentle, considerate, and value genuine connection, quietly giving to those you love in nuanced ways. But you also tend to suppress your thoughts and dodge problems you should face. Learning to voice your inner needs and feelings, and to believe you deserve the same tenderness in return, makes your relationships more real and lasting.",
+        "career": "You suit fields that express beauty and stay close to feeling: art and design, music, photography, handcraft, cooking, fashion, and any work that prizes aesthetics and freedom. You're most inspired in flexible, respectful environments where you can be creative—and struggle most in high-pressure, cutthroat, rigidly systemized workplaces that force you to suppress yourself.",
+        "growth": "You perceive the world so tenderly—now believe you deserve to be treated with the same tenderness. Practice speaking your thoughts and needs out loud—silence won't make you easier to be around, it just leaves the people who care about you guessing. Your gentleness is a gift; don't forget to give some to yourself too.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            58,
+            88,
+            50,
+            85,
+            52
+          ]
+        }
+      },
+      {
+        "type": "ESTP",
+        "title": "ESTP · Entrepreneur",
+        "tagline": "A live-in-the-moment person of action who's at their best turning danger into safety under pressure.",
+        "rarity": "About 4% of the population—common in sales, sports, and entrepreneurship.",
+        "traits": [
+          "Energetic",
+          "Bold & Practical",
+          "Quick-Reacting",
+          "Improviser",
+          "Challenge-Loving"
+        ],
+        "cognition": "Your dominant function, Extraverted Sensing (Se), keenly seizes every opportunity and shift in the moment; your auxiliary function, Introverted Thinking (Ti), rapidly calculates the most effective next move. Your tertiary Fe and inferior Ni make you favor immediate action and grow impatient with long-range abstract planning.",
+        "description": "You're an adventurer of action—energetic, bold, practical, and lightning-quick, at your best improvising and turning danger into safety amid chaos and pressure. You live in the moment and hate empty talk, believing it's better to just do it than to overthink. You've got a natural nose for opportunity and dare to move first while others hesitate. Life, to you, is a game you have to play hands-on—rather than standing on the sidelines analyzing, you'd rather jump in and settle it in the arena.",
+        "strengths": [
+          "Powerful drive and nerve—you dare to dream, dare to act, and decide on the spot",
+          "Quick-reacting—skilled at improvising in chaos and seizing opportunity",
+          "Practical and flexible—you swiftly solve the real problem in front of you",
+          "Full of energy and charm—a natural at getting a room going"
+        ],
+        "challenges": [
+          "Prone to acting on impulse without enough thought for long-term consequences",
+          "Can't stand boredom or detail, making persistence hard",
+          "You take unnecessary risks in pursuit of thrills",
+          "Sometimes overlook others' feelings and come across as too blunt"
+        ],
+        "relationship": "In relationships you're passionate, fun, and full of energy, bringing your partner plenty of surprises and adventure. But you also need to learn to hit the brakes on 'act first, think later,' and give the relationship more stability and commitment. The keys to a lasting bond are practicing one extra thought—'how does this affect our future?'—before you decide, and offering your partner steady, consistent presence.",
+        "career": "You suit fast-paced, ever-changing, in-the-moment fields: sales, entrepreneurship, negotiation, sports, crisis management, entertainment, and any work that calls for action and adaptability. You do your best in free, challenging environments with immediate, visible results—and can't tolerate unchanging, red-tape-heavy, step-by-step work.",
+        "growth": "Your drive is a rare gift, but 'act first, think later' sometimes needs a brake too. Before big decisions, force yourself to think one step further—'and then what?'—pair your nerve with foresight and you'll be unstoppable. And remember, the people around you want more than your excitement—they want your steady presence.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            75,
+            55,
+            55,
+            92,
+            85
+          ]
+        }
+      },
+      {
+        "type": "ESFP",
+        "title": "ESFP · Entertainer",
+        "tagline": "A born star of the stage who spreads joy to everyone around them.",
+        "rarity": "About 9% of the population—a common type full of energy and charm.",
+        "traits": [
+          "Lively & Passionate",
+          "Generous",
+          "Charismatic",
+          "Present-Focused",
+          "Sincere & Emotional"
+        ],
+        "cognition": "Your dominant function, Extraverted Sensing (Se), fully embraces every bit of brilliance and sensory experience in the moment; your auxiliary function, Introverted Feeling (Fi), infuses life with genuine passion and value. Your tertiary Te and inferior Ni make you less skilled at long-range planning and abstract strategy.",
+        "description": "You're a born star of the stage—lively, generous, and charismatic, the soul of the party and the spark that lights the mood, always spreading joy to everyone around you. You love life and value relationships, believing life should be lived fully and authentically. You're skilled at savoring every moment of the present, and you can create laughter even at an ordinary gathering. Your very presence is like a beam of sunshine, unconsciously putting people at ease and getting them to enjoy the moment with you.",
+        "strengths": [
+          "Bursting with enthusiasm, with the charm to light up a room and infect others",
+          "Approachable and generous—skilled at getting along and making friends",
+          "Present-focused and bold to experience—you live life to the fullest",
+          "Sincere and glad to share, bringing those around you loads of positive energy"
+        ],
+        "challenges": [
+          "You dodge serious, long-term problems, prone to just getting by",
+          "Can't stand boredom or planning—execution and discipline tend to be weak",
+          "Fairly sensitive to criticism and prone to getting emotional",
+          "Chasing present pleasure, you may overspend on impulse or get distracted"
+        ],
+        "relationship": "In relationships you're passionate, romantic, and generous, always making every day feel like a celebration. But you also need to learn to face the less-fun-yet-important realities of a relationship. Practicing a bit of planning and commitment for the relationship's future—on top of enjoying the present—adds a layer of solid ground beneath all the fun.",
+        "career": "You suit fields where you can perform, interact, and be seen: entertainment, hosting, sales, events, food and hospitality, tourism, and any work that prizes interpersonal charm and being in the moment. You're most energized in lively, free environments with immediate feedback—and struggle most with monotonous, isolating, dull work that keeps you seated and planning.",
+        "growth": "You bring joy to the whole world, but don't let 'living in the moment' become an excuse to run from the future. Try saving a little 'boring effort' for tomorrow's you—a bit more planning now means a bit more freedom later. Your radiance is dazzling; pair it with a little grounding and it'll shine far longer.",
+        "radarData": {
+          "labels": [
+            "Strategic Thinking",
+            "Empathy",
+            "Discipline",
+            "Adaptability",
+            "Influence"
+          ],
+          "values": [
+            60,
+            85,
+            50,
+            90,
+            92
+          ]
+        }
+      }
+    ]
   }
 ]

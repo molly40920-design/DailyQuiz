@@ -6,6 +6,7 @@ let quizzesData = [];
 let currentQuiz = null;
 let currentQuestionIndex = 0;
 let totalScore = 0;
+let dimensionScores = {}; // for MBTI-style quizzes: { EI: n, SN: n, ... }
 let isTransitioning = false;
 let currentRadarChart = null;
 
@@ -37,6 +38,7 @@ const dom = {
   
   resultTitle: document.getElementById('result-title'),
   resultDescription: document.getElementById('result-description'),
+  resultMbti: document.getElementById('result-mbti-container'),
   radarChartContainer: document.getElementById('radar-chart-container'),
   radarChart: document.getElementById('radar-chart'),
   resultCommentContainer: document.getElementById('result-comment-container'),
@@ -192,6 +194,7 @@ function resetQuizState() {
   currentQuiz = null;
   currentQuestionIndex = 0;
   totalScore = 0;
+  dimensionScores = {};
   isTransitioning = false;
 }
 
@@ -216,6 +219,7 @@ function startQuiz() {
   // reset state other than currentQuiz
   currentQuestionIndex = 0;
   totalScore = 0;
+  dimensionScores = {};
   isTransitioning = false;
   
   trackPageView(`/quiz/${currentQuiz.id}/play`, `DailyQuiz-${currentQuiz.title}`);
@@ -248,12 +252,14 @@ function renderQuestion() {
     dom.questionText.textContent = question.text;
     dom.optionsContainer.innerHTML = '';
     
+    const isMbti = currentQuiz.type === 'mbti';
     question.options.forEach((opt) => {
       const btn = document.createElement('button');
       btn.className = 'quiz-option';
       btn.textContent = opt.text;
-      
-      btn.addEventListener('click', () => handleOptionClick(opt.score, btn));
+
+      const value = isMbti ? opt.value : opt.score;
+      btn.addEventListener('click', () => handleOptionClick(value, btn, question.dimension));
       dom.optionsContainer.appendChild(btn);
     });
 
@@ -263,16 +269,20 @@ function renderQuestion() {
   }, 200);
 }
 
-function handleOptionClick(score, btnElement) {
+function handleOptionClick(value, btnElement, dimension) {
   if (isTransitioning) return; // Prevent double clicks
   isTransitioning = true;
-  
+
   // UI feedback
   btnElement.classList.add('selected');
-  
-  // Record score
-  totalScore += score;
-  
+
+  // Record score: per-dimension for MBTI, cumulative otherwise
+  if (currentQuiz.type === 'mbti' && dimension) {
+    dimensionScores[dimension] = (dimensionScores[dimension] || 0) + value;
+  } else {
+    totalScore += value;
+  }
+
   // Next question
   setTimeout(() => {
     currentQuestionIndex++;
@@ -280,19 +290,76 @@ function handleOptionClick(score, btnElement) {
   }, 400); // 400ms delay for visual feedback
 }
 
+// --- MBTI helpers ---
+// Combine the four dimension scores into a 4-letter type code (ties default to
+// the positive pole E/S/T/J).
+function computeMbtiType() {
+  const dims = currentQuiz.dimensions || [];
+  return dims.map(d => {
+    const s = dimensionScores[d.key] || 0;
+    return s >= 0 ? d.pos : d.neg;
+  }).join('');
+}
+
+// Build the rich MBTI detail block (traits, cognition, strengths, etc.).
+function renderMbtiDetail(r) {
+  const esc = (s) => String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const chips = (r.traits || [])
+    .map(x => `<span class="px-3 py-1 bg-[#FFE4E8] text-ghibli-text-light rounded-full text-sm">${esc(x)}</span>`)
+    .join('');
+  const list = (arr) => `<ul class="list-disc pl-5 space-y-1.5 text-ghibli-text-light">${(arr || []).map(x => `<li>${esc(x)}</li>`).join('')}</ul>`;
+  const block = (label, inner) => `<div class="mb-5"><div class="font-bold text-ghibli-secondary mb-2 text-sm tracking-wide">${esc(label)}</div>${inner}</div>`;
+  const para = (txt) => `<p class="text-ghibli-text-light leading-relaxed">${esc(txt)}</p>`;
+
+  return `
+    <div class="text-left">
+      ${r.tagline ? `<p class="text-center text-ghibli-secondary font-medium mb-4">${esc(r.tagline)}</p>` : ''}
+      ${chips ? `<div class="flex flex-wrap gap-2 justify-center mb-3">${chips}</div>` : ''}
+      ${r.rarity ? `<p class="text-center text-sm text-ghibli-text-light italic mb-6">${esc(r.rarity)}</p>` : ''}
+      ${r.description ? `<p class="text-ghibli-text leading-relaxed mb-6">${esc(r.description)}</p>` : ''}
+      ${r.cognition ? block(t('mbti_cognition'), para(r.cognition)) : ''}
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6">
+        ${r.strengths ? block(t('mbti_strengths'), list(r.strengths)) : ''}
+        ${r.challenges ? block(t('mbti_challenges'), list(r.challenges)) : ''}
+      </div>
+      ${r.relationship ? block(t('mbti_relationship'), para(r.relationship)) : ''}
+      ${r.career ? block(t('mbti_career'), para(r.career)) : ''}
+    </div>`;
+}
+
 // --- Result & Sharing ---
 function calculateResult() {
   isTransitioning = false; // unlock interaction for result page buttons
-  const resultObj = currentQuiz.results.find(
-    r => totalScore >= r.min && totalScore <= r.max
-  );
-  
+  const isMbti = currentQuiz.type === 'mbti';
+
+  let resultObj, resultKey;
+  if (isMbti) {
+    resultKey = computeMbtiType();
+    resultObj = currentQuiz.results.find(r => r.type === resultKey);
+  } else {
+    resultKey = totalScore;
+    resultObj = currentQuiz.results.find(r => totalScore >= r.min && totalScore <= r.max);
+  }
+
   if (resultObj) {
     dom.resultTitle.textContent = resultObj.title;
-    dom.resultDescription.textContent = resultObj.description;
-    
-    if (resultObj.comment) {
-      dom.resultComment.textContent = resultObj.comment;
+
+    if (isMbti) {
+      // Rich detail replaces the single description paragraph
+      dom.resultDescription.classList.add('hidden');
+      dom.resultMbti.innerHTML = renderMbtiDetail(resultObj);
+      dom.resultMbti.classList.remove('hidden');
+    } else {
+      dom.resultDescription.textContent = resultObj.description;
+      dom.resultDescription.classList.remove('hidden');
+      dom.resultMbti.classList.add('hidden');
+      dom.resultMbti.innerHTML = '';
+    }
+
+    const commentText = isMbti ? resultObj.growth : resultObj.comment;
+    if (commentText) {
+      dom.resultComment.textContent = commentText;
       dom.resultCommentContainer.classList.remove('hidden');
     } else {
       dom.resultCommentContainer.classList.add('hidden');
@@ -311,12 +378,14 @@ function calculateResult() {
   } else {
     dom.resultTitle.textContent = t('fallback_title');
     dom.resultDescription.textContent = t('fallback_desc');
+    dom.resultDescription.classList.remove('hidden');
+    dom.resultMbti.classList.add('hidden');
     dom.resultCommentContainer.classList.add('hidden');
     dom.radarChartContainer.classList.add('hidden');
   }
 
   trackPageView(`/quiz/${currentQuiz.id}/result`, `DailyQuiz-${currentQuiz.title}`);
-  window.history.replaceState({ view: 'result' }, null, `#result=${currentQuiz.id}-${totalScore}`);
+  window.history.replaceState({ view: 'result' }, null, `#result=${currentQuiz.id}-${resultKey}`);
   renderExplore();
   switchView('result');
   
