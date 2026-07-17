@@ -4,6 +4,12 @@ import { showBuilder } from './builder.js';
 import { showGenQuiz } from './gen-quiz.js';
 import { genApi } from './gen-api.js';
 
+// --- Feature flags ---
+// AI quiz generator: set to true to re-enable the builder entry, community
+// list, and #builder / #play routes. Backend + frontend are fully built and
+// deployed; this just gates the UI until it's ready to go live.
+const FEATURE_AI_QUIZ = false;
+
 // --- State Management ---
 let quizzesData = [];
 let currentQuiz = null;
@@ -112,9 +118,9 @@ async function init() {
 
 // --- Routing & History API ---
 function handleRoute(hash) {
-  if (hash.startsWith('#builder')) {
+  if (FEATURE_AI_QUIZ && hash.startsWith('#builder')) {
     showBuilder(switchView);
-  } else if (hash.startsWith('#play=')) {
+  } else if (FEATURE_AI_QUIZ && hash.startsWith('#play=')) {
     const id = hash.replace('#play=', '');
     if (id) showGenQuiz(id, switchView);
     else showHub();
@@ -203,6 +209,7 @@ function renderHub(filterCat = 'all') {
 
 // --- Render user-generated quizzes (from /api/list-quizzes) ---
 async function renderGenList() {
+  if (!FEATURE_AI_QUIZ) return;
   const section = document.getElementById('gen-quiz-section');
   const grid = document.getElementById('gen-quiz-grid');
   if (!section || !grid) return;
@@ -581,10 +588,14 @@ function setupEventListeners() {
     });
   }
 
-  // AI quiz builder entry
+  // AI quiz builder entry (hidden while the feature is gated off)
   const btnAiBuilder = document.getElementById('btn-ai-builder');
   if (btnAiBuilder) {
-    btnAiBuilder.addEventListener('click', () => { window.location.hash = '#builder'; });
+    if (FEATURE_AI_QUIZ) {
+      btnAiBuilder.addEventListener('click', () => { window.location.hash = '#builder'; });
+    } else {
+      btnAiBuilder.classList.add('hidden');
+    }
   }
 
   // Nav tabs - use data-filter attribute for filter logic
