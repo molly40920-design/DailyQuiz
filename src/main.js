@@ -1,5 +1,8 @@
 import './style.css';
 import { t, getQuizFilename, initI18n, setLanguage } from './i18n.js';
+import { showBuilder } from './builder.js';
+import { showGenQuiz } from './gen-quiz.js';
+import { genApi } from './gen-api.js';
 
 // --- State Management ---
 let quizzesData = [];
@@ -16,6 +19,8 @@ const views = {
   intro: document.getElementById('view-intro'),
   quiz: document.getElementById('view-quiz'),
   result: document.getElementById('view-result'),
+  builder: document.getElementById('view-builder'),
+  genquiz: document.getElementById('view-genquiz'),
 };
 
 const dom = {
@@ -96,6 +101,7 @@ async function init() {
     if (overlayAdImg && overlayAdImg.dataset.src) overlayAdImg.src = overlayAdImg.dataset.src;
     
     renderHub();
+    renderGenList();
     setupEventListeners();
     handleRoute(window.location.hash);
   } catch (err) {
@@ -106,7 +112,13 @@ async function init() {
 
 // --- Routing & History API ---
 function handleRoute(hash) {
-  if (hash.startsWith('#quiz=')) {
+  if (hash.startsWith('#builder')) {
+    showBuilder(switchView);
+  } else if (hash.startsWith('#play=')) {
+    const id = hash.replace('#play=', '');
+    if (id) showGenQuiz(id, switchView);
+    else showHub();
+  } else if (hash.startsWith('#quiz=')) {
     const quizId = hash.replace('#quiz=', '');
     const quiz = quizzesData.find(q => q.id === quizId);
     if (quiz) {
@@ -116,7 +128,7 @@ function handleRoute(hash) {
     }
   } else if (hash.startsWith('#result=')) {
      // Optional: allow direct linking to results if we persist score in URL
-     showHub(); 
+     showHub();
   } else {
     showHub();
   }
@@ -187,6 +199,51 @@ function renderHub(filterCat = 'all') {
     });
     dom.quizGrid.appendChild(row);
   });
+}
+
+// --- Render user-generated quizzes (from /api/list-quizzes) ---
+async function renderGenList() {
+  const section = document.getElementById('gen-quiz-section');
+  const grid = document.getElementById('gen-quiz-grid');
+  if (!section || !grid) return;
+  let quizzes = [];
+  try {
+    const data = await genApi.list(60);
+    quizzes = Array.isArray(data.quizzes) ? data.quizzes : [];
+  } catch (_) {
+    return; // API not deployed yet / offline — silently skip
+  }
+  if (!quizzes.length) { section.classList.add('hidden'); return; }
+
+  grid.innerHTML = '';
+  quizzes.forEach((q) => {
+    const isK = q.mode === 'knowledge';
+    const badge = isK
+      ? '<span class="px-2 py-0.5 rounded-full text-xs whitespace-nowrap text-white" style="background:#f59e0b">🏆 知識</span>'
+      : '<span class="px-2 py-0.5 rounded-full text-xs whitespace-nowrap text-white" style="background:#8b5cf6">🧠 心理</span>';
+    const row = document.createElement('div');
+    row.className = 'quiz-list-item';
+    row.innerHTML = `
+      <div class="flex items-center gap-4 w-full">
+        <span class="w-9 h-9 rounded-xl flex items-center justify-center text-lg flex-shrink-0" style="background:${escapeAttr(q.accentColor || '#FF8E9E')}22">${escapeHtml(q.emoji || '🧠')}</span>
+        <div class="flex-1 min-w-0">
+          <h3 class="text-base font-bold text-ghibli-text mb-0.5 truncate">${escapeHtml(q.title || '')}</h3>
+          <p class="text-ghibli-text-light text-xs truncate">${escapeHtml(q.subtitle || '')}</p>
+        </div>
+        <div class="hidden sm:flex gap-1.5 flex-shrink-0 items-center">${badge}<span class="text-xs text-ghibli-text-light whitespace-nowrap">${q.questionCount || 0} 題</span></div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#C4BEB5] flex-shrink-0"><path d="m9 18 6-6-6-6"/></svg>
+      </div>`;
+    row.addEventListener('click', () => { window.location.hash = `#play=${q.id}`; });
+    grid.appendChild(row);
+  });
+  section.classList.remove('hidden');
+}
+
+function escapeHtml(s) {
+  return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+function escapeAttr(s) {
+  return String(s == null ? '' : s).replace(/"/g, '');
 }
 
 // --- Quiz Engine ---
@@ -522,6 +579,12 @@ function setupEventListeners() {
         window.location.hash = '';
       }
     });
+  }
+
+  // AI quiz builder entry
+  const btnAiBuilder = document.getElementById('btn-ai-builder');
+  if (btnAiBuilder) {
+    btnAiBuilder.addEventListener('click', () => { window.location.hash = '#builder'; });
   }
 
   // Nav tabs - use data-filter attribute for filter logic

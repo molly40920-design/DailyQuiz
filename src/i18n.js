@@ -32,6 +32,8 @@ const translations = {
     mbti_challenges: '盲點挑戰',
     mbti_relationship: '愛情・人際',
     mbti_career: '職場・適性',
+    ai_builder_sub: '輸入主題，一鍵生成你自己的專屬測驗',
+    ai_builder_section: '🔥 大家生成的測驗',
   },
   en: {
     site_title: 'Daily Quiz',
@@ -64,6 +66,8 @@ const translations = {
     mbti_challenges: 'Blind Spots',
     mbti_relationship: 'Love & Relationships',
     mbti_career: 'Career Fit',
+    ai_builder_sub: 'Enter a topic and generate your own quiz instantly',
+    ai_builder_section: '🔥 Community-generated quizzes',
   },
   ja: {
     site_title: 'Daily Quiz',
@@ -96,6 +100,8 @@ const translations = {
     mbti_challenges: '弱点・課題',
     mbti_relationship: '恋愛・対人',
     mbti_career: '仕事・適性',
+    ai_builder_sub: 'テーマを入力するだけで、自分だけの診断を生成',
+    ai_builder_section: '🔥 みんなが作った診断',
   },
   ko: {
     site_title: 'Daily Quiz',
@@ -128,6 +134,8 @@ const translations = {
     mbti_challenges: '맹점 & 도전',
     mbti_relationship: '연애 · 인간관계',
     mbti_career: '직장 · 적성',
+    ai_builder_sub: '주제만 입력하면 나만의 테스트가 한 번에 생성',
+    ai_builder_section: '🔥 모두가 만든 테스트',
   },
 };
 
